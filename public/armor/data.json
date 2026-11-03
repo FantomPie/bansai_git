@@ -1,0 +1,310 @@
+{
+  "updated": "03.11.2026",
+  "scope": "2D-концепты и решения владельца; готовность 3D отдельно",
+  "parts": [
+    {
+      "id": "01",
+      "title": "Доспех целиком",
+      "decision": "accepted",
+      "version": "FULL_ARMOR_FOUR_VIEWS_v04 / 01_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_6caefa2d0c5af96fc4.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_6caefa2d0c5af96fc4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Шлем в сборе",
+      "decision": "accepted",
+      "version": "HELMET_COMPLETE_CURRENT_v05 / 02_HELMET_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_e2621a22e6ff8c7e5e.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_e2621a22e6ff8c7e5e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Купол шлема",
+      "decision": "accepted",
+      "version": "03_HELMET_SHELL / 03_FOUR_VIEWS.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_28a9810b6e3d0def29.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_28a9810b6e3d0def29.jpg"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Забрало",
+      "decision": "accepted",
+      "version": "04_HELMET_VISOR / 04_FOUR_VIEWS.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_05f319a5cf34dd4fe2.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_05f319a5cf34dd4fe2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Нижняя защита шлема",
+      "decision": "accepted",
+      "version": "05_HELMET_LOWER_GUARD / 05_FOUR_VIEWS.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_c62a8247f7c84778bd.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_c62a8247f7c84778bd.jpg"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Горжет / защита шеи",
+      "decision": "unreviewed",
+      "version": "OWNER_REWORK_20261102_v02 / 06_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_71ca6178fd49e8cae4.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_71ca6178fd49e8cae4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Нагрудник и пояс",
+      "decision": "accepted",
+      "version": "07_BREASTPLATE_WAIST / 07_FOUR_VIEWS.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_7eebfb9256935d2412.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_7eebfb9256935d2412.jpg"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Наспинник и пояс",
+      "decision": "unreviewed",
+      "version": "OWNER_REWORK_20261102_v02 / 08_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_89fb90bcfced86a742.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_89fb90bcfced86a742.jpg"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Левый наплечник",
+      "decision": "unreviewed",
+      "version": "OWNER_REWORK_20261102_v03 / 09_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_7f4a8cf11e549615e8.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_7f4a8cf11e549615e8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Правый наплечник",
+      "decision": "unreviewed",
+      "version": "OWNER_REWORK_20261102_v03 / 10_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_cf3a7debef5f0a1d8c.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_cf3a7debef5f0a1d8c.jpg"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Правая рука в сборе",
+      "decision": "conditional",
+      "version": "RIGHT_FOUR_VIEWS_CLOTH_v91 / RIGHT_FOUR_VIEWS_FINAL_REVIEW.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_21b200c378a6633cb1.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_21b200c378a6633cb1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Левый набедренный щиток",
+      "decision": "unreviewed",
+      "version": "OWNER_REWORK_20261102_v02 / 15_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "Обзор",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_57378415f3d2ac0899.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_57378415f3d2ac0899.jpg"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Правый набедренный щиток",
+      "decision": "unreviewed",
+      "version": "OVERVIEW_20261102_v01 / 16_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "FRONT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_bf4116bc566bb8ef17.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_bf4116bc566bb8ef17.jpg"
+        },
+        {
+          "name": "LEFT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_4db197c43491fb35aa.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_4db197c43491fb35aa.jpg"
+        },
+        {
+          "name": "RIGHT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_d0484f224853dc7ab2.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_d0484f224853dc7ab2.jpg"
+        },
+        {
+          "name": "BACK",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_cd9a66ffa557e22fdf.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_cd9a66ffa557e22fdf.jpg"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Левое бедро и колено",
+      "decision": "unreviewed",
+      "version": "KNEE_BOUNDARY_v02_20261103 / 17_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "FRONT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_fadfbb6c87714eaab2.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_fadfbb6c87714eaab2.jpg"
+        },
+        {
+          "name": "LEFT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_fdf26c2b96b3d60fd4.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_fdf26c2b96b3d60fd4.jpg"
+        },
+        {
+          "name": "RIGHT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_e0cc5df117824bbb88.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_e0cc5df117824bbb88.jpg"
+        },
+        {
+          "name": "BACK",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_7c2b6c114a39b461f1.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_7c2b6c114a39b461f1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Правое бедро и колено",
+      "decision": "unreviewed",
+      "version": "KNEE_BOUNDARY_v02_20261103 / 18_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "FRONT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_592016e48eb8baa7da.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_592016e48eb8baa7da.jpg"
+        },
+        {
+          "name": "LEFT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_eacdaeb71cf0e0bfdc.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_eacdaeb71cf0e0bfdc.jpg"
+        },
+        {
+          "name": "RIGHT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_86dfbc8f7f731282d4.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_86dfbc8f7f731282d4.jpg"
+        },
+        {
+          "name": "BACK",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_7cc745afbd2491518a.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_7cc745afbd2491518a.jpg"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Левая голень и стопа",
+      "decision": "unreviewed",
+      "version": "OVERVIEW_20261102_v01 / 19_FOUR_VIEWS_CANDIDATE.png",
+      "views": [
+        {
+          "name": "FRONT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_3bb812a1dfd35a3edd.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_3bb812a1dfd35a3edd.jpg"
+        },
+        {
+          "name": "LEFT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_fea9cc5e009d704312.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_fea9cc5e009d704312.jpg"
+        },
+        {
+          "name": "RIGHT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_581b9962407878c9fb.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_581b9962407878c9fb.jpg"
+        },
+        {
+          "name": "BACK",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_b89c66cf601370c8ba.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_b89c66cf601370c8ba.jpg"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Правая голень и стопа",
+      "decision": "accepted",
+      "version": "RESTART_FROM_PHOTOS_20261103_v01 · комплект 4 отдельных видов",
+      "views": [
+        {
+          "name": "RIGHT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_77fe33bac6a3dab8d6.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_77fe33bac6a3dab8d6.jpg"
+        },
+        {
+          "name": "FRONT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_d3d00e5e7569fa38b9.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_d3d00e5e7569fa38b9.jpg"
+        },
+        {
+          "name": "LEFT",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_ed531cea152d3f3811.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_ed531cea152d3f3811.jpg"
+        },
+        {
+          "name": "BACK",
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_1360d755770853bd7f.png",
+          "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_1360d755770853bd7f.jpg"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "Левый наплечник · Tripo H3.1",
+      "status": "Тестовая 3D-генерация; финальная приёмка не подтверждена",
+      "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_asset_96ad3ac1e95b17157a.png",
+      "preview": "https://github.com/FantomPie/bansai_git/releases/download/armor-concepts-20261103/armor_preview_96ad3ac1e95b17157a.jpg"
+    }
+  ]
+}

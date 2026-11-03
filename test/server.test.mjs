@@ -30,6 +30,19 @@ test('health, catalog identity and local viewer assets',async()=>{
  assert.equal((await fetch(base+'/vendor/model-viewer.min.js')).status,200);assert.equal((await fetch(base+'/evidence/test.jpg')).status,200);
  assert.match(await (await fetch(base+'/')).text(),/Каталог объектов/);
 });
+test('armor gallery routes and media manifest are available',async()=>{
+ assert.equal((await fetch(base+'/armor/')).status,200);
+ const data=await (await fetch(base+'/armor/data.json')).json();assert.equal(data.parts.length,17);
+ assert.ok(data.parts.every(p=>p.views.every(v=>v.preview.startsWith('https://github.com/FantomPie/bansai_git/releases/download/'))));
+});
+test('retired catalog object is hidden and its direct model URLs stop being public',async()=>{
+ const original=await (await fetch(base+'/api/catalog')).json();
+ await writeFile(join(dir,'catalog-index.json'),JSON.stringify({objects:[]}));
+ try{const c=await (await fetch(base+'/api/catalog')).json();assert.ok(!c.models.some(m=>m.id===id));
+  assert.equal((await fetch(base+'/models/'+id+'.glb')).status,404);
+  assert.equal((await fetch(base+'/api/models/'+id)).status,404);
+ }finally{await writeFile(join(dir,'catalog-index.json'),JSON.stringify({objects:original.objects}));}
+});
 test('full downloads, gzip and byte ranges preserve bytes',async()=>{
  const r=await fetch(base+'/models/'+id+'.glb');assert.deepEqual(Buffer.from(await r.arrayBuffer()),glb);
  const z=await fetch(base+'/models/'+id+'.glb',{headers:{'Accept-Encoding':'gzip'}});assert.equal(z.headers.get('content-encoding'),'gzip');assert.deepEqual(Buffer.from(await z.arrayBuffer()),glb);

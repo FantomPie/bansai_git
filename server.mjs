@@ -12,6 +12,8 @@ const adminEnabled=process.env.ENABLE_ADMIN==='true';
 await mkdir(dir,{recursive:true});
 const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
+async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
+const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
 // Stable assets: conditional caching, byte ranges and optional precompressed transfers.
 async function assetResponse(req,res,path,type){
@@ -31,11 +33,12 @@ const handler=async(req,res)=>{
   const localAdmin=adminEnabled&&req.socket.localPort===adminPort;
   if(req.method==='GET'&&url.pathname==='/healthz')return send(res,200,{status:'ok'});
   if(['GET','HEAD'].includes(req.method)&&url.pathname==='/vendor/model-viewer.min.js')return await assetResponse(req,res,root+'public/vendor/model-viewer.min.js','text/javascript; charset=utf-8');
+  if(['GET','HEAD'].includes(req.method)&&['/armor','/armor/','/armor/index.html','/armor/data.json'].includes(url.pathname))return await assetResponse(req,res,root+'public/armor/'+(url.pathname.endsWith('data.json')?'data.json':'index.html'),url.pathname.endsWith('data.json')?'application/json; charset=utf-8':'text/html; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&/^\/evidence\/[A-Za-z0-9_.-]+\.jpg$/.test(url.pathname))return await assetResponse(req,res,dataRoot+url.pathname,'image/jpeg');
   if(req.method==='GET'&&url.pathname==='/api/access')return send(res,200,{canUpload:localAdmin});
   if(req.method==='GET'&&url.pathname==='/api/catalog'){
-   let index={objects:[]};try{index=JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{}
-   const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const m=JSON.parse(await readFile(dir+file,'utf8'));if(m.hidden)continue;const info=await stat(dir+file.replace('.json','.glb'));models.push({...m,id:file.slice(0,-5),createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
+   const index=await catalogIndex();
+   const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const m=JSON.parse(await readFile(dir+file,'utf8'));if(!published(m,index))continue;const info=await stat(dir+file.replace('.json','.glb'));models.push({...m,id:file.slice(0,-5),createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
    models.sort((a,b)=>(b.updatedAt||b.createdAt).localeCompare(a.updatedAt||a.createdAt));return send(res,200,{...index,models,autoImport:importer.status});
   }
   if(req.method==='POST'&&url.pathname==='/api/models'){
@@ -48,7 +51,7 @@ const handler=async(req,res)=>{
    try{await pipeline(req,limit,createWriteStream(temp,{flags:'wx'}));if(header.length!==12||header.toString('ascii',0,4)!=='glTF'||header.readUInt32LE(4)!==2||header.readUInt32LE(8)!==size)throw new Error('Нужен корректный GLB 2.0');await rename(temp,dir+id+'.glb');await writeFile(dir+id+'.json',JSON.stringify({name:(url.searchParams.get('name')||'Модель').slice(0,160),size,folder,createdAt:new Date().toISOString()}));return send(res,201,{id,url:'/?model='+id});}catch(e){await unlink(temp).catch(()=>{});return send(res,400,{error:e.message});}
   }
   const match=url.pathname.match(/^\/(api\/models|models)\/([0-9a-f-]{36})(\.glb)?$/);
-  if(['GET','HEAD'].includes(req.method)&&match){const metadata=match[1]==='api/models';if(metadata)return send(res,200,await readFile(dir+match[2]+'.json'));return await assetResponse(req,res,dir+match[2]+'.glb','model/gltf-binary');}
+  if(['GET','HEAD'].includes(req.method)&&match){const info=await readFile(dir+match[2]+'.json');if(!published(JSON.parse(info),await catalogIndex()))return send(res,404,{error:'Модель не опубликована'});const metadata=match[1]==='api/models';if(metadata)return send(res,200,info);return await assetResponse(req,res,dir+match[2]+'.glb','model/gltf-binary');}
   if(req.method==='GET'&&url.pathname==='/')return send(res,200,await readFile(root+'public/index.html'),'text/html; charset=utf-8');
   send(res,404,{error:'Не найдено'});
  }catch(e){send(res,e.code==='ENOENT'?404:500,{error:e.code==='ENOENT'?'Модель не найдена':'Ошибка сервера'});}
