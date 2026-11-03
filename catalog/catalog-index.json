@@ -1,0 +1,1727 @@
+{
+  "updatedAt": "2026-11-03T16:15:40.639Z",
+  "objects": [
+    {
+      "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
+      "name": "BRANDENBURG_ARMOR",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 1",
+        "code": "H1_DOSPEHI",
+        "destination": "Медиаэкран за доспехами",
+        "purpose": "2D-анимация о частях доспеха",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H1_DOSPEHI"
+      ]
+    },
+    {
+      "path": "H1/DOSPEHI/NUREMBERG_ARMOR",
+      "name": "NUREMBERG_ARMOR",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 1",
+        "code": "H1_DOSPEHI",
+        "destination": "Медиаэкран за доспехами",
+        "purpose": "2D-анимация о частях доспеха",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H1_DOSPEHI"
+      ]
+    },
+    {
+      "path": "H1/DOSPEHI/RUSSIAN_ARMOR",
+      "name": "RUSSIAN_ARMOR",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 1",
+        "code": "H1_DOSPEHI",
+        "destination": "Медиаэкран за доспехами",
+        "purpose": "2D-анимация о частях доспеха",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H1_DOSPEHI"
+      ]
+    },
+    {
+      "path": "H1/DOSPEHI/SAMURAI_ARMOR",
+      "name": "SAMURAI_ARMOR",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 1",
+        "code": "H1_DOSPEHI",
+        "destination": "Медиаэкран за доспехами",
+        "purpose": "2D-анимация о частях доспеха",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H1_DOSPEHI"
+      ]
+    },
+    {
+      "path": "H2/AVATAR/BOARDING_MORTAR",
+      "name": "BOARDING_MORTAR",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_AVATAR",
+        "destination": "Интерактивные ИИ-аватары_зал2",
+        "purpose": "Оружие персонажей и показ механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_AVATAR"
+      ]
+    },
+    {
+      "path": "H2/AVATAR/FUSIL_1431",
+      "name": "FUSIL_1431",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Оружие персонажей и показ механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS",
+        "H2_AVATAR"
+      ]
+    },
+    {
+      "path": "H2/AVATAR/NAVAL_PISTOL",
+      "name": "NAVAL_PISTOL",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_AVATAR",
+        "destination": "Интерактивные ИИ-аватары",
+        "purpose": "Оружие персонажей и показ механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H2/BATTLE/AWARD_GUN_933",
+      "name": "AWARD_GUN_933",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/BLUNDERBUSS_697",
+      "name": "BLUNDERBUSS_697",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/BLUNDERBUSS_711",
+      "name": "BLUNDERBUSS_711",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/BLUNDERBUSS_930",
+      "name": "BLUNDERBUSS_930",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/BLUNDERBUSS_931",
+      "name": "BLUNDERBUSS_931",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/DAGGER_PISTOL_989",
+      "name": "DAGGER_PISTOL_989",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/DOUBLE_PISTOL_763",
+      "name": "DOUBLE_PISTOL_763",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_GUN_725",
+      "name": "FLINT_GUN_725",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_GUN_926",
+      "name": "FLINT_GUN_926",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1632",
+      "name": "FLINT_PISTOL_1632",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1633",
+      "name": "FLINT_PISTOL_1633",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1634",
+      "name": "FLINT_PISTOL_1634",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1635",
+      "name": "FLINT_PISTOL_1635",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1636",
+      "name": "FLINT_PISTOL_1636",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1637",
+      "name": "FLINT_PISTOL_1637",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1638",
+      "name": "FLINT_PISTOL_1638",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_1639",
+      "name": "FLINT_PISTOL_1639",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_698",
+      "name": "FLINT_PISTOL_698",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_728",
+      "name": "FLINT_PISTOL_728",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_PISTOL_755",
+      "name": "FLINT_PISTOL_755",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/FLINT_RIFLE_718",
+      "name": "FLINT_RIFLE_718",
+      "hasSource": true,
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MAINLOOP",
+        "destination": "Основная графическая заставка",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "VESTIBUL_MAINLOOP",
+        "VESTIBUL_INFO_PRESET",
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/LARGE_BORE_GUN_712",
+      "name": "LARGE_BORE_GUN_712",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/NAVAL_BLUNDERBUSS_932",
+      "name": "NAVAL_BLUNDERBUSS_932",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/OFFICER_GUN_924",
+      "name": "OFFICER_GUN_924",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/OFFICER_PISTOL_984",
+      "name": "OFFICER_PISTOL_984",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/PISTOL_PAIR_990",
+      "name": "PISTOL_PAIR_990",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/SMOOTHBORE_GUN_705",
+      "name": "SMOOTHBORE_GUN_705",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/SMOOTHBORE_GUN_715",
+      "name": "SMOOTHBORE_GUN_715",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/STILETTO_PISTOL_1005",
+      "name": "STILETTO_PISTOL_1005",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/WALL_GUN_708",
+      "name": "WALL_GUN_708",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/BATTLE/WEAPON_987",
+      "name": "WEAPON_987",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_BATTLE",
+        "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+        "purpose": "3D-модели для батального ролика",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_BATTLE"
+      ]
+    },
+    {
+      "path": "H2/INTERACTIVETABLE/PROJECTILE",
+      "name": "PROJECTILE",
+      "hasSource": true,
+      "tzGroupIds": [
+        "H2_INTERACTIVETABLE"
+      ],
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_INTERACTIVETABLE",
+        "destination": "Интерактивный вступительный стол Зала 2",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "H2/WEAPONS/EXPERIMENT/MULTIBARREL_PISTOL_1094",
+      "name": "MULTIBARREL_PISTOL_1094",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "object_confirmed",
+        "note": "Экспериментальное оружие №1094. Высокая детализация; отдельный код эпизода в документе не указан."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/FITIL/MATCHLOCK_706",
+      "name": "MATCHLOCK_706",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "object_confirmed",
+        "note": "Фитильное оружие №706. Высокая детализация; внешние и внутренние механизмы."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/KOLES/WHEELLOCK_703",
+      "name": "WHEELLOCK_703",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/KREMEN/FUSIL_1431",
+      "name": "FUSIL_1431",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS",
+        "H2_AVATAR"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/PLUG_BAYONET",
+      "name": "PLUG_BAYONET",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/SOCKET_BAYONET",
+      "name": "SOCKET_BAYONET",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H2/WEAPONS/ZAMOK/FORSYTH_LOCK",
+      "name": "FORSYTH_LOCK",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_WEAPONS",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ]
+    },
+    {
+      "path": "H3/KNIFE_19C",
+      "name": "KNIFE_19C",
+      "hasSource": true,
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/CHICAGO_PROTECTOR_1016",
+      "name": "CHICAGO_PROTECTOR_1016",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/DELVIGNE_PISTOL_753",
+      "name": "DELVIGNE_PISTOL_753",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/LOBNITZ_PISTOL_716",
+      "name": "LOBNITZ_PISTOL_716",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_289",
+      "name": "PISTOL_289",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_291",
+      "name": "PISTOL_291",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_297",
+      "name": "PISTOL_297",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_821",
+      "name": "PISTOL_821",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_825",
+      "name": "PISTOL_825",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_826",
+      "name": "PISTOL_826",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/PISTOL_915",
+      "name": "PISTOL_915",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/REVOLVER_1896",
+      "name": "REVOLVER_1896",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_MAKET"
+      ]
+    },
+    {
+      "path": "H3/MAKET/SOLDIER_FLINT_PISTOL",
+      "name": "SOLDIER_FLINT_PISTOL",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_MAKET"
+      ]
+    },
+    {
+      "path": "H3/MAKET/STEYR_1912_52",
+      "name": "STEYR_1912_52",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/MAKET/TULA_PERCUSSION_PISTOL",
+      "name": "TULA_PERCUSSION_PISTOL",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_MAKET",
+        "destination": "Тактильный стол с прозрачным экраном",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_MAKET"
+      ]
+    },
+    {
+      "path": "H3/MAKET/WEAPON_739",
+      "name": "WEAPON_739",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Интерактивный показ",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/BULLET/WEAPON_739",
+      "name": "WEAPON_739",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
+      "name": "BREECH_WEAPON_750",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/PISTOLS/PISTOL_31",
+      "name": "PISTOL_31",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/PULEMET/MAXIM_526",
+      "name": "MAXIM_526",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/REVOLVER/REVOLVER_472",
+      "name": "REVOLVER_472",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLUTION/ZATVOR/MOSIN_RIFLE_257",
+      "name": "MOSIN_RIFLE_257",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_REVOLUTION",
+        "destination": "Серия вертикальных экранов",
+        "purpose": "Показ оружия и его механизмов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": [
+        "H3_REVOLUTION"
+      ]
+    },
+    {
+      "path": "H3/REVOLVER_19C",
+      "name": "REVOLVER_19C",
+      "hasSource": true,
+      "tzGroupIds": []
+    },
+    {
+      "path": "H3/WEAPON_19C",
+      "name": "WEAPON_19C",
+      "hasSource": true,
+      "tzGroupIds": [
+        "H2_AVATAR"
+      ],
+      "placement": {
+        "hall": "Зал 2",
+        "code": "H2_AVATAR",
+        "destination": "Интерактивные ИИ-аватары_зал2",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "H4/SCANNER/AK47",
+      "name": "AK47",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 4",
+        "code": "H4_SCANNER",
+        "destination": "Интерактивные сканеры-дисплеи (2 шт.)",
+        "purpose": "Инфографика для имитации сканирования на прозрачных экранах",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "needs_identity_check",
+        "note": "В ТЗ — «Автомат АКМ-47»; требуется уточнить, что именно этот экземпляр пойдёт в витрину."
+      },
+      "tzGroupIds": [
+        "H4_SCANNER"
+      ]
+    },
+    {
+      "path": "H4/SCANNER/MG42",
+      "name": "MG42",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 4",
+        "code": "H4_SCANNER",
+        "destination": "Интерактивные сканеры-дисплеи, 2 шт.",
+        "purpose": "Инфографика для имитации сканирования на прозрачных экранах",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "section_confirmed",
+        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+      },
+      "tzGroupIds": []
+    },
+    {
+      "path": "H4/WEAPON_1941_1945",
+      "name": "WEAPON_1941_1945",
+      "hasSource": true,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "placement": {
+        "hall": "Зал 3",
+        "code": "H3_VITRINA",
+        "destination": "Интерактивные исследовательские витрины",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/INFO_PRESET/DAGGER",
+      "name": "DAGGER",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_INFO_PRESET"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_INFO_PRESET",
+        "destination": "Графический шаблон информационных материалов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/INFO_PRESET/REVOLVER",
+      "name": "REVOLVER",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_INFO_PRESET"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_INFO_PRESET",
+        "destination": "Графический шаблон информационных материалов",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MAINLOOP/DAGGER_1169",
+      "name": "DAGGER_1169",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MAINLOOP",
+        "VESTIBUL_INFO_PRESET"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MAINLOOP",
+        "destination": "Основная графическая заставка",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
+      "name": "FLINT_RIFLE_718",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MAINLOOP",
+        "VESTIBUL_INFO_PRESET",
+        "H2_BATTLE"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MAINLOOP",
+        "destination": "Основная графическая заставка",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MAINLOOP/REVOLVER_949",
+      "name": "REVOLVER_949",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MAINLOOP",
+        "VESTIBUL_INFO_PRESET"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MAINLOOP",
+        "destination": "Основная графическая заставка",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/BRONZE_DAGGER",
+      "name": "BRONZE_DAGGER",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/CROSSBOW_1624",
+      "name": "CROSSBOW_1624",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/GRENADE",
+      "name": "GRENADE",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/MACHINE_GUN_397",
+      "name": "MACHINE_GUN_397",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/PPSH_374",
+      "name": "PPSH_374",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "VESTIBUL/MANIFEST/RIFLE_1774",
+      "name": "RIFLE_1774",
+      "hasSource": true,
+      "tzGroupIds": [
+        "VESTIBUL_MANIFEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_MANIFEST",
+        "destination": "Видео-манифест",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      }
+    },
+    {
+      "path": "H4/SCANNER/MKB42",
+      "name": "MKB42",
+      "hasSource": true,
+      "placement": {
+        "hall": "Зал 4",
+        "code": "H4_SCANNER",
+        "destination": "Интерактивные сканеры-дисплеи (2 шт.)",
+        "purpose": "Инфографика для имитации сканирования на прозрачных экранах",
+        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+        "status": "object_confirmed",
+        "note": "В ТЗ — МКБ-42, IMG_1417. Для сканеров указано «только фото»; размещение 3D здесь — рабочая версия."
+      },
+      "tzGroupIds": [
+        "H4_SCANNER"
+      ]
+    },
+    {
+      "path": "VESTIBUL/TEST/TEST",
+      "name": "Тест",
+      "hasSource": false,
+      "tzGroupIds": [
+        "VESTIBUL_TEST"
+      ],
+      "placement": {
+        "hall": "Вестибюль",
+        "code": "VESTIBUL_TEST",
+        "destination": "Тест",
+        "purpose": "Проверка публикации через GitHub Release. Модель МКБ-42.",
+        "status": "test",
+        "note": "Тестовый экспонат, не часть утверждённого ТЗ."
+      }
+    }
+  ],
+  "folders": [
+    "all_photos_from_iphone",
+    "GENERAL",
+    "H1",
+    "H1/ALCHEMY",
+    "H1/ALCHEMY/ELIXIR",
+    "H1/ALCHEMY/POROH",
+    "H1/DOSPEHI",
+    "H1/DOSPEHI/BRANDENBURG_ARMOR",
+    "H1/DOSPEHI/NUREMBERG_ARMOR",
+    "H1/DOSPEHI/RUSSIAN_ARMOR",
+    "H1/DOSPEHI/SAMURAI_ARMOR",
+    "H1/POLOTNO",
+    "H1/TIMELINE",
+    "H2",
+    "H2/AVATAR",
+    "H2/AVATAR/BOARDING_MORTAR",
+    "H2/AVATAR/FUSIL_1431",
+    "H2/AVATAR/NAVAL_PISTOL",
+    "H2/BATTLE",
+    "H2/BATTLE/AWARD_GUN_933",
+    "H2/BATTLE/BLUNDERBUSS_697",
+    "H2/BATTLE/BLUNDERBUSS_711",
+    "H2/BATTLE/BLUNDERBUSS_930",
+    "H2/BATTLE/BLUNDERBUSS_931",
+    "H2/BATTLE/DAGGER_PISTOL_989",
+    "H2/BATTLE/DOUBLE_PISTOL_763",
+    "H2/BATTLE/FLINT_GUN_725",
+    "H2/BATTLE/FLINT_GUN_926",
+    "H2/BATTLE/FLINT_PISTOL_1632",
+    "H2/BATTLE/FLINT_PISTOL_1633",
+    "H2/BATTLE/FLINT_PISTOL_1634",
+    "H2/BATTLE/FLINT_PISTOL_1635",
+    "H2/BATTLE/FLINT_PISTOL_1636",
+    "H2/BATTLE/FLINT_PISTOL_1637",
+    "H2/BATTLE/FLINT_PISTOL_1638",
+    "H2/BATTLE/FLINT_PISTOL_1639",
+    "H2/BATTLE/FLINT_PISTOL_698",
+    "H2/BATTLE/FLINT_PISTOL_728",
+    "H2/BATTLE/FLINT_PISTOL_755",
+    "H2/BATTLE/FLINT_RIFLE_718",
+    "H2/BATTLE/LARGE_BORE_GUN_712",
+    "H2/BATTLE/NAVAL_BLUNDERBUSS_932",
+    "H2/BATTLE/OFFICER_GUN_924",
+    "H2/BATTLE/OFFICER_PISTOL_984",
+    "H2/BATTLE/PISTOL_PAIR_990",
+    "H2/BATTLE/SMOOTHBORE_GUN_705",
+    "H2/BATTLE/SMOOTHBORE_GUN_715",
+    "H2/BATTLE/STILETTO_PISTOL_1005",
+    "H2/BATTLE/WALL_GUN_708",
+    "H2/BATTLE/WEAPON_987",
+    "H2/INTERACTIVETABLE",
+    "H2/INTERACTIVETABLE/PROJECTILE",
+    "H2/WEAPONS",
+    "H2/WEAPONS/EXPERIMENT",
+    "H2/WEAPONS/EXPERIMENT/MULTIBARREL_PISTOL_1094",
+    "H2/WEAPONS/FITIL",
+    "H2/WEAPONS/FITIL/MATCHLOCK_706",
+    "H2/WEAPONS/KOLES",
+    "H2/WEAPONS/KOLES/WHEELLOCK_703",
+    "H2/WEAPONS/KREMEN",
+    "H2/WEAPONS/KREMEN/FUSIL_1431",
+    "H2/WEAPONS/PLUG_BAYONET",
+    "H2/WEAPONS/SOCKET_BAYONET",
+    "H2/WEAPONS/TACTIC",
+    "H2/WEAPONS/ZAMOK",
+    "H2/WEAPONS/ZAMOK/FORSYTH_LOCK",
+    "H3",
+    "H3/KNIFE_19C",
+    "H3/MAKET",
+    "H3/MAKET/CHICAGO_PROTECTOR_1016",
+    "H3/MAKET/DELVIGNE_PISTOL_753",
+    "H3/MAKET/LOBNITZ_PISTOL_716",
+    "H3/MAKET/PISTOL_289",
+    "H3/MAKET/PISTOL_291",
+    "H3/MAKET/PISTOL_297",
+    "H3/MAKET/PISTOL_821",
+    "H3/MAKET/PISTOL_825",
+    "H3/MAKET/PISTOL_826",
+    "H3/MAKET/PISTOL_915",
+    "H3/MAKET/REVOLVER_1896",
+    "H3/MAKET/SOLDIER_FLINT_PISTOL",
+    "H3/MAKET/STEYR_1912_52",
+    "H3/MAKET/TULA_PERCUSSION_PISTOL",
+    "H3/MAKET/WEAPON_739",
+    "H3/REVOLUTION",
+    "H3/REVOLUTION/BULLET",
+    "H3/REVOLUTION/BULLET/WEAPON_739",
+    "H3/REVOLUTION/KAZNO",
+    "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
+    "H3/REVOLUTION/PISTOLS",
+    "H3/REVOLUTION/PISTOLS/PISTOL_31",
+    "H3/REVOLUTION/PULEMET",
+    "H3/REVOLUTION/PULEMET/MAXIM_526",
+    "H3/REVOLUTION/REVOLVER",
+    "H3/REVOLUTION/REVOLVER/REVOLVER_472",
+    "H3/REVOLUTION/ZATVOR",
+    "H3/REVOLUTION/ZATVOR/MOSIN_RIFLE_257",
+    "H3/REVOLVER_19C",
+    "H3/WEAPON_19C",
+    "H4",
+    "H4/SCANNER",
+    "H4/SCANNER/AK47",
+    "H4/SCANNER/MG42",
+    "H4/WEAPON_1941_1945",
+    "H5",
+    "H5/IMMERSIVE",
+    "H5/TIMER",
+    "POLYCAM_INBOX",
+    "VESTIBUL",
+    "VESTIBUL/INFO_PRESET",
+    "VESTIBUL/INFO_PRESET/DAGGER",
+    "VESTIBUL/INFO_PRESET/REVOLVER",
+    "VESTIBUL/MAINLOOP",
+    "VESTIBUL/MAINLOOP/DAGGER_1169",
+    "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
+    "VESTIBUL/MAINLOOP/REVOLVER_949",
+    "VESTIBUL/MANIFEST",
+    "VESTIBUL/MANIFEST/BRONZE_DAGGER",
+    "VESTIBUL/MANIFEST/CROSSBOW_1624",
+    "VESTIBUL/MANIFEST/GRENADE",
+    "VESTIBUL/MANIFEST/MACHINE_GUN_397",
+    "VESTIBUL/MANIFEST/PPSH_374",
+    "VESTIBUL/MANIFEST/RIFLE_1774",
+    "VESTIBUL/TRANSITION",
+    "VESTIBUL/TEST",
+    "VESTIBUL/TEST/TEST"
+  ],
+  "tzGroups": [
+    {
+      "id": "VESTIBUL_MANIFEST",
+      "hall": "VESTIBUL",
+      "hallTitle": "Вестибюль",
+      "title": "Видео-манифест",
+      "objectPaths": [
+        "VESTIBUL/MANIFEST/BRONZE_DAGGER",
+        "VESTIBUL/MANIFEST/CROSSBOW_1624",
+        "VESTIBUL/MANIFEST/GRENADE",
+        "VESTIBUL/MANIFEST/MACHINE_GUN_397",
+        "VESTIBUL/MANIFEST/PPSH_374",
+        "VESTIBUL/MANIFEST/RIFLE_1774"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна\n(Детализация не нужна достаточно условных моделей, не тратим время)\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГлавный экран, ролик-манифест\n\tBRONZE_DAGGER\nБронзовый кинжал\nБронзовый кинжал\n(свежее поступление без каталога, "
+    },
+    {
+      "id": "VESTIBUL_MAINLOOP",
+      "hall": "VESTIBUL",
+      "hallTitle": "Вестибюль",
+      "title": "Основная графическая заставка",
+      "objectPaths": [
+        "H2/BATTLE/FLINT_RIFLE_718",
+        "VESTIBUL/MAINLOOP/DAGGER_1169",
+        "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
+        "VESTIBUL/MAINLOOP/REVOLVER_949"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна\n(Детализация не нужна достаточно условных моделей, не тратим время) Берем на наш вкус.\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГлавный экран, экран Афиша и экраны у лифта (заставка)\n\tDAGGER_1169\n\n\nКинжал · № 1169 \n\t  \n\n№ "
+    },
+    {
+      "id": "VESTIBUL_INFO_PRESET",
+      "hall": "VESTIBUL",
+      "hallTitle": "Вестибюль",
+      "title": "Графический шаблон информационных материалов",
+      "objectPaths": [
+        "H2/BATTLE/FLINT_RIFLE_718",
+        "VESTIBUL/INFO_PRESET/DAGGER",
+        "VESTIBUL/INFO_PRESET/REVOLVER",
+        "VESTIBUL/MAINLOOP/DAGGER_1169",
+        "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
+        "VESTIBUL/MAINLOOP/REVOLVER_949"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна\n(Детализация не нужна достаточно условных моделей, не тратим время) Одни и те же объекты, что и в VESTIBUL_MAINLOOP\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГлавный экран, экран Афиша и экраны у лифта (афиша)\n\tREVOLVER\nDAG"
+    },
+    {
+      "id": "VESTIBUL_TEST",
+      "hall": "VESTIBUL",
+      "hallTitle": "Вестибюль",
+      "title": "Тест",
+      "objectPaths": [
+        "VESTIBUL/TEST/TEST"
+      ]
+    },
+    {
+      "id": "H1_DOSPEHI",
+      "hall": "H1",
+      "hallTitle": "Зал 1",
+      "title": "Медиаэкран за доспехами",
+      "objectPaths": [
+        "H1/DOSPEHI/BRANDENBURG_ARMOR",
+        "H1/DOSPEHI/NUREMBERG_ARMOR",
+        "H1/DOSPEHI/RUSSIAN_ARMOR",
+        "H1/DOSPEHI/SAMURAI_ARMOR"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Катя \n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tМедиаэкран за доспехами \n\tBRANDENBURG ARMOR\nSWORD\nДоспех курфюрста / меч\nДоспех Курфюрста Бранденбурга \n+ оружие, если оно у доспеха есть \n\nснимаем детально все части (фронтально,"
+    },
+    {
+      "id": "H2_INTERACTIVETABLE",
+      "hall": "H2",
+      "hallTitle": "Зал 2",
+      "title": "Интерактивный вступительный стол Зала 2",
+      "objectPaths": [
+        "H2/INTERACTIVETABLE/PROJECTILE"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна Вот тут хорошо бы сметчиить снаряды с моими экранами в этом же зале-Николай сказал, что возможно снарядов не будет (не успеют найти, те это вообще под вопросом) \n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\t\n\n\tPROJECTILE\nСна"
+    },
+    {
+      "id": "H2_WEAPONS",
+      "hall": "H2",
+      "hallTitle": "Зал 2",
+      "title": "Серия вертикальных экранов",
+      "objectPaths": [
+        "H2/AVATAR/FUSIL_1431",
+        "H2/WEAPONS/EXPERIMENT/MULTIBARREL_PISTOL_1094",
+        "H2/WEAPONS/FITIL/MATCHLOCK_706",
+        "H2/WEAPONS/KOLES/WHEELLOCK_703",
+        "H2/WEAPONS/KREMEN/FUSIL_1431",
+        "H2/WEAPONS/PLUG_BAYONET",
+        "H2/WEAPONS/SOCKET_BAYONET",
+        "H2/WEAPONS/ZAMOK/FORSYTH_LOCK"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nМаркировки эпизодов: FITIL — фитильное оружие; KOLES — колесцовое; KREMEN — кремнёвое; TACTIC — линейная тактика; ZAMOK — замок Форсайта. Полный код: H2_WEAPONS_<маркировка>. Для TACTIC в этой таблице пока нет отдельной строки. Для экспериментального оружия маркировка на предоставленном скриншоте не указана.\nПродюсер: Юля\n\n\n\n\nЭкран / кадр\n\tОбъект "
+    },
+    {
+      "id": "H2_BATTLE",
+      "hall": "H2",
+      "hallTitle": "Зал 2",
+      "title": "Горизонтальный батальный экран (31 штука)_зал2",
+      "objectPaths": [
+        "H2/BATTLE/AWARD_GUN_933",
+        "H2/BATTLE/BLUNDERBUSS_697",
+        "H2/BATTLE/BLUNDERBUSS_711",
+        "H2/BATTLE/BLUNDERBUSS_930",
+        "H2/BATTLE/BLUNDERBUSS_931",
+        "H2/BATTLE/DAGGER_PISTOL_989",
+        "H2/BATTLE/DOUBLE_PISTOL_763",
+        "H2/BATTLE/FLINT_GUN_725",
+        "H2/BATTLE/FLINT_GUN_926",
+        "H2/BATTLE/FLINT_PISTOL_1632",
+        "H2/BATTLE/FLINT_PISTOL_1633",
+        "H2/BATTLE/FLINT_PISTOL_1634",
+        "H2/BATTLE/FLINT_PISTOL_1635",
+        "H2/BATTLE/FLINT_PISTOL_1636",
+        "H2/BATTLE/FLINT_PISTOL_1637",
+        "H2/BATTLE/FLINT_PISTOL_1638",
+        "H2/BATTLE/FLINT_PISTOL_1639",
+        "H2/BATTLE/FLINT_PISTOL_698",
+        "H2/BATTLE/FLINT_PISTOL_728",
+        "H2/BATTLE/FLINT_PISTOL_755",
+        "H2/BATTLE/FLINT_RIFLE_718",
+        "H2/BATTLE/LARGE_BORE_GUN_712",
+        "H2/BATTLE/NAVAL_BLUNDERBUSS_932",
+        "H2/BATTLE/OFFICER_GUN_924",
+        "H2/BATTLE/OFFICER_PISTOL_984",
+        "H2/BATTLE/PISTOL_PAIR_990",
+        "H2/BATTLE/SMOOTHBORE_GUN_705",
+        "H2/BATTLE/SMOOTHBORE_GUN_715",
+        "H2/BATTLE/STILETTO_PISTOL_1005",
+        "H2/BATTLE/WALL_GUN_708",
+        "H2/BATTLE/WEAPON_987",
+        "VESTIBUL/MAINLOOP/FLINT_RIFLE_718"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Катя\nСинхронизироваться с Юлей, так как оружие из зала 2 используется и здесь\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГоризонтальный батальный\nэкран \n\tFLINT_PISTOL_1632\nКремнёвый пистолет · № 1632\n1_Пистолет с кремневым замко"
+    },
+    {
+      "id": "H2_AVATAR",
+      "hall": "H2",
+      "hallTitle": "Зал 2",
+      "title": "Интерактивные ИИ-аватары_зал2",
+      "objectPaths": [
+        "H2/AVATAR/BOARDING_MORTAR",
+        "H2/AVATAR/FUSIL_1431",
+        "H2/WEAPONS/KREMEN/FUSIL_1431",
+        "H3/WEAPON_19C"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Глеб\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tПехотинец(какое холодное оружие могло быть на поясе), нет холодного оружия\n\tFUSIL_1431\nФузея · № 1431\nФузея-1431 (или любые другие вариации) для гренадера эпохи Петра Первого.\nВрем"
+    },
+    {
+      "id": "H3_MAKET",
+      "hall": "H3",
+      "hallTitle": "Зал 3",
+      "title": "Тактильный стол с прозрачным экраном",
+      "objectPaths": [
+        "H3/MAKET/REVOLVER_1896",
+        "H3/MAKET/SOLDIER_FLINT_PISTOL",
+        "H3/MAKET/TULA_PERCUSSION_PISTOL"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна_Зал3\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\t\n\n\tSOLDIER_FLINT_PISTOL\nTULA_PERCUSSION_PISTOL\nREVOLVER_1896\nКремнёвый солдатский пистолет\nТульский капсюльный пистолет\nРевольвер «Нагано» · как в исходнике\n что предлагаем и"
+    },
+    {
+      "id": "H3_REVOLUTION",
+      "hall": "H3",
+      "hallTitle": "Зал 3",
+      "title": "Серия вертикальных экранов",
+      "objectPaths": [
+        "H3/MAKET/WEAPON_739",
+        "H3/REVOLUTION/BULLET/WEAPON_739",
+        "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
+        "H3/REVOLUTION/PISTOLS/PISTOL_31",
+        "H3/REVOLUTION/PULEMET/MAXIM_526",
+        "H3/REVOLUTION/REVOLVER/REVOLVER_472",
+        "H3/REVOLUTION/ZATVOR/MOSIN_RIFLE_257"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Юля\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tH3_REVOLUTION_BULLET\nПуля Миньо\n\tWEAPON_739\nОружие для темы «Пуля Минье» · № 739\n739  отсняли\n\t  \n\n№ 739\n\t3D модель) для показа внешнего и внутренних механизмов\n\tвысокая\n\tайфон, кам"
+    },
+    {
+      "id": "H3_VITRINA",
+      "hall": "H3",
+      "hallTitle": "Зал 3",
+      "title": "Интерактивные исследовательские витрины",
+      "objectPaths": [
+        "H4/WEAPON_1941_1945"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\t\n\nДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tРевольверы\n\tCOLT_NAVY_1851_459\n459 / Colt Navy 1851-есть\n\t  \n\n№ 459 · IMG_1393\n\t\n\n\tТОЛЬКО ФОТО, Без сканов.\nфото с размерами.\n\t\n\n\t\n\n\t* \t* \tРевольверы\n\tSMITH_WESSON_MODEL1_493\n49"
+    },
+    {
+      "id": "H4_SCANNER",
+      "hall": "H4",
+      "hallTitle": "Зал 4",
+      "title": "Интерактивные сканеры-дисплеи (2 шт.)",
+      "objectPaths": [
+        "H4/SCANNER/AK47",
+        "H4/SCANNER/MKB42"
+      ],
+      "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+      "sourceExcerpt": "\nПродюсер: Алёна\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tСкан на прозрачных экранах\n\tMKB42\nМКБ_42\n\n\nЕсли экземаляр можно разобрать и снять, то круто\n\t  \n\nМКБ-42 · IMG_1417\nФото в photo: 3\n\tСтиль инфографики для имитации сканирования экс"
+    }
+  ],
+  "tzSource": {
+    "url": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+    "title": "Объекты для съёмки и сканирования",
+    "checkedAt": "2026-10-29",
+    "note": "Распределение по содержанию документа; отсутствие объекта в списке не означает отсутствие задачи."
+  }
+}
