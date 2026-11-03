@@ -5,6 +5,7 @@ import {pipeline} from 'node:stream/promises';
 import {Transform} from 'node:stream';
 import {randomUUID,timingSafeEqual} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {withModelPlacements} from './scripts/catalog-placement.mjs';
 const root=fileURLToPath(new URL('.',import.meta.url));
 const dataRoot=(process.env.DATA_DIR||root+'data').replaceAll(String.fromCharCode(92),'/').replace(/\/$/,'');
 const dir=dataRoot+'/models/';
@@ -36,7 +37,7 @@ const handler=async(req,res)=>{
   if(req.method==='GET'&&url.pathname==='/api/catalog'){
    let index={objects:[]};try{index=JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{}
    const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const m=JSON.parse(await readFile(dir+file,'utf8'));if(m.hidden)continue;const info=await stat(dir+file.replace('.json','.glb'));models.push({...m,id:file.slice(0,-5),createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
-   models.sort((a,b)=>(b.updatedAt||b.createdAt).localeCompare(a.updatedAt||a.createdAt));return send(res,200,{...index,models,autoImport:importer.status});
+   models.sort((a,b)=>(b.updatedAt||b.createdAt).localeCompare(a.updatedAt||a.createdAt));return send(res,200,{...withModelPlacements(index,models),models,autoImport:importer.status});
   }
   if(req.method==='POST'&&url.pathname==='/api/models'){
    if(!localAdmin)return send(res,403,{error:'Загрузка доступна только на локальном компьютере'});
