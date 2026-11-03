@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T16:15:40.639Z",
+  "updatedAt": "2026-11-03T16:21:12.243Z",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1363,22 +1363,6 @@
       "tzGroupIds": [
         "H4_SCANNER"
       ]
-    },
-    {
-      "path": "VESTIBUL/TEST/TEST",
-      "name": "Тест",
-      "hasSource": false,
-      "tzGroupIds": [
-        "VESTIBUL_TEST"
-      ],
-      "placement": {
-        "hall": "Вестибюль",
-        "code": "VESTIBUL_TEST",
-        "destination": "Тест",
-        "purpose": "Проверка публикации через GitHub Release. Модель МКБ-42.",
-        "status": "test",
-        "note": "Тестовый экспонат, не часть утверждённого ТЗ."
-      }
     }
   ],
   "folders": [
@@ -1505,9 +1489,7 @@
     "VESTIBUL/MANIFEST/MACHINE_GUN_397",
     "VESTIBUL/MANIFEST/PPSH_374",
     "VESTIBUL/MANIFEST/RIFLE_1774",
-    "VESTIBUL/TRANSITION",
-    "VESTIBUL/TEST",
-    "VESTIBUL/TEST/TEST"
+    "VESTIBUL/TRANSITION"
   ],
   "tzGroups": [
     {
@@ -1555,15 +1537,6 @@
       ],
       "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
       "sourceExcerpt": "\nПродюсер: Алёна\n(Детализация не нужна достаточно условных моделей, не тратим время) Одни и те же объекты, что и в VESTIBUL_MAINLOOP\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГлавный экран, экран Афиша и экраны у лифта (афиша)\n\tREVOLVER\nDAG"
-    },
-    {
-      "id": "VESTIBUL_TEST",
-      "hall": "VESTIBUL",
-      "hallTitle": "Вестибюль",
-      "title": "Тест",
-      "objectPaths": [
-        "VESTIBUL/TEST/TEST"
-      ]
     },
     {
       "id": "H1_DOSPEHI",
