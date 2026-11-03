@@ -1,0 +1,4 @@
+This distribution contains the pinned model-viewer 4.0.0 browser bundle used by the existing catalog.
+model-viewer: https://github.com/google/model-viewer (Apache-2.0).
+Three.js and other bundled dependencies retain their license comments in the distributed bundle.
+No external CDN is needed for the default neutral environment/model viewer. The optional sunrise HDR environment still requires modelviewer.dev.
