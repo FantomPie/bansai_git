@@ -5,6 +5,7 @@ import {pipeline} from 'node:stream/promises';
 import {Transform} from 'node:stream';
 import {randomUUID,timingSafeEqual} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {armorComments} from './scripts/armor-comments.mjs';
 const root=fileURLToPath(new URL('.',import.meta.url));
 const dataRoot=(process.env.DATA_DIR||root+'data').replaceAll(String.fromCharCode(92),'/').replace(/\/$/,'');
 const dir=dataRoot+'/models/';
@@ -12,6 +13,7 @@ const adminEnabled=process.env.ENABLE_ADMIN==='true';
 await mkdir(dir,{recursive:true});
 const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
+const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armor/data.json'});
 async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
 const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
@@ -31,9 +33,11 @@ const handler=async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost');
   const localAdmin=adminEnabled&&req.socket.localPort===adminPort;
+  if(url.pathname==='/api/armor/comments')return await handleArmorComments(req,res,url);
   if(req.method==='GET'&&url.pathname==='/healthz')return send(res,200,{status:'ok'});
   if(['GET','HEAD'].includes(req.method)&&url.pathname==='/vendor/model-viewer.min.js')return await assetResponse(req,res,root+'public/vendor/model-viewer.min.js','text/javascript; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&['/armor','/armor/','/armor/index.html','/armor/data.json'].includes(url.pathname))return await assetResponse(req,res,root+'public/armor/'+(url.pathname.endsWith('data.json')?'data.json':'index.html'),url.pathname.endsWith('data.json')?'application/json; charset=utf-8':'text/html; charset=utf-8');
+  if(['GET','HEAD'].includes(req.method)&&['/armor/comments.js','/armor/comments.css'].includes(url.pathname))return await assetResponse(req,res,root+'public'+url.pathname,url.pathname.endsWith('.js')?'text/javascript; charset=utf-8':'text/css; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&/^\/evidence\/[A-Za-z0-9_.-]+\.jpg$/.test(url.pathname))return await assetResponse(req,res,dataRoot+url.pathname,'image/jpeg');
   if(req.method==='GET'&&url.pathname==='/api/access')return send(res,200,{canUpload:localAdmin});
   if(req.method==='GET'&&url.pathname==='/api/catalog'){
