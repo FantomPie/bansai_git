@@ -7,5 +7,6 @@
 #comment-status{color:#d9f98c}#comment-status.error{color:#ffb3ac}
 .comment{padding:12px!important;margin-top:10px;background:#10191f;border-color:#344047!important}
 .comment p{white-space:pre-wrap;overflow-wrap:anywhere;color:#eee;margin:8px 0 0}.comment-meta{font-size:13px;color:#b2bec5}
+.comment-actions[hidden]{display:none}.comment-delete{color:#ffb3ac}.comment .comment-actions span{font-size:13px}
 #comment-list{margin-top:12px}.comment-help{font-size:13px;color:#b2bec5}
 @media(max-width:600px){dialog{padding:12px;width:98vw}.photo-comments textarea{font-size:16px}dialog img{height:48vh}}

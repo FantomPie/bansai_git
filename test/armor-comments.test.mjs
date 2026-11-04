@@ -29,7 +29,14 @@ test('shared image comments survive restart, separate views and keep simultaneou
   const responses=await Promise.all(Array.from({length:5},(_,n)=>post({...target,text:'Правка '+n})));
   assert.ok(responses.every(r=>r.status===201));assert.equal((await list()).length,6);
   await stop();await start();const restored=await list();assert.equal(restored.length,6);assert.equal(restored[0].id,saved.id);
+  const edit=await post({...target,action:'edit',id:saved.id,revision:restored[0].revision,text:'Исправленная правка'});assert.equal(edit.status,200);
+  const edited=(await edit.json()).comment;assert.equal(edited.author,'Alex');assert.ok(edited.updatedAt);
+  assert.equal((await post({...target,action:'edit',id:saved.id,revision:restored[0].revision,text:'Устаревшая правка'})).status,409);
+  assert.equal((await post({...target,view:'BACK',action:'delete',id:saved.id,revision:edited.revision})).status,404);
+  assert.equal((await post({...target,action:'delete',id:saved.id,revision:edited.revision})).status,200);
+  assert.ok(!(await list()).some(c=>c.id===saved.id));
+  await stop();await start();assert.equal((await list()).length,5);
   const disk=(await readFile(join(root,'armor-comments','17.jsonl'),'utf8')).trim().split('\n').map(JSON.parse);
-  assert.equal(disk.length,6);assert.equal(new Set(disk.map(c=>c.id)).size,6);
+  assert.equal(disk.length,8);assert.equal(disk.filter(c=>!c.event).length,6);assert.equal(disk.find(c=>c.id===saved.id&&!c.event).text,text);
  }finally{if(server?.listening)await stop();await rm(root,{recursive:true,force:true});}
 });
