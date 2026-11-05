@@ -6,6 +6,7 @@ import {Transform} from 'node:stream';
 import {randomUUID,timingSafeEqual} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {armorComments} from './scripts/armor-comments.mjs';
+import {armorModelCache} from './scripts/armor-model-cache.mjs';
 const root=fileURLToPath(new URL('.',import.meta.url));
 const dataRoot=(process.env.DATA_DIR||root+'data').replaceAll(String.fromCharCode(92),'/').replace(/\/$/,'');
 const dir=dataRoot+'/models/';
@@ -14,6 +15,7 @@ await mkdir(dir,{recursive:true});
 const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
 const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armor/data.json'});
+const armorCachedModel=armorModelCache({dataRoot});
 async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
 const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
@@ -34,6 +36,8 @@ const handler=async(req,res)=>{
   const url=new URL(req.url,'http://localhost');
   const localAdmin=adminEnabled&&req.socket.localPort===adminPort;
   if(url.pathname==='/api/armor/comments')return await handleArmorComments(req,res,url);
+  const armorPart=url.pathname.match(/^\/armor\/model\/([0-9]{2})\.glb$/);
+  if(['GET','HEAD'].includes(req.method)&&armorPart){const manifest=JSON.parse(await readFile(root+'public/armor/data.json','utf8'));const part=manifest.parts.find(p=>p.id===armorPart[1]);if(!part?.modelAsset||!(await catalogIndex()).objects.some(o=>o.path===part.modelFolder))return send(res,404,{error:'Модель не опубликована'});return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');}
   if(req.method==='GET'&&url.pathname==='/healthz')return send(res,200,{status:'ok'});
   if(['GET','HEAD'].includes(req.method)&&url.pathname==='/vendor/model-viewer.min.js')return await assetResponse(req,res,root+'public/vendor/model-viewer.min.js','text/javascript; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&['/armor','/armor/','/armor/index.html','/armor/data.json'].includes(url.pathname))return await assetResponse(req,res,root+'public/armor/'+(url.pathname.endsWith('data.json')?'data.json':'index.html'),url.pathname.endsWith('data.json')?'application/json; charset=utf-8':'text/html; charset=utf-8');
