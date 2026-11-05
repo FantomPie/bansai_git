@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T16:21:12.243Z",
+  "updatedAt": "2026-11-05T08:41:18.396Z",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1363,6 +1363,12 @@
       "tzGroupIds": [
         "H4_SCANNER"
       ]
+    },
+    {
+      "path": "H1/DOSPEHI/BRANDENBURG_ARMOR/HELMET_COMPLETE",
+      "name": "Шлем в сборе",
+      "hasSource": true,
+      "tzGroupIds": []
     }
   ],
   "folders": [
@@ -1489,7 +1495,8 @@
     "VESTIBUL/MANIFEST/MACHINE_GUN_397",
     "VESTIBUL/MANIFEST/PPSH_374",
     "VESTIBUL/MANIFEST/RIFLE_1774",
-    "VESTIBUL/TRANSITION"
+    "VESTIBUL/TRANSITION",
+    "H1/DOSPEHI/BRANDENBURG_ARMOR/HELMET_COMPLETE"
   ],
   "tzGroups": [
     {

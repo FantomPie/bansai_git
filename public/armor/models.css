@@ -1,0 +1,3 @@
+.armor-model-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}.armor-model-actions[hidden],#armor-model-stage[hidden],#big[hidden],.photo-comments[hidden]{display:none}
+#armor-model-stage model-viewer{display:block;width:100%;height:65vh;min-height:320px;background:#1a1a1a;border-radius:8px}
+.card-model-link{display:block;margin-top:12px;padding:10px;border:1px solid #6d8740;border-radius:7px;text-align:center;text-decoration:none;background:#29361e}
