@@ -32,6 +32,43 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-helmet-20261105/BRANDENBURG_HELMET_COMPLETE.glb",
         "size": 14094720,
         "sha256": "13f2c0d9160d3a39f205ed769cd27b20543fd9f3d099d3168921b46a26344870"
+      },
+      "comparison": {
+        "references": [
+          {
+            "id": "front",
+            "label": "Спереди",
+            "orbit": "0deg 80deg 105%",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_front_preview.jpg",
+            "original": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1318.jpg",
+            "filename": "IMG_1318.jpg"
+          },
+          {
+            "id": "left",
+            "label": "Слева",
+            "orbit": "65deg 80deg 105%",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_left_preview.jpg",
+            "original": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1314.jpg",
+            "filename": "IMG_1314.jpg"
+          },
+          {
+            "id": "right",
+            "label": "Справа",
+            "orbit": "-65deg 80deg 105%",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_right_preview.jpg",
+            "original": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1311.jpg",
+            "filename": "IMG_1311.jpg"
+          },
+          {
+            "id": "back",
+            "label": "Сзади",
+            "orbit": "180deg 80deg 105%",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_back_preview.jpg",
+            "original": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1313.jpg",
+            "filename": "IMG_1313.jpg"
+          }
+        ],
+        "note": "Фото сняты в перспективе: ракурс и освещение могут отличаться от 3D. Сравнивайте форму, стыки пластин, заклёпки и гравировку."
       }
     },
     {

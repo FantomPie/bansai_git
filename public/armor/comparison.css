@@ -1,0 +1,13 @@
+dialog.has-armor-comparison{width:min(1800px,98vw)}
+.armor-angle-nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0 16px}.armor-angle-nav strong{margin-right:8px}.armor-angle-nav button[aria-pressed=true]{border-color:#d9f98c;color:#d9f98c;background:#29341e}
+.armor-comparison{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.armor-compare-panel{border:1px solid #40504a;border-radius:12px;overflow:hidden;min-width:0;background:#19211d}
+.armor-compare-panel header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-bottom:1px solid #40504a;max-width:none}
+.armor-compare-stage{height:53vh;min-height:300px;background:#1a1e1c}
+#armor-model-stage .armor-compare-stage model-viewer{height:100%;min-height:0;border-radius:0}
+.armor-photo-stage{overflow:auto}
+#armor-model-stage .armor-photo-stage img{display:block;width:100%;height:100%;max-width:none;object-fit:contain;background:#1a1e1c}
+.armor-compare-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;min-height:62px;padding:10px 14px;border-top:1px solid #40504a;font-size:12px;color:#adbab1}
+.armor-compare-controls a{margin-left:auto}.armor-compare-controls button{padding:7px 12px}
+.armor-comparison-note{border-left:3px solid #d9f98c;padding:10px 14px;background:#1e281e;font-size:13px;color:#bdc9bb}
+@media(max-width:750px){.armor-comparison{grid-template-columns:1fr}.armor-compare-stage{height:48vh;min-height:280px}.armor-compare-panel header{padding:12px}.armor-angle-nav{gap:6px}.armor-angle-nav strong{width:100%}}

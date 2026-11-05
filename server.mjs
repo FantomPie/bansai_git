@@ -41,7 +41,7 @@ const handler=async(req,res)=>{
   if(req.method==='GET'&&url.pathname==='/healthz')return send(res,200,{status:'ok'});
   if(['GET','HEAD'].includes(req.method)&&url.pathname==='/vendor/model-viewer.min.js')return await assetResponse(req,res,root+'public/vendor/model-viewer.min.js','text/javascript; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&['/armor','/armor/','/armor/index.html','/armor/data.json'].includes(url.pathname))return await assetResponse(req,res,root+'public/armor/'+(url.pathname.endsWith('data.json')?'data.json':'index.html'),url.pathname.endsWith('data.json')?'application/json; charset=utf-8':'text/html; charset=utf-8');
-  if(['GET','HEAD'].includes(req.method)&&['/armor/comments.js','/armor/comments.css','/armor/models.js','/armor/models.css'].includes(url.pathname))return await assetResponse(req,res,root+'public'+url.pathname,url.pathname.endsWith('.js')?'text/javascript; charset=utf-8':'text/css; charset=utf-8');
+  if(['GET','HEAD'].includes(req.method)&&['/armor/comments.js','/armor/comments.css','/armor/models.js','/armor/models.css','/armor/comparison.js','/armor/comparison.css'].includes(url.pathname))return await assetResponse(req,res,root+'public'+url.pathname,url.pathname.endsWith('.js')?'text/javascript; charset=utf-8':'text/css; charset=utf-8');
   if(['GET','HEAD'].includes(req.method)&&/^\/evidence\/[A-Za-z0-9_.-]+\.jpg$/.test(url.pathname))return await assetResponse(req,res,dataRoot+url.pathname,'image/jpeg');
   if(req.method==='GET'&&url.pathname==='/api/access')return send(res,200,{canUpload:localAdmin});
   if(req.method==='GET'&&url.pathname==='/api/catalog'){

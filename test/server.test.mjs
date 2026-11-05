@@ -34,6 +34,11 @@ test('armor gallery routes and media manifest are available',async()=>{
  assert.equal((await fetch(base+'/armor/')).status,200);
  const data=await (await fetch(base+'/armor/data.json')).json();assert.equal(data.parts.length,17);
  assert.ok(data.parts.every(p=>p.views.every(v=>v.preview.startsWith('https://github.com/FantomPie/bansai_git/releases/download/'))));
+ const comparison=data.parts.find(p=>p.id==='02').comparison;
+ assert.deepEqual(comparison.references.map(r=>r.id),['front','left','right','back']);
+ assert.ok(comparison.references.every(r=>r.preview.startsWith('https://github.com/FantomPie/bansai_git/releases/download/')&&r.original.endsWith('.jpg')&&r.orbit));
+ assert.equal((await fetch(base+'/armor/comparison.js')).status,200);
+ assert.equal((await fetch(base+'/armor/comparison.css')).status,200);
 });
 test('retired catalog object is hidden and its direct model URLs stop being public',async()=>{
  const original=await (await fetch(base+'/api/catalog')).json();
