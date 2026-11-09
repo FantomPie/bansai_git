@@ -16,6 +16,17 @@ const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
 const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armor/data.json'});
 const armorCachedModel=armorModelCache({dataRoot});
+const wheellock703Id='e2411543-a8ec-4eb6-afb3-a4b565c9d70f';
+const wheellock703V14={
+ url:'https://github.com/FantomPie/bansai_git/releases/download/wheel-lock-703-v14-20261109/WHEELLOCK_703_V14.glb',
+ sha256:'a178c5b80a7ba38e680171efebb3bc969f8ccffe46672a9ca6adef72839ffa57',
+ size:151285476
+};
+function currentModel(id,model){
+ if(id!==wheellock703Id||model.folder!=='H2/WEAPONS/KOLES/WHEELLOCK_703')return model;
+ return {...model,size:wheellock703V14.size,sourceHash:wheellock703V14.sha256,
+  variantLabel:'v14 · 8K',textureResolution:'8K',updatedAt:'2026-11-09T00:00:00.000Z'};
+}
 async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
 const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
@@ -46,7 +57,7 @@ const handler=async(req,res)=>{
   if(req.method==='GET'&&url.pathname==='/api/access')return send(res,200,{canUpload:localAdmin});
   if(req.method==='GET'&&url.pathname==='/api/catalog'){
    const index=await catalogIndex();
-   const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const m=JSON.parse(await readFile(dir+file,'utf8'));if(!published(m,index))continue;const info=await stat(dir+file.replace('.json','.glb'));models.push({...m,id:file.slice(0,-5),createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
+   const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const id=file.slice(0,-5);const m=currentModel(id,JSON.parse(await readFile(dir+file,'utf8')));if(!published(m,index))continue;const info=await stat(dir+id+'.glb');models.push({...m,id,createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
    models.sort((a,b)=>(b.updatedAt||b.createdAt).localeCompare(a.updatedAt||a.createdAt));return send(res,200,{...index,models,autoImport:importer.status});
   }
   if(req.method==='POST'&&url.pathname==='/api/models'){
@@ -59,7 +70,15 @@ const handler=async(req,res)=>{
    try{await pipeline(req,limit,createWriteStream(temp,{flags:'wx'}));if(header.length!==12||header.toString('ascii',0,4)!=='glTF'||header.readUInt32LE(4)!==2||header.readUInt32LE(8)!==size)throw new Error('Нужен корректный GLB 2.0');await rename(temp,dir+id+'.glb');await writeFile(dir+id+'.json',JSON.stringify({name:(url.searchParams.get('name')||'Модель').slice(0,160),size,folder,createdAt:new Date().toISOString()}));return send(res,201,{id,url:'/?model='+id});}catch(e){await unlink(temp).catch(()=>{});return send(res,400,{error:e.message});}
   }
   const match=url.pathname.match(/^\/(api\/models|models)\/([0-9a-f-]{36})(\.glb)?$/);
-  if(['GET','HEAD'].includes(req.method)&&match){const info=await readFile(dir+match[2]+'.json');if(!published(JSON.parse(info),await catalogIndex()))return send(res,404,{error:'Модель не опубликована'});const metadata=match[1]==='api/models';if(metadata)return send(res,200,info);return await assetResponse(req,res,dir+match[2]+'.glb','model/gltf-binary');}
+  if(['GET','HEAD'].includes(req.method)&&match){
+   const id=match[2];
+   const model=currentModel(id,JSON.parse(await readFile(dir+id+'.json','utf8')));
+   if(!published(model,await catalogIndex()))return send(res,404,{error:'Модель не опубликована'});
+   if(match[1]==='api/models')return send(res,200,model);
+   const modelFile=id===wheellock703Id&&model.sourceHash===wheellock703V14.sha256
+    ?await armorCachedModel(wheellock703V14):dir+id+'.glb';
+   return await assetResponse(req,res,modelFile,'model/gltf-binary');
+  }
   if(req.method==='GET'&&url.pathname==='/')return send(res,200,await readFile(root+'public/index.html'),'text/html; charset=utf-8');
   send(res,404,{error:'Не найдено'});
  }catch(e){send(res,e.code==='ENOENT'?404:500,{error:e.code==='ENOENT'?'Модель не найдена':'Ошибка сервера'});}
