@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:32:51.184660+00:00",
+  "updatedAt": "2026-11-09T15:05:05.804339+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1294,7 +1294,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_view.jpg"
       },
-      "weaponDraftStatus": "Есть фото, сканы не найдены"
+      "releaseDraft": {
+        "id": "526b15b0-9585-506e-acf6-b0432f78909c",
+        "name": "REVOLVER_1896",
+        "folder": "H3/MAKET/REVOLVER_1896",
+        "size": 85941536,
+        "sourceHash": "8ed4aacc3b2f44e0cae8c114e40643a63b5dd623251ec918242ab95888fe18d3",
+        "createdAt": "2026-11-09T15:05:05.804339+00:00",
+        "updatedAt": "2026-11-09T15:05:05.804339+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка двух исходных сканов. Видимое углубление на дульном срезе восстановлено по фото. Глубина канала не измерялась.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_view.jpg",
+            "caption": "IMG_1013.HEIC"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/recovered-weapon-pairs-20261109/REVOLVER_1896_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/recovered-weapon-pairs-20261109/REVOLVER_1896.glb",
+          "size": 85941536,
+          "sha256": "8ed4aacc3b2f44e0cae8c114e40643a63b5dd623251ec918242ab95888fe18d3"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_MAKET",
+          "destination": "Тактильный стол с прозрачным экраном",
+          "purpose": "Интерактивный показ",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H3/MAKET/SOLDIER_FLINT_PISTOL",
@@ -1316,7 +1351,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_view.jpg"
       },
-      "weaponDraftStatus": "Есть фото, сканы не найдены"
+      "releaseDraft": {
+        "id": "384f2adb-c1d1-5c1a-894c-c0316f1d631c",
+        "name": "SOLDIER_FLINT_PISTOL",
+        "folder": "H3/MAKET/SOLDIER_FLINT_PISTOL",
+        "size": 78295636,
+        "sourceHash": "b9be8b4cac0a6d69872851d696e86f43539864505f8fe6b89ccb489d6a4f6396",
+        "createdAt": "2026-11-09T15:05:05.804339+00:00",
+        "updatedAt": "2026-11-09T15:05:05.804339+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка двух исходных сканов. Вход в ствол сохранён по скану.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_view.jpg",
+            "caption": "IMG_1005.HEIC"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/recovered-weapon-pairs-20261109/SOLDIER_FLINT_PISTOL_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/recovered-weapon-pairs-20261109/SOLDIER_FLINT_PISTOL.glb",
+          "size": 78295636,
+          "sha256": "b9be8b4cac0a6d69872851d696e86f43539864505f8fe6b89ccb489d6a4f6396"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_MAKET",
+          "destination": "Тактильный стол с прозрачным экраном",
+          "purpose": "Интерактивный показ",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H3/MAKET/STEYR_1912_52",
