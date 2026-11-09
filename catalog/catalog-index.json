@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:41:18.396Z",
+  "updatedAt": "2026-11-09T11:49:38.451Z",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -702,20 +702,6 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_view.jpg"
-      }
-    },
-    {
-      "path": "H2/INTERACTIVETABLE/PROJECTILE",
-      "name": "PROJECTILE",
-      "hasSource": true,
-      "tzGroupIds": [
-        "H2_INTERACTIVETABLE"
-      ],
-      "placement": {
-        "hall": "Зал 2",
-        "code": "H2_INTERACTIVETABLE",
-        "destination": "Интерактивный вступительный стол Зала 2",
-        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
       }
     },
     {
@@ -1555,7 +1541,6 @@
     "H2/BATTLE/WALL_GUN_708",
     "H2/BATTLE/WEAPON_987",
     "H2/INTERACTIVETABLE",
-    "H2/INTERACTIVETABLE/PROJECTILE",
     "H2/WEAPONS",
     "H2/WEAPONS/EXPERIMENT",
     "H2/WEAPONS/EXPERIMENT/MULTIBARREL_PISTOL_1094",
@@ -1696,9 +1681,7 @@
       "hall": "H2",
       "hallTitle": "Зал 2",
       "title": "Интерактивный вступительный стол Зала 2",
-      "objectPaths": [
-        "H2/INTERACTIVETABLE/PROJECTILE"
-      ],
+      "objectPaths": [],
       "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
       "sourceExcerpt": "\nПродюсер: Алёна Вот тут хорошо бы сметчиить снаряды с моими экранами в этом же зале-Николай сказал, что возможно снарядов не будет (не успеют найти, те это вообще под вопросом) \n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\t\n\n\tPROJECTILE\nСна"
     },
