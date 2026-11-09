@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:34:49.828350+00:00",
+  "updatedAt": "2026-11-09T21:28:22.045674+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -2099,27 +2099,30 @@
         "id": "a7a97ef1-7757-520a-bd6b-a0eb45c97dee",
         "name": "BRONZE_DAGGER",
         "folder": "VESTIBUL/MANIFEST/BRONZE_DAGGER",
-        "size": 52068768,
-        "sourceHash": "9028aac30a8b69a357bced1da9cb838ed9b89383c609f10e0582267dd4267558",
+        "size": 53458444,
+        "sourceHash": "0b726e813a5fee99d22fbcfa8297eac75d10a94cbbe2967f17cab477cfb73d4e",
         "createdAt": "2026-11-09T19:21:48.757203+00:00",
-        "updatedAt": "2026-11-09T20:34:49.828350+00:00",
+        "updatedAt": "2026-11-09T21:28:22.045674+00:00",
         "draft": true,
         "variantLabel": "8K",
         "textureResolution": "8K",
         "presentationKind": "artifact",
-        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-8k-20261110/BRONZE_DAGGER_poster.jpg",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-raw13-8k-20261110/BRONZE_DAGGER_poster.jpg",
         "photos": [],
-        "notes": "Две стороны Polycam №119 и №120 сшиты. Ткань удалена, шесть сквозных отверстий рукояти сохранены. Текстуры 8K.",
+        "notes": "Сшивка сканов Polycam №119 и №120. Сохранены рельеф и шесть сквозных отверстий рукояти. Основные текстуры 8K.",
         "asset": {
-          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-8k-20261110/BRONZE_DAGGER.glb",
-          "size": 52068768,
-          "sha256": "9028aac30a8b69a357bced1da9cb838ed9b89383c609f10e0582267dd4267558"
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-raw13-8k-20261110/BRONZE_DAGGER.glb",
+          "size": 53458444,
+          "sha256": "0b726e813a5fee99d22fbcfa8297eac75d10a94cbbe2967f17cab477cfb73d4e"
         },
         "placement": {
           "hall": "Вестибюль",
           "code": "VESTIBUL_MANIFEST",
           "destination": "Видео-манифест",
           "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        },
+        "viewerDefaults": {
+          "orbit": "0deg 90deg 100%"
         }
       }
     },

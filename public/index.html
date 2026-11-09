@@ -243,7 +243,7 @@ function preparePresentation(viewer,model){
  viewer.orientation='0deg 0deg 0deg';
  delete viewer.dataset.weaponAxis;
  if(viewer===v){$('model-turn-control').hidden=true;$('model-turn').value='0';$('model-turn-value').value='0°';}
- viewer.dataset.homeOrbit='0deg 75deg 105%';
+ viewer.dataset.homeOrbit=model.viewerDefaults?.orbit||'0deg 75deg 105%';
  viewer.cameraOrbit=viewer.dataset.homeOrbit;
 }
 async function horizontalWeapon(viewer){
