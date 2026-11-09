@@ -102,7 +102,11 @@
       "tzGroupIds": [
         "H2_WEAPONS",
         "H2_AVATAR"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_view.jpg"
+      }
     },
     {
       "path": "H2/AVATAR/NAVAL_PISTOL",
@@ -134,7 +138,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/AWARD_GUN_933_1238_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/AWARD_GUN_933_1238_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/BLUNDERBUSS_697",
@@ -270,7 +278,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/FLINT_PISTOL_1632",
@@ -406,7 +418,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_PISTOL_1639_1162_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_PISTOL_1639_1162_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/FLINT_PISTOL_698",
@@ -476,7 +492,11 @@
         "VESTIBUL_MAINLOOP",
         "VESTIBUL_INFO_PRESET",
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/LARGE_BORE_GUN_712",
@@ -510,7 +530,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/NAVAL_BLUNDERBUSS_932_1212_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/NAVAL_BLUNDERBUSS_932_1212_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/OFFICER_GUN_924",
@@ -527,7 +551,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/OFFICER_PISTOL_984",
@@ -544,7 +572,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_PISTOL_984_1282_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_PISTOL_984_1282_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/PISTOL_PAIR_990",
@@ -561,7 +593,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_PAIR_990_1270_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_PAIR_990_1270_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/SMOOTHBORE_GUN_705",
@@ -578,7 +614,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_705_1345_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_705_1345_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/SMOOTHBORE_GUN_715",
@@ -595,7 +635,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_715_1256_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_715_1256_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/STILETTO_PISTOL_1005",
@@ -612,7 +656,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/STILETTO_PISTOL_1005_1288_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/STILETTO_PISTOL_1005_1288_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/WALL_GUN_708",
@@ -629,7 +677,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WALL_GUN_708_1351_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WALL_GUN_708_1351_view.jpg"
+      }
     },
     {
       "path": "H2/BATTLE/WEAPON_987",
@@ -646,7 +698,11 @@
       },
       "tzGroupIds": [
         "H2_BATTLE"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_view.jpg"
+      }
     },
     {
       "path": "H2/INTERACTIVETABLE/PROJECTILE",
@@ -763,7 +819,11 @@
       },
       "tzGroupIds": [
         "H2_WEAPONS"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOCKET_BAYONET_1078_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOCKET_BAYONET_1078_view.jpg"
+      }
     },
     {
       "path": "H2/WEAPONS/ZAMOK/FORSYTH_LOCK",
@@ -953,7 +1013,11 @@
       },
       "tzGroupIds": [
         "H3_MAKET"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_view.jpg"
+      }
     },
     {
       "path": "H3/MAKET/SOLDIER_FLINT_PISTOL",
@@ -970,7 +1034,11 @@
       },
       "tzGroupIds": [
         "H3_MAKET"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_view.jpg"
+      }
     },
     {
       "path": "H3/MAKET/STEYR_1912_52",
@@ -1002,7 +1070,11 @@
       },
       "tzGroupIds": [
         "H3_MAKET"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_view.jpg"
+      }
     },
     {
       "path": "H3/MAKET/WEAPON_739",
@@ -1019,7 +1091,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/BULLET/WEAPON_739",
@@ -1036,7 +1112,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
@@ -1053,7 +1133,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/BREECH_WEAPON_750_1108_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/BREECH_WEAPON_750_1108_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/PISTOLS/PISTOL_31",
@@ -1070,7 +1154,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_31_1096_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_31_1096_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/PULEMET/MAXIM_526",
@@ -1087,7 +1175,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/REVOLVER/REVOLVER_472",
@@ -1104,7 +1196,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_472_1089_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_472_1089_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLUTION/ZATVOR/MOSIN_RIFLE_257",
@@ -1121,7 +1217,11 @@
       },
       "tzGroupIds": [
         "H3_REVOLUTION"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MOSIN_RIFLE_257_1114_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MOSIN_RIFLE_257_1114_view.jpg"
+      }
     },
     {
       "path": "H3/REVOLVER_19C",
@@ -1230,6 +1330,10 @@
         "code": "VESTIBUL_MAINLOOP",
         "destination": "Основная графическая заставка",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/DAGGER_1169_1132_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/DAGGER_1169_1132_view.jpg"
       }
     },
     {
@@ -1246,6 +1350,10 @@
         "code": "VESTIBUL_MAINLOOP",
         "destination": "Основная графическая заставка",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
       }
     },
     {
@@ -1261,6 +1369,10 @@
         "code": "VESTIBUL_MAINLOOP",
         "destination": "Основная графическая заставка",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_949_1134_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_949_1134_view.jpg"
       }
     },
     {
@@ -1289,6 +1401,10 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/CROSSBOW_1624_1036_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/CROSSBOW_1624_1036_view.jpg"
       }
     },
     {
@@ -1303,6 +1419,10 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_view.jpg"
       }
     },
     {
@@ -1317,6 +1437,10 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MACHINE_GUN_397_1044_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MACHINE_GUN_397_1044_view.jpg"
       }
     },
     {
@@ -1331,6 +1455,10 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+      },
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PPSH_374_1052_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PPSH_374_1052_view.jpg"
       }
     },
     {
@@ -1368,7 +1496,11 @@
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR/HELMET_COMPLETE",
       "name": "Шлем в сборе",
       "hasSource": true,
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_front_preview.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1318.jpg"
+      }
     }
   ],
   "folders": [
