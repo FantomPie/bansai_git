@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:24:25.684375+00:00",
+  "updatedAt": "2026-11-09T20:34:49.828350+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -2099,21 +2099,21 @@
         "id": "a7a97ef1-7757-520a-bd6b-a0eb45c97dee",
         "name": "BRONZE_DAGGER",
         "folder": "VESTIBUL/MANIFEST/BRONZE_DAGGER",
-        "size": 81214900,
-        "sourceHash": "845e32793e2929d5fb53e04d616701f74800526113dbfc35c2f2c880032b1f53",
+        "size": 52068768,
+        "sourceHash": "9028aac30a8b69a357bced1da9cb838ed9b89383c609f10e0582267dd4267558",
         "createdAt": "2026-11-09T19:21:48.757203+00:00",
-        "updatedAt": "2026-11-09T19:21:48.757203+00:00",
+        "updatedAt": "2026-11-09T20:34:49.828350+00:00",
         "draft": true,
-        "variantLabel": "Исходный скан Polycam",
+        "variantLabel": "8K",
         "textureResolution": "8K",
         "presentationKind": "artifact",
-        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/BRONZE_DAGGER_polycam_preview.jpg",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-8k-20261110/BRONZE_DAGGER_poster.jpg",
         "photos": [],
-        "notes": "Исходный скан Polycam №119. Подложка и фрагменты окружения сохранены.",
+        "notes": "Две стороны Polycam №119 и №120 сшиты. Ткань удалена, шесть сквозных отверстий рукояти сохранены. Текстуры 8K.",
         "asset": {
-          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/BRONZE_DAGGER.glb",
-          "size": 81214900,
-          "sha256": "845e32793e2929d5fb53e04d616701f74800526113dbfc35c2f2c880032b1f53"
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-bronze-dagger-8k-20261110/BRONZE_DAGGER.glb",
+          "size": 52068768,
+          "sha256": "9028aac30a8b69a357bced1da9cb838ed9b89383c609f10e0582267dd4267558"
         },
         "placement": {
           "hall": "Вестибюль",
