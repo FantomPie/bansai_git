@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T17:32:56.981454+00:00",
+  "updatedAt": "2026-11-09T17:36:55.352146+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1481,7 +1481,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва у приклада и ремня"
+      "releaseDraft": {
+        "id": "57873c0d-7064-554a-b0ad-a5e0a6946352",
+        "name": "WEAPON_739",
+        "folder": "H3/MAKET/WEAPON_739",
+        "size": 41969280,
+        "sourceHash": "2e2a348749dc7698bb7671e939f6be059bfdbc5b9b07d28f6bb8c6e808f9d86f",
+        "createdAt": "2026-11-09T17:36:55.352146+00:00",
+        "updatedAt": "2026-11-09T17:36:55.352146+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка сканов с заменой второго ракурса. Убраны ложные перемычки у приклада и ремня. Тонкие кромки ремня переданы с детализацией исходного скана.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg",
+            "caption": "Фото экспоната №739"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-739-8k-20261109/WEAPON_739_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-739-8k-20261109/WEAPON_739.glb",
+          "size": 41969280,
+          "sha256": "2e2a348749dc7698bb7671e939f6be059bfdbc5b9b07d28f6bb8c6e808f9d86f"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Интерактивный показ",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H3/REVOLUTION/BULLET/WEAPON_739",
@@ -1503,7 +1538,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва у приклада и ремня"
+      "releaseDraft": {
+        "id": "d4b51399-f30f-5af0-8185-dd6232c6857c",
+        "name": "WEAPON_739",
+        "folder": "H3/REVOLUTION/BULLET/WEAPON_739",
+        "size": 41969280,
+        "sourceHash": "2e2a348749dc7698bb7671e939f6be059bfdbc5b9b07d28f6bb8c6e808f9d86f",
+        "createdAt": "2026-11-09T17:36:55.352146+00:00",
+        "updatedAt": "2026-11-09T17:36:55.352146+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка сканов с заменой второго ракурса. Убраны ложные перемычки у приклада и ремня. Тонкие кромки ремня переданы с детализацией исходного скана.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg",
+            "caption": "Фото экспоната №739"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-739-8k-20261109/WEAPON_739_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-739-8k-20261109/WEAPON_739.glb",
+          "size": 41969280,
+          "sha256": "2e2a348749dc7698bb7671e939f6be059bfdbc5b9b07d28f6bb8c6e808f9d86f"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
