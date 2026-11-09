@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:28:22.045674+00:00",
+  "updatedAt": "2026-11-09T21:56:00.545042+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1742,7 +1742,45 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_view.jpg"
       },
-      "weaponDraftStatus": "Найдено 6 сканов, 3D в сборке"
+      "releaseDraft": {
+        "id": "9fa42ac5-4a64-526b-906e-816d4edc2d8d",
+        "name": "MAXIM_526",
+        "folder": "H3/REVOLUTION/PULEMET/MAXIM_526",
+        "size": 56243716,
+        "sourceHash": "78d91672a7748ba65442096be5704fd386820584eedfeaed8ab24bd6319f77fc",
+        "createdAt": "2026-11-09T21:56:00.545042+00:00",
+        "updatedAt": "2026-11-09T21:56:00.545042+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "artifact",
+        "viewerDefaults": {
+          "orbit": "-40deg 72deg 102%"
+        },
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/maxim-526-8k-20261110/MAXIM_526_poster.jpg",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_view.jpg",
+            "caption": "Фотография экспоната"
+          }
+        ],
+        "notes": "Сборка по сканам Polycam. Щит и дульный узел сверены с фотографиями экспоната. Восстановлены повреждённые участки ободов и спиц.",
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        },
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/maxim-526-8k-20261110/MAXIM_526.glb",
+          "size": 56243716,
+          "sha256": "78d91672a7748ba65442096be5704fd386820584eedfeaed8ab24bd6319f77fc"
+        }
+      }
     },
     {
       "path": "H3/REVOLUTION/REVOLVER/REVOLVER_472",
