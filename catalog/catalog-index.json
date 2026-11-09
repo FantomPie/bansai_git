@@ -87,28 +87,6 @@
       ]
     },
     {
-      "path": "H2/AVATAR/FUSIL_1431",
-      "name": "FUSIL_1431",
-      "hasSource": true,
-      "placement": {
-        "hall": "Зал 2",
-        "code": "H2_WEAPONS",
-        "destination": "Серия вертикальных экранов",
-        "purpose": "Оружие персонажей и показ механизмов",
-        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
-        "status": "section_confirmed",
-        "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
-      },
-      "tzGroupIds": [
-        "H2_WEAPONS",
-        "H2_AVATAR"
-      ],
-      "photo": {
-        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_thumb.jpg",
-        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_view.jpg"
-      }
-    },
-    {
       "path": "H2/AVATAR/NAVAL_PISTOL",
       "name": "NAVAL_PISTOL",
       "hasSource": true,
@@ -1065,7 +1043,11 @@
       "tzGroupIds": [
         "H2_WEAPONS",
         "H2_AVATAR"
-      ]
+      ],
+      "photo": {
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_thumb.jpg",
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FUSIL_1431_1084_view.jpg"
+      }
     },
     {
       "path": "H2/WEAPONS/PLUG_BAYONET",
@@ -2330,7 +2312,6 @@
     "H2",
     "H2/AVATAR",
     "H2/AVATAR/BOARDING_MORTAR",
-    "H2/AVATAR/FUSIL_1431",
     "H2/AVATAR/NAVAL_PISTOL",
     "H2/BATTLE",
     "H2/BATTLE/AWARD_GUN_933",
@@ -2529,7 +2510,6 @@
       "hallTitle": "Зал 2",
       "title": "Серия вертикальных экранов",
       "objectPaths": [
-        "H2/AVATAR/FUSIL_1431",
         "H2/WEAPONS/EXPERIMENT/MULTIBARREL_PISTOL_1094",
         "H2/WEAPONS/FITIL/MATCHLOCK_706",
         "H2/WEAPONS/KOLES/WHEELLOCK_703",
@@ -2591,7 +2571,6 @@
       "title": "Интерактивные ИИ-аватары_зал2",
       "objectPaths": [
         "H2/AVATAR/BOARDING_MORTAR",
-        "H2/AVATAR/FUSIL_1431",
         "H2/WEAPONS/KREMEN/FUSIL_1431",
         "H3/WEAPON_19C"
       ],
