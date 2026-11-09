@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:42:30.149674+00:00",
+  "updatedAt": "2026-11-09T20:24:25.684375+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -2352,21 +2352,21 @@
         "id": "f729f19c-cb05-52d3-b991-212b574702da",
         "name": "RIFLE_1774",
         "folder": "VESTIBUL/MANIFEST/RIFLE_1774",
-        "size": 81550304,
-        "sourceHash": "043098232b864ae6e78819a68849b7ee5d8507a55129d651d663f346d4b955d0",
+        "size": 37102404,
+        "sourceHash": "7461f7a9ddf4b8b232428f9cf82642207469daaa657e36d068546d27d9084f55",
         "createdAt": "2026-11-09T19:21:48.757203+00:00",
-        "updatedAt": "2026-11-09T19:21:48.757203+00:00",
+        "updatedAt": "2026-11-09T20:24:25.684375+00:00",
         "draft": true,
-        "variantLabel": "Исходный скан Polycam",
+        "variantLabel": "8K",
         "textureResolution": "8K",
         "presentationKind": "artifact",
-        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/RIFLE_1774_polycam_preview.jpg",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-rifle-1774-8k-20261110/RIFLE_1774_poster.jpg",
         "photos": [],
-        "notes": "Исходный скан Polycam №116. Подложка и фрагменты окружения сохранены.",
+        "notes": "Две стороны Polycam №116 и №117 сшиты. Ткань и опоры удалены. Текстуры 8K.",
         "asset": {
-          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/RIFLE_1774.glb",
-          "size": 81550304,
-          "sha256": "043098232b864ae6e78819a68849b7ee5d8507a55129d651d663f346d4b955d0"
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-rifle-1774-8k-20261110/RIFLE_1774.glb",
+          "size": 37102404,
+          "sha256": "7461f7a9ddf4b8b232428f9cf82642207469daaa657e36d068546d27d9084f55"
         },
         "placement": {
           "hall": "Вестибюль",
