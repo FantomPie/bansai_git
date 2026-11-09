@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T16:55:58.322794+00:00",
+  "updatedAt": "2026-11-09T17:32:56.981454+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1424,7 +1424,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_view.jpg"
       },
-      "weaponDraftStatus": "Доработка скобы и металлической тяги"
+      "releaseDraft": {
+        "id": "ff7b6903-1792-5989-b087-9a10fbaa1f2e",
+        "name": "TULA_PERCUSSION_PISTOL",
+        "folder": "H3/MAKET/TULA_PERCUSSION_PISTOL",
+        "size": 62876464,
+        "sourceHash": "bbf60fb7bbaa78fb2ebad179d791d0e8adbb6b68f4f5799d5cc4908bb3e7c68a",
+        "createdAt": "2026-11-09T17:32:56.981454+00:00",
+        "updatedAt": "2026-11-09T17:32:56.981454+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка двух сканов Polycam. Просвет спусковой скобы и отверстие на спуске восстановлены по фотографиям. Цвет тяги уточнён по IMG_1009.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_view.jpg",
+            "caption": "Фото экспоната IMG_1009"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/tula-percussion-pistol-v10-20261109/TULA_PERCUSSION_PISTOL_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/tula-percussion-pistol-v10-20261109/TULA_PERCUSSION_PISTOL.glb",
+          "size": 62876464,
+          "sha256": "bbf60fb7bbaa78fb2ebad179d791d0e8adbb6b68f4f5799d5cc4908bb3e7c68a"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_MAKET",
+          "destination": "Тактильный стол с прозрачным экраном",
+          "purpose": "Интерактивный показ",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H3/MAKET/WEAPON_739",
