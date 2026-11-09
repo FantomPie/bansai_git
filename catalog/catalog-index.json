@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:14:36.464311+00:00",
+  "updatedAt": "2026-11-09T13:26:38.244559+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1943,6 +1943,39 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "4e64e802-383c-5dd4-aa9b-4972fa8e5471",
+        "name": "GRENADE · черновик",
+        "folder": "VESTIBUL/MANIFEST/GRENADE",
+        "size": 4969324,
+        "sourceHash": "460d3a2047e68de28fb288b59e550431d3569fe1abfac3be655c731b9e625d29",
+        "createdAt": "2026-11-09T13:26:38.244559+00:00",
+        "updatedAt": "2026-11-09T13:26:38.244559+00:00",
+        "draft": true,
+        "variantLabel": "Черновик · Polycam 4K",
+        "textureResolution": "4K",
+        "presentationKind": "artifact",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/grenade-polycam-draft-20261109/GRENADE_poster.jpg",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/GRENADE_1022_view.jpg",
+            "caption": "IMG_1022.HEIC"
+          }
+        ],
+        "notes": "Скан Polycam. Подложка удалена. Снизу отсутствует участок, которым граната стояла на столе.",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/grenade-polycam-draft-20261109/GRENADE.glb",
+          "size": 4969324,
+          "sha256": "460d3a2047e68de28fb288b59e550431d3569fe1abfac3be655c731b9e625d29"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
       }
     },
     {
