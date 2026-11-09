@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:21:48.757203+00:00",
+  "updatedAt": "2026-11-09T19:42:30.149674+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -471,15 +471,48 @@
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
       "tzGroupIds": [
-        "VESTIBUL_MAINLOOP",
-        "VESTIBUL_INFO_PRESET",
         "H2_BATTLE"
       ],
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва приклада"
+      "releaseDraft": {
+        "id": "594354e0-7b33-54b7-94a7-edcd26a3ba1a",
+        "name": "FLINT_RIFLE_718",
+        "folder": "H2/BATTLE/FLINT_RIFLE_718",
+        "size": 51508452,
+        "sourceHash": "5e3bedd6155458c55fd92c3efd455e21520959a0a5a3df907a9d90eaaf81db91",
+        "createdAt": "2026-11-09T19:42:30.149674+00:00",
+        "updatedAt": "2026-11-09T19:42:30.149674+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Модель собрана из двух сканов. Текстуры 8K.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg",
+            "caption": "Оригинал, IMG_1122"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/flint-rifle-718-8k-20261110/FLINT_RIFLE_718_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/flint-rifle-718-8k-20261110/FLINT_RIFLE_718.glb",
+          "size": 51508452,
+          "sha256": "5e3bedd6155458c55fd92c3efd455e21520959a0a5a3df907a9d90eaaf81db91"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MAINLOOP",
+          "destination": "Основная графическая заставка",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H2/BATTLE/LARGE_BORE_GUN_712",
@@ -1951,8 +1984,7 @@
       "hasSource": true,
       "tzGroupIds": [
         "VESTIBUL_MAINLOOP",
-        "VESTIBUL_INFO_PRESET",
-        "H2_BATTLE"
+        "VESTIBUL_INFO_PRESET"
       ],
       "placement": {
         "hall": "Вестибюль",
@@ -1964,7 +1996,39 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва приклада"
+      "releaseDraft": {
+        "id": "8bb1a65f-9cbe-5244-93b2-38450e34414c",
+        "name": "FLINT_RIFLE_718",
+        "folder": "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
+        "size": 51508452,
+        "sourceHash": "5e3bedd6155458c55fd92c3efd455e21520959a0a5a3df907a9d90eaaf81db91",
+        "createdAt": "2026-11-09T19:42:30.149674+00:00",
+        "updatedAt": "2026-11-09T19:42:30.149674+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Модель собрана из двух сканов. Текстуры 8K.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg",
+            "caption": "Оригинал, IMG_1122"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/flint-rifle-718-8k-20261110/FLINT_RIFLE_718_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/flint-rifle-718-8k-20261110/FLINT_RIFLE_718.glb",
+          "size": 51508452,
+          "sha256": "5e3bedd6155458c55fd92c3efd455e21520959a0a5a3df907a9d90eaaf81db91"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MAINLOOP",
+          "destination": "Основная графическая заставка",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
+      }
     },
     {
       "path": "VESTIBUL/MAINLOOP/REVOLVER_949",
@@ -2684,7 +2748,6 @@
       "hallTitle": "Вестибюль",
       "title": "Основная графическая заставка",
       "objectPaths": [
-        "H2/BATTLE/FLINT_RIFLE_718",
         "VESTIBUL/MAINLOOP/DAGGER_1169",
         "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
         "VESTIBUL/MAINLOOP/REVOLVER_949"
@@ -2698,7 +2761,6 @@
       "hallTitle": "Вестибюль",
       "title": "Графический шаблон информационных материалов",
       "objectPaths": [
-        "H2/BATTLE/FLINT_RIFLE_718",
         "VESTIBUL/INFO_PRESET/DAGGER",
         "VESTIBUL/INFO_PRESET/REVOLVER",
         "VESTIBUL/MAINLOOP/DAGGER_1169",
@@ -2785,8 +2847,7 @@
         "H2/BATTLE/SMOOTHBORE_GUN_715",
         "H2/BATTLE/STILETTO_PISTOL_1005",
         "H2/BATTLE/WALL_GUN_708",
-        "H2/BATTLE/WEAPON_987",
-        "VESTIBUL/MAINLOOP/FLINT_RIFLE_718"
+        "H2/BATTLE/WEAPON_987"
       ],
       "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
       "sourceExcerpt": "\nПродюсер: Катя\nСинхронизироваться с Юлей, так как оружие из зала 2 используется и здесь\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\tДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tГоризонтальный батальный\nэкран \n\tFLINT_PISTOL_1632\nКремнёвый пистолет · № 1632\n1_Пистолет с кремневым замко"
