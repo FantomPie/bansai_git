@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T17:36:55.352146+00:00",
+  "updatedAt": "2026-11-09T19:21:48.757203+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -2031,7 +2031,33 @@
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
       },
-      "weaponDraftStatus": "Фото и сканы пока не найдены"
+      "releaseDraft": {
+        "id": "a7a97ef1-7757-520a-bd6b-a0eb45c97dee",
+        "name": "BRONZE_DAGGER",
+        "folder": "VESTIBUL/MANIFEST/BRONZE_DAGGER",
+        "size": 81214900,
+        "sourceHash": "845e32793e2929d5fb53e04d616701f74800526113dbfc35c2f2c880032b1f53",
+        "createdAt": "2026-11-09T19:21:48.757203+00:00",
+        "updatedAt": "2026-11-09T19:21:48.757203+00:00",
+        "draft": true,
+        "variantLabel": "Исходный скан Polycam",
+        "textureResolution": "8K",
+        "presentationKind": "artifact",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/BRONZE_DAGGER_polycam_preview.jpg",
+        "photos": [],
+        "notes": "Исходный скан Polycam №119. Подложка и фрагменты окружения сохранены.",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/BRONZE_DAGGER.glb",
+          "size": 81214900,
+          "sha256": "845e32793e2929d5fb53e04d616701f74800526113dbfc35c2f2c880032b1f53"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
+      }
     },
     {
       "path": "VESTIBUL/MANIFEST/CROSSBOW_1624",
@@ -2258,7 +2284,33 @@
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
       },
-      "weaponDraftStatus": "Фото и сканы пока не найдены"
+      "releaseDraft": {
+        "id": "f729f19c-cb05-52d3-b991-212b574702da",
+        "name": "RIFLE_1774",
+        "folder": "VESTIBUL/MANIFEST/RIFLE_1774",
+        "size": 81550304,
+        "sourceHash": "043098232b864ae6e78819a68849b7ee5d8507a55129d651d663f346d4b955d0",
+        "createdAt": "2026-11-09T19:21:48.757203+00:00",
+        "updatedAt": "2026-11-09T19:21:48.757203+00:00",
+        "draft": true,
+        "variantLabel": "Исходный скан Polycam",
+        "textureResolution": "8K",
+        "presentationKind": "artifact",
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/RIFLE_1774_polycam_preview.jpg",
+        "photos": [],
+        "notes": "Исходный скан Polycam №116. Подложка и фрагменты окружения сохранены.",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-polycam-scans-20261110/RIFLE_1774.glb",
+          "size": 81550304,
+          "sha256": "043098232b864ae6e78819a68849b7ee5d8507a55129d651d663f346d4b955d0"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
+      }
     },
     {
       "path": "H4/SCANNER/MKB42",
