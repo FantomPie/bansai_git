@@ -28,6 +28,7 @@ function currentModel(id,model){
   variantLabel:'v14 · 8K',textureResolution:'8K',updatedAt:'2026-11-09T00:00:00.000Z'};
 }
 async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
+const publicDraft=({asset,...model})=>model;
 const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
 // Stable assets: conditional caching, byte ranges and optional precompressed transfers.
@@ -57,7 +58,9 @@ const handler=async(req,res)=>{
   if(req.method==='GET'&&url.pathname==='/api/access')return send(res,200,{canUpload:localAdmin});
   if(req.method==='GET'&&url.pathname==='/api/catalog'){
    const index=await catalogIndex();
-   const models=[];for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const id=file.slice(0,-5);const m=currentModel(id,JSON.parse(await readFile(dir+file,'utf8')));if(!published(m,index))continue;const info=await stat(dir+id+'.glb');models.push({...m,id,createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
+   const models=index.objects.flatMap(({releaseDraft})=>releaseDraft&&published(releaseDraft,index)?[publicDraft(releaseDraft)]:[]);
+   const draftIds=new Set(models.map(model=>model.id));
+   for(const file of await readdir(dir)){if(!/^[0-9a-f-]{36}\.json$/.test(file))continue;try{const id=file.slice(0,-5);if(draftIds.has(id))continue;const m=currentModel(id,JSON.parse(await readFile(dir+file,'utf8')));if(!published(m,index))continue;const info=await stat(dir+id+'.glb');models.push({...m,id,createdAt:m.createdAt||info.birthtime.toISOString()});}catch{}}
    models.sort((a,b)=>(b.updatedAt||b.createdAt).localeCompare(a.updatedAt||a.createdAt));return send(res,200,{...index,models,autoImport:importer.status});
   }
   if(req.method==='POST'&&url.pathname==='/api/models'){
@@ -71,9 +74,14 @@ const handler=async(req,res)=>{
   }
   const match=url.pathname.match(/^\/(api\/models|models)\/([0-9a-f-]{36})(\.glb)?$/);
   if(['GET','HEAD'].includes(req.method)&&match){
-   const id=match[2];
+   const id=match[2],index=await catalogIndex();
+   const draft=index.objects.find(object=>object.releaseDraft?.id===id)?.releaseDraft;
+   if(draft&&published(draft,index)){
+    if(match[1]==='api/models')return send(res,200,publicDraft(draft));
+    return await assetResponse(req,res,await armorCachedModel(draft.asset),'model/gltf-binary');
+   }
    const model=currentModel(id,JSON.parse(await readFile(dir+id+'.json','utf8')));
-   if(!published(model,await catalogIndex()))return send(res,404,{error:'Модель не опубликована'});
+   if(!published(model,index))return send(res,404,{error:'Модель не опубликована'});
    if(match[1]==='api/models')return send(res,200,model);
    const modelFile=id===wheellock703Id&&model.sourceHash===wheellock703V14.sha256
     ?await armorCachedModel(wheellock703V14):dir+id+'.glb';

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:49:38.451Z",
+  "updatedAt": "2026-11-09T13:14:36.464311+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -121,7 +121,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H2/BATTLE/AWARD_GUN_933",
@@ -142,7 +143,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/AWARD_GUN_933_1238_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/AWARD_GUN_933_1238_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Требуется сверка формы дула с фото"
     },
     {
       "path": "H2/BATTLE/BLUNDERBUSS_697",
@@ -282,7 +284,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва"
     },
     {
       "path": "H2/BATTLE/FLINT_PISTOL_1632",
@@ -422,7 +425,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_PISTOL_1639_1162_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_PISTOL_1639_1162_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Дефект геометрии в исходном скане"
     },
     {
       "path": "H2/BATTLE/FLINT_PISTOL_698",
@@ -496,7 +500,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва приклада"
     },
     {
       "path": "H2/BATTLE/LARGE_BORE_GUN_712",
@@ -534,6 +539,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/NAVAL_BLUNDERBUSS_932_1212_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/NAVAL_BLUNDERBUSS_932_1212_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "f35fc3ec-4747-4820-ac04-ccbae3211f62",
+        "name": "NAVAL_BLUNDERBUSS_932 · черновик",
+        "folder": "H2/BATTLE/NAVAL_BLUNDERBUSS_932",
+        "size": 60465884,
+        "sourceHash": "60541456f4cbc34095edad97ac091f9d01d7a826417de06304a76d8deae06315",
+        "createdAt": "2026-11-09T12:36:43.565Z",
+        "updatedAt": "2026-11-09T12:39:48.553600+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Версия с проверенным локальным исправлением текстуры дула.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_f35fc3ec-4747-4820-ac04-ccbae3211f62.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_f35fc3ec-4747-4820-ac04-ccbae3211f62_IMG_1211_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_f35fc3ec-4747-4820-ac04-ccbae3211f62_IMG_1211_small.jpg",
+            "caption": "IMG_1211.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/NAVAL_BLUNDERBUSS_932.glb",
+          "size": 60465884,
+          "sha256": "60541456f4cbc34095edad97ac091f9d01d7a826417de06304a76d8deae06315"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -555,7 +596,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва у приклада и дула"
     },
     {
       "path": "H2/BATTLE/OFFICER_PISTOL_984",
@@ -576,6 +618,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_PISTOL_984_1282_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_PISTOL_984_1282_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "0bae8077-c717-490d-822b-5b05661aa15c",
+        "name": "OFFICER_PISTOL_984 · черновик",
+        "folder": "H2/BATTLE/OFFICER_PISTOL_984",
+        "size": 78083700,
+        "sourceHash": "307741b79e1208e9bb8dfe1537b10489596f51f8bab71b8bf0449826b93085df",
+        "createdAt": "2026-11-09T12:36:42.829Z",
+        "updatedAt": "2026-11-09T12:39:47.926414+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Канал ствола неглубокий на исходном скане.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_0bae8077-c717-490d-822b-5b05661aa15c.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_0bae8077-c717-490d-822b-5b05661aa15c_IMG_1282_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_0bae8077-c717-490d-822b-5b05661aa15c_IMG_1282_small.jpg",
+            "caption": "IMG_1282.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/OFFICER_PISTOL_984.glb",
+          "size": 78083700,
+          "sha256": "307741b79e1208e9bb8dfe1537b10489596f51f8bab71b8bf0449826b93085df"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -597,6 +675,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_PAIR_990_1270_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_PAIR_990_1270_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "0dd02eb3-56ec-4432-a3dd-f661aad86cd3",
+        "name": "PISTOL_PAIR_990 · черновик",
+        "folder": "H2/BATTLE/PISTOL_PAIR_990",
+        "size": 37278192,
+        "sourceHash": "8a16307aea88d79177b7525637de0df7f3f08f1c787d36a48b15605c27dcd8b7",
+        "createdAt": "2026-11-09T12:36:40.749Z",
+        "updatedAt": "2026-11-09T12:39:44.489552+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Обе стороны одного пистолета. Черновая сшивка.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_0dd02eb3-56ec-4432-a3dd-f661aad86cd3.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_0dd02eb3-56ec-4432-a3dd-f661aad86cd3_IMG_1270_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_0dd02eb3-56ec-4432-a3dd-f661aad86cd3_IMG_1270_small.jpg",
+            "caption": "IMG_1270.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/PISTOL_PAIR_990.glb",
+          "size": 37278192,
+          "sha256": "8a16307aea88d79177b7525637de0df7f3f08f1c787d36a48b15605c27dcd8b7"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -618,6 +732,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_705_1345_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_705_1345_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "cd405439-2850-4faa-9f93-ae6c6c8a5a70",
+        "name": "SMOOTHBORE_GUN_705 · черновик",
+        "folder": "H2/BATTLE/SMOOTHBORE_GUN_705",
+        "size": 35912184,
+        "sourceHash": "833a7656e526aa53a12dbebcc0b7db17ce9e1eb791c704ea3683ca7ea07273b0",
+        "createdAt": "2026-11-09T12:36:41.105Z",
+        "updatedAt": "2026-11-09T12:39:44.971858+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Выступ на затыльнике сохранён со скана A.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_cd405439-2850-4faa-9f93-ae6c6c8a5a70.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_cd405439-2850-4faa-9f93-ae6c6c8a5a70_IMG_1345_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_cd405439-2850-4faa-9f93-ae6c6c8a5a70_IMG_1345_small.jpg",
+            "caption": "IMG_1345.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/SMOOTHBORE_GUN_705.glb",
+          "size": 35912184,
+          "sha256": "833a7656e526aa53a12dbebcc0b7db17ce9e1eb791c704ea3683ca7ea07273b0"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -639,6 +789,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_715_1256_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SMOOTHBORE_GUN_715_1256_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "4773388e-2438-4ed4-87a0-da8c207ff4c6",
+        "name": "SMOOTHBORE_GUN_715 · черновик",
+        "folder": "H2/BATTLE/SMOOTHBORE_GUN_715",
+        "size": 31239124,
+        "sourceHash": "cdeaf90cc29387943159f4bd0f4cfa50a2de93255f99f085e339a4aaefad998b",
+        "createdAt": "2026-11-09T12:36:41.395Z",
+        "updatedAt": "2026-11-09T12:39:45.447762+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "На некоторых ракурсах виден мелкий фрагмент у приклада.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_4773388e-2438-4ed4-87a0-da8c207ff4c6.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_4773388e-2438-4ed4-87a0-da8c207ff4c6_IMG_1256_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_4773388e-2438-4ed4-87a0-da8c207ff4c6_IMG_1256_small.jpg",
+            "caption": "IMG_1256.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/SMOOTHBORE_GUN_715.glb",
+          "size": 31239124,
+          "sha256": "cdeaf90cc29387943159f4bd0f4cfa50a2de93255f99f085e339a4aaefad998b"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -660,6 +846,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/STILETTO_PISTOL_1005_1288_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/STILETTO_PISTOL_1005_1288_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "4fa7eabd-cf6c-4816-9bfb-5d4e69b69b9d",
+        "name": "STILETTO_PISTOL_1005 · черновик",
+        "folder": "H2/BATTLE/STILETTO_PISTOL_1005",
+        "size": 37553992,
+        "sourceHash": "373b734f3dd810b3ebd7d42f6eb5175f6a53ac1286ba2d4ab140037681e5aece",
+        "createdAt": "2026-11-09T12:36:41.675Z",
+        "updatedAt": "2026-11-09T12:39:45.901384+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка с сохранённым клинком.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_4fa7eabd-cf6c-4816-9bfb-5d4e69b69b9d.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_4fa7eabd-cf6c-4816-9bfb-5d4e69b69b9d_IMG_1288_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_4fa7eabd-cf6c-4816-9bfb-5d4e69b69b9d_IMG_1288_small.jpg",
+            "caption": "IMG_1288.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/STILETTO_PISTOL_1005.glb",
+          "size": 37553992,
+          "sha256": "373b734f3dd810b3ebd7d42f6eb5175f6a53ac1286ba2d4ab140037681e5aece"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -681,6 +903,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WALL_GUN_708_1351_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WALL_GUN_708_1351_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "d930c7e9-7cb3-49ad-94bd-9c5e32676c07",
+        "name": "WALL_GUN_708 · черновик",
+        "folder": "H2/BATTLE/WALL_GUN_708",
+        "size": 49813140,
+        "sourceHash": "5b91bbada78709e63ef33a2cd3691df4b1824b460360a2d83dab1b47004b4ce4",
+        "createdAt": "2026-11-09T12:36:42.021Z",
+        "updatedAt": "2026-11-09T12:39:46.433980+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Удалён крупный отдельный фрагмент над стволом. Мелкие остатки видны вблизи.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_d930c7e9-7cb3-49ad-94bd-9c5e32676c07.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_d930c7e9-7cb3-49ad-94bd-9c5e32676c07_IMG_1351_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_d930c7e9-7cb3-49ad-94bd-9c5e32676c07_IMG_1351_small.jpg",
+            "caption": "IMG_1351.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/WALL_GUN_708.glb",
+          "size": 49813140,
+          "sha256": "5b91bbada78709e63ef33a2cd3691df4b1824b460360a2d83dab1b47004b4ce4"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -702,6 +960,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_987_1264_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "976b7de4-7bc1-4839-98c5-b0ba790de836",
+        "name": "WEAPON_987 · черновик",
+        "folder": "H2/BATTLE/WEAPON_987",
+        "size": 64340484,
+        "sourceHash": "5bf58deec804aeab5fcb595117230e328c32912a25b51d69c6edfa29851653a1",
+        "createdAt": "2026-11-09T12:36:42.400Z",
+        "updatedAt": "2026-11-09T12:39:46.980786+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка с орнаментом.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_976b7de4-7bc1-4839-98c5-b0ba790de836.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_976b7de4-7bc1-4839-98c5-b0ba790de836_IMG_1264_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_976b7de4-7bc1-4839-98c5-b0ba790de836_IMG_1264_small.jpg",
+            "caption": "IMG_1264.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/WEAPON_987.glb",
+          "size": 64340484,
+          "sha256": "5bf58deec804aeab5fcb595117230e328c32912a25b51d69c6edfa29851653a1"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -788,7 +1082,8 @@
       },
       "tzGroupIds": [
         "H2_WEAPONS"
-      ]
+      ],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H2/WEAPONS/SOCKET_BAYONET",
@@ -809,7 +1104,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOCKET_BAYONET_1078_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOCKET_BAYONET_1078_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Обработка на паузе"
     },
     {
       "path": "H2/WEAPONS/ZAMOK/FORSYTH_LOCK",
@@ -826,13 +1122,15 @@
       },
       "tzGroupIds": [
         "H2_WEAPONS"
-      ]
+      ],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/KNIFE_19C",
       "name": "KNIFE_19C",
       "hasSource": true,
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/CHICAGO_PROTECTOR_1016",
@@ -847,7 +1145,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/DELVIGNE_PISTOL_753",
@@ -862,7 +1161,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/LOBNITZ_PISTOL_716",
@@ -877,7 +1177,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_289",
@@ -892,7 +1193,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_291",
@@ -907,7 +1209,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_297",
@@ -922,7 +1225,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_821",
@@ -937,7 +1241,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_825",
@@ -952,7 +1257,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_826",
@@ -967,7 +1273,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/PISTOL_915",
@@ -982,7 +1289,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/REVOLVER_1896",
@@ -1003,7 +1311,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_1896_1013_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Есть фото, сканы не найдены"
     },
     {
       "path": "H3/MAKET/SOLDIER_FLINT_PISTOL",
@@ -1024,7 +1333,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/SOLDIER_FLINT_PISTOL_1005_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Есть фото, сканы не найдены"
     },
     {
       "path": "H3/MAKET/STEYR_1912_52",
@@ -1039,7 +1349,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/MAKET/TULA_PERCUSSION_PISTOL",
@@ -1060,7 +1371,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/TULA_PERCUSSION_PISTOL_1009_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Есть фото, сканы не найдены"
     },
     {
       "path": "H3/MAKET/WEAPON_739",
@@ -1081,7 +1393,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва у приклада и ремня"
     },
     {
       "path": "H3/REVOLUTION/BULLET/WEAPON_739",
@@ -1102,7 +1415,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/WEAPON_739_1102_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва у приклада и ремня"
     },
     {
       "path": "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
@@ -1123,6 +1437,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/BREECH_WEAPON_750_1108_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/BREECH_WEAPON_750_1108_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "d4dbf0c4-5b1d-49a4-9a9a-6cdb99f21a35",
+        "name": "BREECH_WEAPON_750 · черновик",
+        "folder": "H3/REVOLUTION/KAZNO/BREECH_WEAPON_750",
+        "size": 38411872,
+        "sourceHash": "cb945d6d61c3472ba662833022ace24e8d4a81db3dc269634d52d400fc95620c",
+        "createdAt": "2026-11-09T12:52:06.122Z",
+        "updatedAt": "2026-11-09T12:52:06.523954+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_d4dbf0c4-5b1d-49a4-9a9a-6cdb99f21a35.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_d4dbf0c4-5b1d-49a4-9a9a-6cdb99f21a35_IMG_1108_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_d4dbf0c4-5b1d-49a4-9a9a-6cdb99f21a35_IMG_1108_small.jpg",
+            "caption": "IMG_1108.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/BREECH_WEAPON_750.glb",
+          "size": 38411872,
+          "sha256": "cb945d6d61c3472ba662833022ace24e8d4a81db3dc269634d52d400fc95620c"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -1144,6 +1494,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_31_1096_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PISTOL_31_1096_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "500c5768-892b-440e-b303-e9bbbd0791e2",
+        "name": "PISTOL_31 · черновик",
+        "folder": "H3/REVOLUTION/PISTOLS/PISTOL_31",
+        "size": 85033232,
+        "sourceHash": "e9f09c15d0d9e77760203436a6a61911ddcea9f1f2db3bb883f9df0cd8975919",
+        "createdAt": "2026-11-09T12:52:07.077Z",
+        "updatedAt": "2026-11-09T12:52:07.522132+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_500c5768-892b-440e-b303-e9bbbd0791e2.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_500c5768-892b-440e-b303-e9bbbd0791e2_IMG_1096_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_500c5768-892b-440e-b303-e9bbbd0791e2_IMG_1096_small.jpg",
+            "caption": "IMG_1096.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/PISTOL_31.glb",
+          "size": 85033232,
+          "sha256": "e9f09c15d0d9e77760203436a6a61911ddcea9f1f2db3bb883f9df0cd8975919"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -1165,7 +1551,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MAXIM_526_0981_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Есть фото, сканы не найдены"
     },
     {
       "path": "H3/REVOLUTION/REVOLVER/REVOLVER_472",
@@ -1186,6 +1573,42 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_472_1089_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_472_1089_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "441ebb2b-8495-40d6-b8d5-72b57745a916",
+        "name": "REVOLVER_472 · черновик",
+        "folder": "H3/REVOLUTION/REVOLVER/REVOLVER_472",
+        "size": 67408096,
+        "sourceHash": "5721640d84ad7f4f2d3137fe768ece7f469e818605f6042989a2c7f9ac20b7c8",
+        "createdAt": "2026-11-09T12:52:08.181Z",
+        "updatedAt": "2026-11-09T12:52:08.564838+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_441ebb2b-8495-40d6-b8d5-72b57745a916.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_441ebb2b-8495-40d6-b8d5-72b57745a916_IMG_1089_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_441ebb2b-8495-40d6-b8d5-72b57745a916_IMG_1089_small.jpg",
+            "caption": "IMG_1089.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/REVOLVER_472.glb",
+          "size": 67408096,
+          "sha256": "5721640d84ad7f4f2d3137fe768ece7f469e818605f6042989a2c7f9ac20b7c8"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
@@ -1207,13 +1630,50 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MOSIN_RIFLE_257_1114_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MOSIN_RIFLE_257_1114_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "14a792a6-b86d-4739-8f87-aac1d54d841a",
+        "name": "MOSIN_RIFLE_257 · черновик",
+        "folder": "H3/REVOLUTION/ZATVOR/MOSIN_RIFLE_257",
+        "size": 40787908,
+        "sourceHash": "c1e1b0d4c2a9b7b503ac5956ac74ec21f5d4b5c84e4e2bbd072ac746985eeaba",
+        "createdAt": "2026-11-09T12:57:08.356Z",
+        "updatedAt": "2026-11-09T12:57:08.747827+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_14a792a6-b86d-4739-8f87-aac1d54d841a.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_14a792a6-b86d-4739-8f87-aac1d54d841a_IMG_1114_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_14a792a6-b86d-4739-8f87-aac1d54d841a_IMG_1114_small.jpg",
+            "caption": "IMG_1114.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/MOSIN_RIFLE_257.glb",
+          "size": 40787908,
+          "sha256": "c1e1b0d4c2a9b7b503ac5956ac74ec21f5d4b5c84e4e2bbd072ac746985eeaba"
+        },
+        "placement": {
+          "hall": "Зал 3",
+          "code": "H3_REVOLUTION",
+          "destination": "Серия вертикальных экранов",
+          "purpose": "Показ оружия и его механизмов",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
       }
     },
     {
       "path": "H3/REVOLVER_19C",
       "name": "REVOLVER_19C",
       "hasSource": true,
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H3/WEAPON_19C",
@@ -1227,7 +1687,8 @@
         "code": "H2_AVATAR",
         "destination": "Интерактивные ИИ-аватары_зал2",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H4/SCANNER/AK47",
@@ -1259,7 +1720,8 @@
         "status": "section_confirmed",
         "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
       },
-      "tzGroupIds": []
+      "tzGroupIds": [],
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H4/WEAPON_1941_1945",
@@ -1273,7 +1735,8 @@
         "code": "H3_VITRINA",
         "destination": "Интерактивные исследовательские витрины",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "VESTIBUL/INFO_PRESET/DAGGER",
@@ -1287,7 +1750,8 @@
         "code": "VESTIBUL_INFO_PRESET",
         "destination": "Графический шаблон информационных материалов",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "VESTIBUL/INFO_PRESET/REVOLVER",
@@ -1301,7 +1765,8 @@
         "code": "VESTIBUL_INFO_PRESET",
         "destination": "Графический шаблон информационных материалов",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "VESTIBUL/MAINLOOP/DAGGER_1169",
@@ -1320,7 +1785,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/DAGGER_1169_1132_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/DAGGER_1169_1132_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "В сканах видны ножны. Рукоять есть на фото"
     },
     {
       "path": "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
@@ -1340,7 +1806,8 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_RIFLE_718_1122_view.jpg"
-      }
+      },
+      "weaponDraftStatus": "Доработка шва приклада"
     },
     {
       "path": "VESTIBUL/MAINLOOP/REVOLVER_949",
@@ -1359,6 +1826,39 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_949_1134_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/REVOLVER_949_1134_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "da40601a-2da8-4c79-8272-1bfd9eaf2952",
+        "name": "REVOLVER_949 · черновик",
+        "folder": "VESTIBUL/MAINLOOP/REVOLVER_949",
+        "size": 71931728,
+        "sourceHash": "e18e9223f5f5d7a96b011df21e20ee53743c9b46b60814d0573a13ea466a1ecb",
+        "createdAt": "2026-11-09T12:57:09.281Z",
+        "updatedAt": "2026-11-09T12:57:09.589050+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_da40601a-2da8-4c79-8272-1bfd9eaf2952.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_da40601a-2da8-4c79-8272-1bfd9eaf2952_IMG_1134_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_da40601a-2da8-4c79-8272-1bfd9eaf2952_IMG_1134_small.jpg",
+            "caption": "IMG_1134.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/REVOLVER_949.glb",
+          "size": 71931728,
+          "sha256": "e18e9223f5f5d7a96b011df21e20ee53743c9b46b60814d0573a13ea466a1ecb"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MAINLOOP",
+          "destination": "Основная графическая заставка",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
       }
     },
     {
@@ -1373,7 +1873,8 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "VESTIBUL/MANIFEST/CROSSBOW_1624",
@@ -1391,6 +1892,39 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/CROSSBOW_1624_1036_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/CROSSBOW_1624_1036_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "9355f299-cf44-46fb-a6ac-1d7cad97d7d8",
+        "name": "CROSSBOW_1624 · черновик",
+        "folder": "VESTIBUL/MANIFEST/CROSSBOW_1624",
+        "size": 48464400,
+        "sourceHash": "6a291bc76f6b4229051278e6d7695530654700833ea4c054cd37f682c6928bc2",
+        "createdAt": "2026-11-09T13:00:36.721Z",
+        "updatedAt": "2026-11-09T13:00:37.065965+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_9355f299-cf44-46fb-a6ac-1d7cad97d7d8.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_9355f299-cf44-46fb-a6ac-1d7cad97d7d8_IMG_1036_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_9355f299-cf44-46fb-a6ac-1d7cad97d7d8_IMG_1036_small.jpg",
+            "caption": "IMG_1036.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/CROSSBOW_1624.glb",
+          "size": 48464400,
+          "sha256": "6a291bc76f6b4229051278e6d7695530654700833ea4c054cd37f682c6928bc2"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
       }
     },
     {
@@ -1427,6 +1961,47 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MACHINE_GUN_397_1044_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/MACHINE_GUN_397_1044_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "673276cc-09e5-4903-8d6f-93fce61712af",
+        "name": "MACHINE_GUN_397 · черновик",
+        "folder": "VESTIBUL/MANIFEST/MACHINE_GUN_397",
+        "size": 56471052,
+        "sourceHash": "000a7e018215b55d203f956e6ad590a4acfca2322d9948e30010928be423f090",
+        "createdAt": "2026-11-09T13:08:09.929Z",
+        "updatedAt": "2026-11-09T13:08:10.433243+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка двух сканов. Ткань со стола удалена. На следующем проходе уточним детали шва у кожуха и сошек.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_673276cc-09e5-4903-8d6f-93fce61712af.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_673276cc-09e5-4903-8d6f-93fce61712af_IMG_1044_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_673276cc-09e5-4903-8d6f-93fce61712af_IMG_1044_small.jpg",
+            "caption": "IMG_1044.jpg"
+          },
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_673276cc-09e5-4903-8d6f-93fce61712af_IMG_1045_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_673276cc-09e5-4903-8d6f-93fce61712af_IMG_1045_small.jpg",
+            "caption": "IMG_1045.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/MACHINE_GUN_397.glb",
+          "size": 56471052,
+          "sha256": "000a7e018215b55d203f956e6ad590a4acfca2322d9948e30010928be423f090"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        },
+        "viewerDefaults": {
+          "turn": 180
+        }
       }
     },
     {
@@ -1445,6 +2020,39 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PPSH_374_1052_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/PPSH_374_1052_view.jpg"
+      },
+      "releaseDraft": {
+        "id": "eef937dc-fc99-4064-b807-2b01e6d89f9e",
+        "name": "PPSH_374 · черновик",
+        "folder": "VESTIBUL/MANIFEST/PPSH_374",
+        "size": 50527672,
+        "sourceHash": "cbbe3cb9ac7be31517d3d80537133462042abcc3e5bead7810091515015e52dd",
+        "createdAt": "2026-11-09T13:00:37.356Z",
+        "updatedAt": "2026-11-09T13:00:37.659655+00:00",
+        "variantLabel": "Черновик · 8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Черновая сшивка сканов. Форма и детали будут уточняться при последующей проверке.",
+        "draft": true,
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/poster_eef937dc-fc99-4064-b807-2b01e6d89f9e.jpg",
+        "photos": [
+          {
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_eef937dc-fc99-4064-b807-2b01e6d89f9e_IMG_1052_view.jpg",
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/draft_eef937dc-fc99-4064-b807-2b01e6d89f9e_IMG_1052_small.jpg",
+            "caption": "IMG_1052.jpg"
+          }
+        ],
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/PPSH_374.glb",
+          "size": 50527672,
+          "sha256": "cbbe3cb9ac7be31517d3d80537133462042abcc3e5bead7810091515015e52dd"
+        },
+        "placement": {
+          "hall": "Вестибюль",
+          "code": "VESTIBUL_MANIFEST",
+          "destination": "Видео-манифест",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
+        }
       }
     },
     {
@@ -1459,7 +2067,8 @@
         "code": "VESTIBUL_MANIFEST",
         "destination": "Видео-манифест",
         "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      }
+      },
+      "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
       "path": "H4/SCANNER/MKB42",
@@ -1486,6 +2095,188 @@
       "photo": {
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/helmet_front_preview.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/helmet-reference-photos-20261105/IMG_1318.jpg"
+      }
+    },
+    {
+      "path": "H2/WEAPONS/EXPERIMENT/REVOLVING_LONG_GUN_UNIDENTIFIED",
+      "name": "REVOLVING_LONG_GUN_UNIDENTIFIED",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H2_WEAPONS"
+      ],
+      "weaponDraftStatus": "Есть фото, номер экспоната уточняется",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_bfc7e01384710eb8c32b.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_bfc7e01384710eb8c32b_small.jpg",
+        "caption": "1793005985970831.jpg"
+      }
+    },
+    {
+      "path": "H3/VITRINA/ADAMS_FRANCOTTE_1426",
+      "name": "ADAMS_FRANCOTTE_1426",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_be40282e2a198a64fadd.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_be40282e2a198a64fadd_small.jpg",
+        "caption": "IMG_1389.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/APACHE_997",
+      "name": "APACHE_997",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_101ca6755fc595ec26d1.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_101ca6755fc595ec26d1_small.jpg",
+        "caption": "IMG_1375.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/COLT_NAVY_1851_459",
+      "name": "COLT_NAVY_1851_459",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_ff67b56f705d95a3304d.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_ff67b56f705d95a3304d_small.jpg",
+        "caption": "IMG_1393.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/LEFAUCHEUX_942",
+      "name": "LEFAUCHEUX_942",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_222b2dce3a89d58b7618.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_222b2dce3a89d58b7618_small.jpg",
+        "caption": "IMG_1400.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/LEFAUCHEUX_KNIFE_465",
+      "name": "LEFAUCHEUX_KNIFE_465",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_538012a0da8e49d2e8dc.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_538012a0da8e49d2e8dc_small.jpg",
+        "caption": "IMG_1382.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/MARSTON_DERRINGER_1001",
+      "name": "MARSTON_DERRINGER_1001",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_3bd2c9a26ac3b165de85.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_3bd2c9a26ac3b165de85_small.jpg",
+        "caption": "IMG_1386.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/NAGANT_1895_559",
+      "name": "NAGANT_1895_559",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_e387505c56b21bcebfb9.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_e387505c56b21bcebfb9_small.jpg",
+        "caption": "IMG_1398.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/PEPPERBOX_KNIFE_490",
+      "name": "PEPPERBOX_KNIFE_490",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_58db5ab0fdf6260dcb53.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_58db5ab0fdf6260dcb53_small.jpg",
+        "caption": "IMG_1380.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/PINFIRE_FOLDING_KNIFE_1026",
+      "name": "PINFIRE_FOLDING_KNIFE_1026",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_08ac2af1d63a402b98c7.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_08ac2af1d63a402b98c7_small.jpg",
+        "caption": "IMG_1404.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/PINFIRE_FOLDING_KNIFE_508",
+      "name": "PINFIRE_FOLDING_KNIFE_508",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_23f67bdb1ac9ae28ce1c.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_23f67bdb1ac9ae28ce1c_small.jpg",
+        "caption": "IMG_1402.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/REMINGTON_1858_522",
+      "name": "REMINGTON_1858_522",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_1df0490576083e343a6f.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_1df0490576083e343a6f_small.jpg",
+        "caption": "IMG_1391.HEIC"
+      }
+    },
+    {
+      "path": "H3/VITRINA/SMITH_WESSON_MODEL1_493",
+      "name": "SMITH_WESSON_MODEL1_493",
+      "hasSource": false,
+      "tzGroupIds": [
+        "H3_VITRINA"
+      ],
+      "weaponDraftStatus": "Есть фото, сканы не найдены",
+      "photo": {
+        "preview": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_80b9413bc7c3420d0c33.jpg",
+        "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/weapon-catalog-drafts-20261109/weapon_card_80b9413bc7c3420d0c33_small.jpg",
+        "caption": "IMG_1395.HEIC"
       }
     }
   ],
@@ -1613,7 +2404,21 @@
     "VESTIBUL/MANIFEST/PPSH_374",
     "VESTIBUL/MANIFEST/RIFLE_1774",
     "VESTIBUL/TRANSITION",
-    "H1/DOSPEHI/BRANDENBURG_ARMOR/HELMET_COMPLETE"
+    "H1/DOSPEHI/BRANDENBURG_ARMOR/HELMET_COMPLETE",
+    "H2/WEAPONS/EXPERIMENT/REVOLVING_LONG_GUN_UNIDENTIFIED",
+    "H3/VITRINA",
+    "H3/VITRINA/ADAMS_FRANCOTTE_1426",
+    "H3/VITRINA/APACHE_997",
+    "H3/VITRINA/COLT_NAVY_1851_459",
+    "H3/VITRINA/LEFAUCHEUX_942",
+    "H3/VITRINA/LEFAUCHEUX_KNIFE_465",
+    "H3/VITRINA/MARSTON_DERRINGER_1001",
+    "H3/VITRINA/NAGANT_1895_559",
+    "H3/VITRINA/PEPPERBOX_KNIFE_490",
+    "H3/VITRINA/PINFIRE_FOLDING_KNIFE_1026",
+    "H3/VITRINA/PINFIRE_FOLDING_KNIFE_508",
+    "H3/VITRINA/REMINGTON_1858_522",
+    "H3/VITRINA/SMITH_WESSON_MODEL1_493"
   ],
   "tzGroups": [
     {
@@ -1698,7 +2503,8 @@
         "H2/WEAPONS/KREMEN/FUSIL_1431",
         "H2/WEAPONS/PLUG_BAYONET",
         "H2/WEAPONS/SOCKET_BAYONET",
-        "H2/WEAPONS/ZAMOK/FORSYTH_LOCK"
+        "H2/WEAPONS/ZAMOK/FORSYTH_LOCK",
+        "H2/WEAPONS/EXPERIMENT/REVOLVING_LONG_GUN_UNIDENTIFIED"
       ],
       "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
       "sourceExcerpt": "\nМаркировки эпизодов: FITIL — фитильное оружие; KOLES — колесцовое; KREMEN — кремнёвое; TACTIC — линейная тактика; ZAMOK — замок Форсайта. Полный код: H2_WEAPONS_<маркировка>. Для TACTIC в этой таблице пока нет отдельной строки. Для экспериментального оружия маркировка на предоставленном скриншоте не указана.\nПродюсер: Юля\n\n\n\n\nЭкран / кадр\n\tОбъект "
@@ -1795,7 +2601,19 @@
       "hallTitle": "Зал 3",
       "title": "Интерактивные исследовательские витрины",
       "objectPaths": [
-        "H4/WEAPON_1941_1945"
+        "H4/WEAPON_1941_1945",
+        "H3/VITRINA/ADAMS_FRANCOTTE_1426",
+        "H3/VITRINA/APACHE_997",
+        "H3/VITRINA/COLT_NAVY_1851_459",
+        "H3/VITRINA/LEFAUCHEUX_942",
+        "H3/VITRINA/LEFAUCHEUX_KNIFE_465",
+        "H3/VITRINA/MARSTON_DERRINGER_1001",
+        "H3/VITRINA/NAGANT_1895_559",
+        "H3/VITRINA/PEPPERBOX_KNIFE_490",
+        "H3/VITRINA/PINFIRE_FOLDING_KNIFE_1026",
+        "H3/VITRINA/PINFIRE_FOLDING_KNIFE_508",
+        "H3/VITRINA/REMINGTON_1858_522",
+        "H3/VITRINA/SMITH_WESSON_MODEL1_493"
       ],
       "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
       "sourceExcerpt": "\nПродюсер: Алёна\n\n\nЭкран / кадр\n\tОбъект (основной + запасные)\n\tФото\n(1 на объект)\n\tЗачем\n\t\n\nДетализация\n\tСпособ съёмки\n\tЗвук и действия\n\tПроверил\nВасилий\n\tПроверил\nНиколай\n\tРевольверы\n\tCOLT_NAVY_1851_459\n459 / Colt Navy 1851-есть\n\t  \n\n№ 459 · IMG_1393\n\t\n\n\tТОЛЬКО ФОТО, Без сканов.\nфото с размерами.\n\t\n\n\t\n\n\t* \t* \tРевольверы\n\tSMITH_WESSON_MODEL1_493\n49"
