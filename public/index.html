@@ -18,7 +18,7 @@ function ensureModelViewer(){
   <div class="room-title"><h1 id="title">Экспонат</h1><p id="hint"></p></div>
   <div class="room-actions">
    <button type="button" class="secondary" id="open-model-details" aria-controls="model-details" aria-expanded="false">Об экспонате</button>
-   <button type="button" class="secondary" id="fullscreen" title="На весь экран" aria-label="На весь экран" aria-pressed="false">⛶</button>
+   <button type="button" class="secondary" id="expand-model-room" title="Развернуть окно" aria-label="Развернуть окно" aria-pressed="false">⛶</button>
    <button type="button" class="secondary" id="close-model-room" aria-label="Закрыть просмотр" autofocus>×</button>
   </div>
  </div>
@@ -72,7 +72,7 @@ body.model-open{overflow:hidden}
 #model-room{position:fixed;inset:0;margin:auto;padding:0;width:min(1360px,calc(100% - 72px));height:min(840px,calc(100dvh - 72px));max-width:none;max-height:none;overflow:hidden;color:#eee;background:#15171a;border:1px solid #3b4149;border-radius:18px;box-shadow:0 28px 100px #000b}
 #model-room[open]{display:grid;grid-template-rows:auto minmax(0,1fr)}
 #model-room::backdrop{background:#0b0d11bc;backdrop-filter:blur(3px)}
-#model-room:fullscreen{width:100%;height:100%;border:0;border-radius:0}
+#model-room.room-maximized{width:100%;height:100dvh;border:0;border-radius:0}
 .room-bar{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:10px 16px;min-height:58px;background:#191c20;border-bottom:1px solid #32373e}
 .room-title{min-width:0}
 .room-title h1{font-size:17px;font-weight:650;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -81,7 +81,7 @@ body.model-open{overflow:hidden}
 .room-actions button,.room-tools button,.room-panel-heading button{background:#262a30;padding:8px 11px;font-size:12px;min-height:36px;white-space:nowrap}
 .room-actions button:hover,.room-tools button:hover,.room-panel-heading button:hover{background:#3a4149}
 .room-actions button[aria-expanded=true],.room-actions button[aria-pressed=true],.room-tools button[aria-pressed=true]{background:#d9f98c;color:#18200c}
-#fullscreen,#close-model-room{min-width:36px;font-size:18px;padding:4px 8px}
+#expand-model-room,#close-model-room{min-width:36px;font-size:18px;padding:4px 8px}
 #close-model-room{font-size:22px;line-height:1}
 .studio{display:grid;grid-template-columns:minmax(0,1fr) clamp(246px,27vw,306px);min-height:0;overflow:hidden}
 .room-view,#viewer-stage{position:relative;min-width:0;min-height:0}
@@ -126,7 +126,7 @@ body.model-open{overflow:hidden}
  .room-bar{gap:8px;padding:8px 10px;min-height:52px}
  .room-title h1{font-size:15px}
  .room-actions button{min-height:32px;font-size:11px;padding:5px 7px}
- #fullscreen,#close-model-room{min-width:29px}
+ #expand-model-room,#close-model-room{min-width:29px}
  #model-details{top:8px;right:8px;bottom:60px;width:min(356px,calc(100% - 16px))}
  .room-tools{bottom:9px;gap:3px}
  .room-tools button{font-size:11px;padding:6px 7px}
@@ -313,7 +313,7 @@ v.addEventListener('wheel',event=>{
  v.cameraOrbit=orbit.theta+'rad '+orbit.phi+'rad '+zoomGoal+'m';
  clearTimeout(zoomTimer);zoomTimer=setTimeout(()=>{zoomGoal=null;},250);
 },{passive:false,capture:true});
-const room=$('model-room'), fullscreen=$('fullscreen');
+const room=$('model-room'), expandRoom=$('expand-model-room');
 const details=$('model-details'), detailsButton=$('open-model-details');
 function showModelDetails(open){
  details.hidden=!open;
@@ -327,7 +327,7 @@ function hideModelRoom(){
  clearTimeout(loadingHelpTimer);
  const photo=$('photo-lightbox');
  if(photo&&!photo.hidden)photo.click();
- if(document.fullscreenElement===room)document.exitFullscreen().catch(()=>{});
+ setRoomMaximized(false);
  v.src=null;
  if(v.hasAttribute('auto-rotate')) {
   v.removeAttribute('auto-rotate');
@@ -352,6 +352,7 @@ $('close-model-room').onclick=closeModelRoom;
 room.addEventListener('cancel',event=>{
  event.preventDefault();
  if(!details.hidden){showModelDetails(false);detailsButton.focus();}
+ else if(room.classList.contains('room-maximized'))setRoomMaximized(false);
  else closeModelRoom();
 });
 room.addEventListener('click',event=>{
@@ -359,20 +360,14 @@ room.addEventListener('click',event=>{
  const bounds=room.getBoundingClientRect();
  if(event.clientX<bounds.left||event.clientX>bounds.right||event.clientY<bounds.top||event.clientY>bounds.bottom)closeModelRoom();
 });
-fullscreen.hidden=!document.fullscreenEnabled;
-fullscreen.onclick=async()=>{
- try {
-  if(document.fullscreenElement===room)await document.exitFullscreen();
-  else await room.requestFullscreen();
- } catch {}
-};
-document.addEventListener('fullscreenchange',()=>{
- const active=document.fullscreenElement===room;
- const label=active?'Выйти из полноэкранного режима':'На весь экран';
- fullscreen.setAttribute('aria-pressed',String(active));
- fullscreen.setAttribute('aria-label',label);
- fullscreen.title=label;
-});
+function setRoomMaximized(maximized){
+ room.classList.toggle('room-maximized',maximized);
+ const label=maximized?'Уменьшить окно':'Развернуть окно';
+ expandRoom.setAttribute('aria-pressed',String(maximized));
+ expandRoom.setAttribute('aria-label',label);
+ expandRoom.title=label;
+}
+expandRoom.onclick=()=>setRoomMaximized(!room.classList.contains('room-maximized'));
 $('rotate').onclick=async()=>{await customElements.whenDefined('model-viewer');const enabled=!v.hasAttribute('auto-rotate');v.autoRotateDelay=0;v.rotationPerSecond='20deg';v.toggleAttribute('auto-rotate',enabled);v.autoRotate=enabled;$('rotate').setAttribute('aria-pressed',String(enabled));$('rotate').textContent=enabled?'Остановить вращение':'Автовращение';};$('reset').onclick=async()=>{zoomGoal=null;if(v.dataset.weaponAxis)await turnWeapon(Number(v.dataset.defaultTurn)||0);if(v.dataset.homeOrbit?.startsWith('0deg 90deg'))fitWeaponCamera(v);v.cameraOrbit=v.dataset.homeOrbit||'0deg 75deg 105%';v.cameraTarget='auto auto auto';v.fieldOfView='auto';};$('background').oninput=e=>v.style.background=e.target.value;$('new').onclick=()=>{$('upload').classList.remove('hide');$('upload').scrollIntoView({behavior:'smooth'});};v.addEventListener('progress',e=>{if(viewerLoadReady)return;const p=(e.detail.totalProgress||0)*100;setModelLoading('loading',p);status(p>=100?'Подготавливаю 3D…':'Загрузка 3D: '+Math.round(p)+'%');});v.addEventListener('error',e=>{clearTimeout(loadingHelpTimer);setModelLoading('error');const message=e.detail?.type==='webglcontextlost'?'Видеокарта остановила 3D-просмотр. Закрой другие 3D-вкладки и повтори загрузку.':'Не удалось загрузить 3D. Повтори загрузку или скачай GLB кнопкой выше.';status(message);loadingHelp(message);});v.addEventListener('load',()=>{setModelLoading('ready');status('Модель готова к просмотру');});
 const controlNames=['exposure','specular','metal','rough','shadow','soft','env','tone','envRotation'];
 const defaultControlValues=new Map(controlNames.map(name=>[name,$(name).value]));
