@@ -11,7 +11,7 @@ function ensureModelViewer(){
  });return viewerBoot;
 }
 </script>
-<style>.model-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.download-glb{display:inline-block;background:#2c3035;color:#eee;border-radius:9px;padding:12px 19px;text-decoration:none;white-space:nowrap}.download-glb[hidden]{display:none}.download-glb:focus-visible{outline:2px solid #d9f98c;outline-offset:3px}*{box-sizing:border-box}body{margin:0;background:#111315;color:#eee;font:15px system-ui}header{height:82px;border-bottom:1px solid #303337;display:flex;align-items:center;justify-content:space-between;padding:0 5vw}b{font-size:25px;letter-spacing:5px}header span{color:#aaa}main{max-width:none;margin:auto;padding:24px clamp(16px,2vw,40px)}.top{display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:30px;margin:6px 0}p{color:#a9afb7;line-height:1.6}button,.pick{border:0;border-radius:9px;background:#d9f98c;color:#18200c;padding:12px 19px;cursor:pointer;font:inherit}button.secondary{background:#2c3035;color:white}button.secondary[aria-pressed=true]{background:#d9f98c;color:#18200c}model-viewer{width:100%;height:62vh;min-height:340px;background:#1a1a1a;border-radius:16px;margin-top:24px}section{margin-top:25px;padding:24px;border:1px solid #373c42;border-radius:14px}.fields{display:flex;gap:12px;flex-wrap:wrap;align-items:center}input{background:#20242a;color:white;border:1px solid #454b54;padding:12px;border-radius:8px;max-width:100%}#status{color:#d9f98c;min-height:24px}footer{display:flex;gap:12px;align-items:center;margin-top:16px;flex-wrap:wrap}.hide{display:none}a{color:#d9f98c}@media(max-width:600px){header span{display:none}.top{align-items:start;flex-direction:column}main{padding-top:22px}h1{font-size:24px}} .ready-count{padding:0;background:transparent;color:#d9f98c;text-decoration:underline;text-underline-offset:3px;border-radius:0}.ready-count:focus-visible{outline:2px solid #d9f98c;outline-offset:3px}</style><style>.card .preview.catalog-photo{position:relative;display:block;width:100%;aspect-ratio:auto;cursor:zoom-in}.catalog-photo img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:contain}.catalog-photo-label{position:absolute;bottom:8px;right:8px;padding:4px 7px;border-radius:4px;background:#111e;color:#fff;font-size:12px}.card .info a.badge:hover{text-decoration:underline}.catalog-photo:focus-visible{outline:2px solid #d9f98c;outline-offset:-2px}</style><style>#new{display:none}.uploads-enabled #new{display:inline-block}</style><style>.brand b{display:block;font-size:17px;letter-spacing:1px;max-width:380px}.brand small{display:block;font-size:10px;letter-spacing:1px;color:#a9afb7;margin-top:7px}@media(max-width:650px){header{height:auto;min-height:96px;gap:12px;flex-wrap:wrap;padding:16px 5vw}.brand b{font-size:13px;max-width:240px}.brand small{font-size:8px}}</style><style>#catalog{display:none}.catalog-mode #catalog{display:block}.catalog-mode #physical-dimensions,.catalog-mode .top,.catalog-mode .studio,.catalog-mode footer{display:none}.catalog-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:12px 0 32px}.catalog-heading input{width:330px}.catalog-layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:26px}#folders{border-right:1px solid #343a40;padding-right:18px;max-height:70vh;overflow:auto}#folders button{display:block;text-align:left;width:100%;background:transparent;color:#aeb7c3;padding:9px;border-radius:6px;font-size:13px}#folders button.active{background:#303b24;color:#d9f98c}#breadcrumbs{color:#d9f98c;font-size:14px;margin:0 0 15px}.filterline{margin-bottom:20px;color:#aeb7c3;font-size:13px}#cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}.card{display:block;border:1px solid #343a40;border-radius:14px;background:#1b1e22;overflow:hidden;color:#eee;text-decoration:none}.card .preview{height:180px;overflow:hidden;background:#1a1a1a;display:grid;place-items:center;color:#74808f;font-size:38px}.card model-viewer{height:180px;min-height:0;margin:0;border-radius:0;pointer-events:none}.card .info{padding:17px}.card h3{margin:0 0 10px;font-size:15px;overflow-wrap:anywhere}.card small{display:block;color:#909aa7;font-size:11px;overflow-wrap:anywhere;line-height:1.6}.badge{display:inline-block;margin-top:12px;font-size:11px;padding:5px 8px;border-radius:5px;background:#303b24;color:#d9f98c}.badge.pending{background:#2d3034;color:#a4acb6}#upload-folder{max-width:100%;background:#20242a;color:#eee;padding:12px;border:1px solid #454b54;border-radius:8px}@media(max-width:700px){.catalog-heading{align-items:stretch;flex-direction:column}.catalog-heading input{width:100%}.catalog-layout{grid-template-columns:1fr}#folders{max-height:220px;border-right:0;border-bottom:1px solid #343a40}}</style>
+<style>.model-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.download-glb{display:inline-block;background:#2c3035;color:#eee;border-radius:9px;padding:12px 19px;text-decoration:none;white-space:nowrap}.download-glb[hidden]{display:none}.download-glb:focus-visible{outline:2px solid #d9f98c;outline-offset:3px}*{box-sizing:border-box}body{margin:0;background:#111315;color:#eee;font:15px system-ui}header{height:82px;border-bottom:1px solid #303337;display:flex;align-items:center;justify-content:space-between;padding:0 5vw}b{font-size:25px;letter-spacing:5px}header span{color:#aaa}main{max-width:none;margin:auto;padding:24px clamp(16px,2vw,40px)}.top{display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:30px;margin:6px 0}p{color:#a9afb7;line-height:1.6}button,.pick{border:0;border-radius:9px;background:#d9f98c;color:#18200c;padding:12px 19px;cursor:pointer;font:inherit}button.secondary{background:#2c3035;color:white}button.secondary[aria-pressed=true]{background:#d9f98c;color:#18200c}model-viewer{width:100%;height:62vh;min-height:340px;background:#1a1a1a;border-radius:16px;margin-top:24px}section{margin-top:25px;padding:24px;border:1px solid #373c42;border-radius:14px}.fields{display:flex;gap:12px;flex-wrap:wrap;align-items:center}input{background:#20242a;color:white;border:1px solid #454b54;padding:12px;border-radius:8px;max-width:100%}#status{color:#d9f98c;min-height:24px}footer{display:flex;gap:12px;align-items:center;margin-top:16px;flex-wrap:wrap}.hide{display:none}a{color:#d9f98c}@media(max-width:600px){header span{display:none}.top{align-items:start;flex-direction:column}main{padding-top:22px}h1{font-size:24px}} .ready-count{padding:0;background:transparent;color:#d9f98c;text-decoration:underline;text-underline-offset:3px;border-radius:0}.ready-count:focus-visible{outline:2px solid #d9f98c;outline-offset:3px}</style><style>.card .preview.catalog-photo{position:relative;display:block;width:100%;aspect-ratio:auto}.card.photo-only .preview.catalog-photo{cursor:zoom-in}.catalog-photo img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:contain}.catalog-photo-label{position:absolute;bottom:8px;right:8px;padding:4px 7px;border-radius:4px;background:#111e;color:#fff;font-size:12px}.card .info a.badge:hover{text-decoration:underline}a.card:focus-visible,.catalog-photo:focus-visible{outline:2px solid #d9f98c;outline-offset:-2px}</style><style>#new{display:none}.uploads-enabled #new{display:inline-block}</style><style>.brand b{display:block;font-size:17px;letter-spacing:1px;max-width:380px}.brand small{display:block;font-size:10px;letter-spacing:1px;color:#a9afb7;margin-top:7px}@media(max-width:650px){header{height:auto;min-height:96px;gap:12px;flex-wrap:wrap;padding:16px 5vw}.brand b{font-size:13px;max-width:240px}.brand small{font-size:8px}}</style><style>#catalog{display:none}.catalog-mode #catalog{display:block}.catalog-mode #physical-dimensions,.catalog-mode .top,.catalog-mode .studio,.catalog-mode footer{display:none}.catalog-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:12px 0 32px}.catalog-heading input{width:330px}.catalog-layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:26px}#folders{border-right:1px solid #343a40;padding-right:18px;max-height:70vh;overflow:auto}#folders button{display:block;text-align:left;width:100%;background:transparent;color:#aeb7c3;padding:9px;border-radius:6px;font-size:13px}#folders button.active{background:#303b24;color:#d9f98c}#breadcrumbs{color:#d9f98c;font-size:14px;margin:0 0 15px}.filterline{margin-bottom:20px;color:#aeb7c3;font-size:13px}#cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}.card{display:block;border:1px solid #343a40;border-radius:14px;background:#1b1e22;overflow:hidden;color:#eee;text-decoration:none}.card .preview{height:180px;overflow:hidden;background:#1a1a1a;display:grid;place-items:center;color:#74808f;font-size:38px}.card model-viewer{height:180px;min-height:0;margin:0;border-radius:0;pointer-events:none}.card .info{padding:17px}.card h3{margin:0 0 10px;font-size:15px;overflow-wrap:anywhere}.card small{display:block;color:#909aa7;font-size:11px;overflow-wrap:anywhere;line-height:1.6}.badge{display:inline-block;margin-top:12px;font-size:11px;padding:5px 8px;border-radius:5px;background:#303b24;color:#d9f98c}.badge.pending{background:#2d3034;color:#a4acb6}#upload-folder{max-width:100%;background:#20242a;color:#eee;padding:12px;border:1px solid #454b54;border-radius:8px}@media(max-width:700px){.catalog-heading{align-items:stretch;flex-direction:column}.catalog-heading input{width:100%}.catalog-layout{grid-template-columns:1fr}#folders{max-height:220px;border-right:0;border-bottom:1px solid #343a40}}</style>
 <header><div class="brand"><b style="font-size:25px;letter-spacing:5px">BANSAI<span style="color:#d9f98c">.</span></b><small>АВТОРСКИЙ 3D-КАТАЛОГ</small></div><a href="/armor/" style="margin-left:auto;margin-right:20px">Доспехи · концепты и статусы</a><button class="secondary" id="new">Загрузить модель</button></header>
 <main><div id="catalog"><div class="catalog-heading"><div><p>УРАЛЬСКАЯ ОРУЖЕЙНАЯ ПАЛАТА</p><h1><a class="catalog-home" href="/">Каталог объектов</a></h1><p id="auto-import-info" style="color:#d9f98c;font-size:12px">Автоимпорт GLB выключен</p><p id="catalog-count">Загружаю каталог…</p></div><input id="search" type="search" placeholder="Поиск по названию или папке" aria-label="Поиск моделей"></div><div class="catalog-layout"><nav id="folders" aria-label="Папки проекта"></nav><div><nav id="breadcrumbs" class="folder-breadcrumbs" aria-label="Путь в каталоге"></nav><div class="filterline"><span class="browse-switch" role="group" aria-label="Иерархия каталога"><button type="button" id="browse-folders">По папкам</button><button type="button" id="browse-tz">По ТЗ · залы</button></span> <label><input id="ready-only" type="checkbox"> Только с 3D-моделью</label></div><div id="cards"></div></div></div></div><div class="top"><div><a class="catalog-home model-home" href="/">Каталог объектов</a><p style="margin:0">ПРОЕКТ BANSAI · УРАЛЬСКАЯ ОРУЖЕЙНАЯ ПАЛАТА</p><div id="model-placement" hidden></div><h1 id="title">Покажи форму со всех сторон</h1><nav id="model-breadcrumbs" class="folder-breadcrumbs" aria-label="Папка модели" hidden></nav><p id="hint">Загрузи GLB и отправь ссылку на интерактивную модель.</p></div><div class="model-actions"><a id="download-glb" class="download-glb" hidden>↓ Скачать GLB</a><button id="share" disabled>Копировать ссылку ↗</button></div></div>
 <section id="physical-dimensions" hidden></section>
@@ -254,9 +254,96 @@ function renderCatalog(){
  let items=all.filter(o=>(query||browseMode==='tz'||!selectedFolder||o.path===selectedFolder||o.path.startsWith(selectedFolder+'/'))&&(!query||(o.name+' '+o.path).toLowerCase().includes(query))&&(!ready||o.models.length));
  if(browseMode==='tz'&&!query){const groups=(catalogData.tzGroups||[]).filter(g=>!selectedTz||g.id===selectedTz||g.hall===selectedTz);const filtered=all.filter(o=>(!query||(o.name+' '+o.path).toLowerCase().includes(query))&&(!ready||o.models.length));if(selectedTz==='unmapped')items=filtered.filter(o=>!o.tzGroupIds?.length);else items=groups.flatMap(g=>{const unique=new Map();for(const o of filtered.filter(o=>g.objectPaths.includes(o.path))){const prev=unique.get(o.name);if(!prev)unique.set(o.name,{...o,tzDisplayGroup:g});else {prev.models=[...new Map([...prev.models,...o.models].map(m=>[m.id,m])).values()];prev.photo??=o.photo;}}return [...unique.values()];});}
  renderBreadcrumbs($('breadcrumbs'),selectedFolder,true);if(query){$('breadcrumbs').replaceChildren(make('span','Поиск по всему каталогу · '+query+(ready?' · только с 3D':'')));}else if(browseMode==='tz'){$('breadcrumbs').replaceChildren(make('span','По ТЗ · '+((catalogData.tzGroups||[]).find(g=>g.id===selectedTz)?.title||({'VESTIBUL':'Вестибюль','H1':'Зал 1','H2':'Зал 2','H3':'Зал 3','H4':'Зал 4','unmapped':'Привязка не найдена'}[selectedTz])||'Все залы')));const source=make('a','Исходный документ ↗');source.href=catalogData.tzSource?.url||'#';source.target='_blank';source.rel='noopener';$('breadcrumbs').append(source);}const count=$('catalog-count');count.replaceChildren(document.createTextNode(catalogData.objects.length+' объектов · '));const readyButton=make('button',catalogData.models.length+' сохранённых 3D-моделей','ready-count');readyButton.type='button';readyButton.setAttribute('aria-pressed',String(ready));readyButton.onclick=()=>{$('search').value='';$('ready-only').checked=true;showCatalogFolder('',true);$('cards').scrollIntoView({behavior:'smooth',block:'start'});};count.append(readyButton);$('cards').replaceChildren();
- for(const o of items){if(o.tzDisplayGroup&&$('cards').lastElementChild?.dataset.group!==o.tzDisplayGroup.id){const title=make('h2',o.tzDisplayGroup.hallTitle+' · '+o.tzDisplayGroup.title,'tz-section');title.dataset.group=o.tzDisplayGroup.id;$('cards').append(title);}const m=o.models[0],photo=catalogPhoto(o),card=make(!photo&&m&&o.models.length===1?'a':'article',undefined,'card');if(card.tagName==='A')card.href='/?model='+m.id;
- if(photo){const link=make('a',undefined,'preview catalog-photo');link.href=photo.preview;link.setAttribute('aria-label','Увеличить фото '+o.name);link.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();openEvidencePhoto(photo.preview,o.name);};const img=make('img');img.src=photo.thumbnail;img.alt='Фото экспоната '+o.name;img.loading='lazy';img.decoding='async';img.width=480;img.height=360;img.onerror=()=>{link.replaceWith(make('div','◇','preview'));};link.append(img,make('span','Увеличить фото','catalog-photo-label'));card.append(link);}else if(false){const preview=make('model-viewer');preparePresentation(preview,m);preview.addEventListener('load',()=>horizontalWeapon(preview).catch(console.warn));preview.setAttribute('src','/models/'+m.id+'.glb');preview.setAttribute('loading','lazy');preview.setAttribute('exposure','1');preview.setAttribute('tone-mapping','aces');preview.setAttribute('reveal','auto');preview.setAttribute('camera-orbit','0deg 75deg 105%');preview.setAttribute('interaction-prompt','none');preview.setAttribute('alt',o.name);card.append(preview);}else if(m){const preview=make(o.models.length>1?'a':'div',undefined,'preview');if(o.models.length>1)preview.href='/?model='+m.id;const poster=make('img');poster.src=m.poster||'/evidence/poster_'+m.id+'_small.jpg?v=20261030';poster.srcset='/evidence/poster_'+m.id+'_small.jpg?v=20261030 360w, /evidence/poster_'+m.id+'.jpg?v=20261030 640w';poster.sizes='(max-width:700px) 360px, 300px';poster.alt='Превью '+o.name;poster.width=640;poster.height=480;poster.loading='lazy';poster.decoding='async';poster.style.cssText='width:100%;height:100%;object-fit:contain;display:block';poster.onerror=()=>{poster.onerror=null;const fallback=m.dimensions?.evidenceThumbnail||m.measurements?.evidenceThumbnail;if(fallback)poster.src=fallback;else{poster.remove();preview.textContent=o.name;}};preview.append(poster);card.append(preview);}else card.append(make('div','◇','preview'));
- const info=make('div',undefined,'info');if(o.placement)info.append(make('small',placementText(o.placement)));const badge=make(m&&photo?'a':'span',m?(m.draft?'Черновик 3D · ':'Открыть 3D · ')+(m.size/1048576).toFixed(1)+' МБ':(o.weaponDraftStatus||'3D ещё не опубликован'),'badge'+(m?'':' pending'));if(m&&photo)badge.href='/?model='+m.id;info.append(make('h3',o.name),make('small',o.path||'Без папки'),badge);if(o.models.length>1){const links=make('nav',undefined,'card-versions');links.setAttribute('aria-label','Версии '+o.name);for(const version of [...o.models].sort((a,b)=>Number(versionName(a,o.models)==='HD')-Number(versionName(b,o.models)==='HD')))links.append(versionLink(version,o.models));info.append(links);}card.append(info);if(o.tzDisplayGroup)card.dataset.group=o.tzDisplayGroup.id;$('cards').append(card);}
+ for (const o of items) {
+  if (o.tzDisplayGroup && $('cards').lastElementChild?.dataset.group !== o.tzDisplayGroup.id) {
+   const title = make('h2', o.tzDisplayGroup.hallTitle+' · '+o.tzDisplayGroup.title, 'tz-section');
+   title.dataset.group = o.tzDisplayGroup.id;
+   $('cards').append(title);
+  }
+  const model = o.models[0], photo = catalogPhoto(o);
+  const modelUrl = model ? '/?model='+model.id : '';
+  const photoOnly = !model && Boolean(photo);
+  const cardIsLink = o.models.length === 1 || photoOnly;
+  const card = make(cardIsLink ? 'a' : 'article', undefined, 'card');
+  const action = model ? 'Открыть 3D' : 'Увеличить фото';
+  if (cardIsLink) {
+   card.href = modelUrl || photo.preview;
+   card.setAttribute('aria-label', action+' '+o.name);
+  }
+  if (photoOnly) {
+   card.classList.add('photo-only');
+   card.setAttribute('aria-haspopup', 'dialog');
+   card.onclick = event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    openEvidencePhoto(photo.preview, o.name);
+   };
+  }
+
+  const previewIsLink = Boolean(model) && !cardIsLink;
+  const preview = make(previewIsLink ? 'a' : 'div', undefined, photo ? 'preview catalog-photo' : 'preview');
+  if (previewIsLink) {
+   preview.href = modelUrl;
+   preview.setAttribute('aria-label', action+' '+o.name);
+  }
+  if (photo) {
+   const img = make('img');
+   img.src = photo.thumbnail;
+   img.alt = 'Фото экспоната '+o.name;
+   img.loading = 'lazy';
+   img.decoding = 'async';
+   img.width = 480;
+   img.height = 360;
+   img.onerror = () => {
+    img.remove();
+    preview.classList.remove('catalog-photo');
+    preview.prepend('◇');
+   };
+   preview.append(img, make('span', action, 'catalog-photo-label'));
+  } else if (model) {
+   const poster = make('img');
+   poster.src = model.poster || '/evidence/poster_'+model.id+'_small.jpg?v=20261030';
+   if (!model.poster) {
+    poster.srcset = '/evidence/poster_'+model.id+'_small.jpg?v=20261030 360w, /evidence/poster_'+model.id+'.jpg?v=20261030 640w';
+    poster.sizes = '(max-width:700px) 360px, 300px';
+   }
+   poster.alt = 'Превью '+o.name;
+   poster.width = 640;
+   poster.height = 480;
+   poster.loading = 'lazy';
+   poster.decoding = 'async';
+   poster.style.cssText = 'width:100%;height:100%;object-fit:contain;display:block';
+   poster.onerror = () => {
+    poster.onerror = null;
+    const fallback = model.dimensions?.evidenceThumbnail || model.measurements?.evidenceThumbnail;
+    if (fallback) {
+     poster.removeAttribute('srcset');
+     poster.src = fallback;
+    } else preview.textContent = o.name;
+   };
+   preview.append(poster);
+  } else preview.textContent = '◇';
+  card.append(preview);
+
+  const info = make('div', undefined, 'info');
+  if (o.placement) info.append(make('small', placementText(o.placement)));
+  const badgeLabel = model ? 'Открыть 3D · '+(model.size/1048576).toFixed(1)+' МБ'
+   : (o.weaponDraftStatus || '3D ещё не опубликован');
+  const badge = make(previewIsLink ? 'a' : 'span', badgeLabel, 'badge'+(model ? '' : ' pending'));
+  if (previewIsLink) badge.href = modelUrl;
+  info.append(make('h3', o.name), make('small', o.path || 'Без папки'), badge);
+  if (o.models.length > 1) {
+   const versions = make('nav', undefined, 'card-versions');
+   versions.setAttribute('aria-label', 'Версии '+o.name);
+   for (const version of [...o.models].sort((a,b) => Number(versionName(a,o.models)==='HD')-Number(versionName(b,o.models)==='HD'))) {
+    versions.append(versionLink(version,o.models));
+   }
+   info.append(versions);
+  }
+  card.append(info);
+  if (o.tzDisplayGroup) card.dataset.group = o.tzDisplayGroup.id;
+  $('cards').append(card);
+ }
  if(!items.length)$('cards').append(make('p','В этом разделе ничего не найдено.'));
  for(const b of $('folders').querySelectorAll('button'))b.classList.toggle('active',b.dataset.path===selectedFolder);
 }
