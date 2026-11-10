@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:56:00.545042+00:00",
+  "updatedAt": "2026-11-10T03:54:53.860991+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -1967,36 +1967,6 @@
       "weaponDraftStatus": "Фото и сканы пока не найдены"
     },
     {
-      "path": "VESTIBUL/INFO_PRESET/DAGGER",
-      "name": "DAGGER",
-      "hasSource": true,
-      "tzGroupIds": [
-        "VESTIBUL_INFO_PRESET"
-      ],
-      "placement": {
-        "hall": "Вестибюль",
-        "code": "VESTIBUL_INFO_PRESET",
-        "destination": "Графический шаблон информационных материалов",
-        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      },
-      "weaponDraftStatus": "Фото и сканы пока не найдены"
-    },
-    {
-      "path": "VESTIBUL/INFO_PRESET/REVOLVER",
-      "name": "REVOLVER",
-      "hasSource": true,
-      "tzGroupIds": [
-        "VESTIBUL_INFO_PRESET"
-      ],
-      "placement": {
-        "hall": "Вестибюль",
-        "code": "VESTIBUL_INFO_PRESET",
-        "destination": "Графический шаблон информационных материалов",
-        "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit"
-      },
-      "weaponDraftStatus": "Фото и сканы пока не найдены"
-    },
-    {
       "path": "VESTIBUL/MAINLOOP/DAGGER_1169",
       "name": "DAGGER_1169",
       "hasSource": true,
@@ -2736,8 +2706,6 @@
     "POLYCAM_INBOX",
     "VESTIBUL",
     "VESTIBUL/INFO_PRESET",
-    "VESTIBUL/INFO_PRESET/DAGGER",
-    "VESTIBUL/INFO_PRESET/REVOLVER",
     "VESTIBUL/MAINLOOP",
     "VESTIBUL/MAINLOOP/DAGGER_1169",
     "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
@@ -2802,8 +2770,6 @@
       "hallTitle": "Вестибюль",
       "title": "Графический шаблон информационных материалов",
       "objectPaths": [
-        "VESTIBUL/INFO_PRESET/DAGGER",
-        "VESTIBUL/INFO_PRESET/REVOLVER",
         "VESTIBUL/MAINLOOP/DAGGER_1169",
         "VESTIBUL/MAINLOOP/FLINT_RIFLE_718",
         "VESTIBUL/MAINLOOP/REVOLVER_949"
