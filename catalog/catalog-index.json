@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T03:54:53.860991+00:00",
+  "updatedAt": "2026-11-10T06:05:58.396199+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -608,7 +608,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва у приклада и дула"
+      "releaseDraft": {
+        "id": "05b5cdf6-e126-58ed-b268-35f1da2c4049",
+        "name": "OFFICER_GUN_924",
+        "folder": "H2/BATTLE/OFFICER_GUN_924",
+        "size": 32650440,
+        "sourceHash": "5fb39a9e6ae154af39ed59d36a3794058ae07e6fe1b8e71a927eb59cf45b6f57",
+        "createdAt": "2026-11-10T06:05:58.396199+00:00",
+        "updatedAt": "2026-11-10T06:05:58.396199+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка двух музейных сканов. Видимый вход ствола восстановлен по торцевой фотографии.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/OFFICER_GUN_924_1249_view.jpg",
+            "caption": "Фото экспоната · IMG_1249"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/officer-gun-924-8k-20261110/OFFICER_GUN_924_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/officer-gun-924-8k-20261110/OFFICER_GUN_924.glb",
+          "size": 32650440,
+          "sha256": "5fb39a9e6ae154af39ed59d36a3794058ae07e6fe1b8e71a927eb59cf45b6f57"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H2/BATTLE/OFFICER_PISTOL_984",
