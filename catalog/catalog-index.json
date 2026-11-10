@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T06:05:58.396199+00:00",
+  "updatedAt": "2026-11-10T06:07:09.684649+00:00",
   "objects": [
     {
       "path": "H1/DOSPEHI/BRANDENBURG_ARMOR",
@@ -263,7 +263,42 @@
         "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_thumb.jpg",
         "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_view.jpg"
       },
-      "weaponDraftStatus": "Доработка шва"
+      "releaseDraft": {
+        "id": "1887d30d-82ce-542d-96c0-e7236f347e63",
+        "name": "FLINT_GUN_926",
+        "folder": "H2/BATTLE/FLINT_GUN_926",
+        "size": 28970904,
+        "sourceHash": "21312b4c43cb55df5bf2008f7c8e7d0aa6434010d37c718b2c10c36e6ed0fc64",
+        "createdAt": "2026-11-10T06:07:09.684649+00:00",
+        "updatedAt": "2026-11-10T06:07:09.684649+00:00",
+        "draft": true,
+        "variantLabel": "8K",
+        "textureResolution": "8K",
+        "presentationKind": "weapon",
+        "notes": "Сшивка двух музейных сканов. Видимый вход ствола восстановлен по торцевой фотографии.",
+        "photos": [
+          {
+            "thumbnail": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_thumb.jpg",
+            "preview": "https://github.com/FantomPie/bansai_git/releases/download/catalog-exhibit-photos-20261109/FLINT_GUN_926_1243_view.jpg",
+            "caption": "Фото экспоната · IMG_1243"
+          }
+        ],
+        "poster": "https://github.com/FantomPie/bansai_git/releases/download/flint-gun-926-8k-20261110/FLINT_GUN_926_poster.jpg",
+        "asset": {
+          "url": "https://github.com/FantomPie/bansai_git/releases/download/flint-gun-926-8k-20261110/FLINT_GUN_926.glb",
+          "size": 28970904,
+          "sha256": "21312b4c43cb55df5bf2008f7c8e7d0aa6434010d37c718b2c10c36e6ed0fc64"
+        },
+        "placement": {
+          "hall": "Зал 2",
+          "code": "H2_BATTLE",
+          "destination": "Горизонтальный батальный экран (31 штука)_зал2",
+          "purpose": "3D-модели для батального ролика",
+          "sourceUrl": "https://docs.google.com/document/d/1BE3G-V7FG41VvHil8ScmgRDtF-RC3tI-tKZbq2sZaFg/edit",
+          "status": "section_confirmed",
+          "note": "Назначение раздела подтверждено ТЗ; конкретный объект проверяется отдельно."
+        }
+      }
     },
     {
       "path": "H2/BATTLE/FLINT_PISTOL_1632",
