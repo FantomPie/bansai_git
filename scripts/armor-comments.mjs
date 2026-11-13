@@ -32,6 +32,7 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
    }else input=Object.fromEntries(url.searchParams);
    const part=manifest.parts.find(p=>p.id===input.partId);
    if(!part)throw fail(400,'Деталь не найдена');
+   if(decisions&&!part.modelAsset)throw fail(409,'Проверенная модель ещё не опубликована');
    const folder=dataRoot+'/'+storage,file=folder+'/'+part.id+'.jsonl';
    if(req.method==='GET'){
     const comments=[...(await readComments(file)).values()].filter(c=>!c.deleted&&c.version===input.version&&c.view===input.view).slice(-200);

@@ -25,18 +25,13 @@
       "title": "Римлянин с мечом и щитом с умбоном",
       "role": "SH060B_ROMAN_UMBO",
       "variant": "Основная версия",
-      "version": "bf3cecf39c8fbf3690f1d6a4603ae3c7493862226fc64a01bc2cbc0db733c1e8",
+      "version": "pending",
       "views": [
         {
           "name": "3D",
           "url": "/manifest/model/SH060B_ROMAN_UMBO.glb"
         }
-      ],
-      "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH060B_ROMAN_UMBO.glb",
-        "sha256": "bf3cecf39c8fbf3690f1d6a4603ae3c7493862226fc64a01bc2cbc0db733c1e8",
-        "size": 11675512
-      }
+      ]
     },
     {
       "id": "SH090_SAMURAI_MOUNTED",

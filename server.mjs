@@ -67,7 +67,7 @@ const handler=async(req,res)=>{
    if(manifestModel){
     const {parts}=JSON.parse(await readFile(manifestPath,'utf8'));
     const part=parts.find(entry=>entry.id===manifestModel[1]);
-    if(!part)return send(res,404,{error:'Модель не найдена'});
+    if(!part?.modelAsset)return send(res,404,{error:'Модель не опубликована'});
     return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');
    }
   }

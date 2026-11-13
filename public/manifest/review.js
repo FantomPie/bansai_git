@@ -40,8 +40,13 @@ function selectPart(part) {
   byId('variants-label').hidden = options.length < 2;
   for (const button of byId('roles').children) button.setAttribute('aria-current', String(button.dataset.role === part.role));
   const url = part.views[0].url;
+  viewer.hidden = !part.modelAsset;
+  byId('download').hidden = !part.modelAsset;
+  form.hidden = !part.modelAsset;
+  viewer.style.visibility = 'hidden';
   viewer.alt = part.title;
-  viewer.src = url;
+  if (part.modelAsset) viewer.src = url;
+  else viewer.removeAttribute('src');
   byId('download').href = url;
   byId('download').download = part.id + '.glb';
   byId('history').replaceChildren();
@@ -49,6 +54,10 @@ function selectPart(part) {
   byId('model-error').textContent = '';
   byId('message').textContent = '';
   history.replaceState(null, '', '#' + part.id);
+  if (!part.modelAsset) {
+    byId('status').textContent = 'Ожидает публикации проверенного GLB';
+    return;
+  }
   showReviews(part).catch(error => {
     if (selected === part) byId('status').textContent = error.message;
   });
@@ -63,6 +72,7 @@ viewer.addEventListener('load', () => {
     surface.setRoughnessFactor(0.8);
   }
   byId('model-error').textContent = '';
+  viewer.style.visibility = '';
 });
 variants.addEventListener('change', () => selectPart(parts.find(entry => entry.id === variants.value)));
 addEventListener('hashchange', () => {
@@ -103,7 +113,7 @@ form.addEventListener('submit', async event => {
 try {
   ({parts} = await request('/manifest/data.json'));
   const roles = parts.filter(entry => entry.id === entry.role);
-  byId('count').textContent = roles.length + ' моделей · ' + (parts.length - roles.length) + ' альтернативные версии';
+  byId('count').textContent = roles.filter(part => part.modelAsset).length + ' моделей · ' + parts.filter(part => part.id !== part.role && part.modelAsset).length + ' альтернативные версии';
   byId('roles').replaceChildren(...roles.map(part => {
     const button = document.createElement('button');
     button.type = 'button';

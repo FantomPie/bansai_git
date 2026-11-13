@@ -49,7 +49,9 @@ test('manifest exposes 17 roles and saves a review for its exact version',async(
  assert.equal(parts.length,19);
  assert.equal(new Set(parts.map(part=>part.role)).size,17);
  const [part]=parts;
- assert.ok(parts.every(entry=>entry.views[0].url==='/manifest/model/'+entry.id+'.glb'&&entry.version===entry.modelAsset.sha256));
+ assert.ok(parts.every(entry=>entry.views[0].url==='/manifest/model/'+entry.id+'.glb'&&(!entry.modelAsset||entry.version===entry.modelAsset.sha256)));
+ const pending=parts.find(entry=>!entry.modelAsset);
+ if(pending)assert.equal((await fetch(base+pending.views[0].url)).status,404);
  assert.equal((await fetch(base+'/manifest/model/UNKNOWN.glb')).status,404);
  const endpoint=base+'/api/manifest/reviews';
  const query={partId:part.id,version:part.version,view:'3D'};
