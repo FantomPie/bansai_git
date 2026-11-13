@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Видеоманифест · 3D-модели — BANSAI</title>
+<script type="module" src="/vendor/model-viewer.min.js"></script>
+<script type="module" src="/manifest/review.js"></script>
+<style>
+  :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#131619;color:#eaf0f4}
+  *{box-sizing:border-box} body{margin:0} a{color:#d9f98c} header,main{max-width:1480px;margin:auto;padding:20px}
+  header{display:flex;align-items:center;gap:24px;border-bottom:1px solid #34404a} header a:first-child{font-weight:750;letter-spacing:.16em}
+  h1{margin:0 0 8px} h2{margin:0 0 8px;font-size:1.2rem} p{margin:8px 0}
+  .layout{display:grid;grid-template-columns:minmax(230px,340px) minmax(0,1fr);gap:24px;margin-top:20px;align-items:start}
+  nav{display:grid;gap:6px} button,input,textarea,select{font:inherit;border:1px solid #45525d;border-radius:8px;background:#21282e;color:inherit;padding:8px 11px} button,select{cursor:pointer} nav button{text-align:left} button[aria-current=true]{border-color:#d9f98c;color:#d9f98c}
+  model-viewer{display:block;width:100%;height:clamp(320px,54vh,680px);background:#20262c;border:1px solid #34404a;border-radius:12px;margin:12px 0}
+  .bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap} .note{color:#b8c7d1} form{display:grid;gap:10px;margin-top:14px} textarea{width:100%;min-height:76px;resize:vertical} form button{justify-self:start;background:#d9f98c;color:#202419;font-weight:700} ul{padding-left:20px} li{margin:10px 0;overflow-wrap:anywhere} li p{white-space:pre-wrap}
+  @media(max-width:740px){.layout{grid-template-columns:1fr}nav{max-height:175px;overflow:auto}header,main{padding:14px}}
+</style>
+</head>
+<body>
+<header><a href="/">BANSAI</a><a href="/armor/">Доспехи</a></header>
+<main>
+  <h1>Видеоманифест · 3D-модели</h1>
+  <p class="note" id="count"></p>
+  <div class="layout">
+    <nav id="roles" aria-label="Модели"></nav>
+    <section aria-labelledby="title">
+      <h2 id="title">Загрузка моделей…</h2>
+      <div class="bar"><label id="variants-label" hidden>Версия <select id="variants"></select></label><a id="download" download>Скачать GLB</a></div>
+      <model-viewer id="viewer" camera-controls touch-action="pan-y" interaction-prompt="none" exposure="0.48" field-of-view="28deg" shadow-intensity="0.5"></model-viewer>
+      <p id="model-error" role="status"></p>
+      <p id="status" class="note"></p>
+      <form id="review">
+        <div class="bar">
+          <label>Имя <input name="author" required maxlength="80" autocomplete="name"></label>
+          <label>Решение <select name="decision"><option value="approved">Согласовано</option><option value="changes">Нужны правки</option><option value="comment">Комментарий</option></select></label>
+        </div>
+        <label>Комментарий <textarea name="text" maxlength="4000"></textarea></label>
+        <button type="submit">Сохранить решение</button>
+      </form>
+      <p id="message" role="status"></p>
+      <ul id="history" aria-label="История решений"></ul>
+    </section>
+  </div>
+</main>
+</body>
+</html>

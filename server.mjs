@@ -15,6 +15,8 @@ await mkdir(dir,{recursive:true});
 const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
 const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armor/data.json'});
+const manifestPath=root+'public/manifest/data.json';
+const handleManifestReview=armorComments({dataRoot,manifestPath,storage:'manifest-reviews',decisions:true});
 const armorCachedModel=armorModelCache({dataRoot});
 const wheellock703Id='e2411543-a8ec-4eb6-afb3-a4b565c9d70f';
 const wheellock703V14={
@@ -48,6 +50,27 @@ const handler=async(req,res)=>{
   const url=new URL(req.url,'http://localhost');
   const localAdmin=adminEnabled&&req.socket.localPort===adminPort;
   if(url.pathname==='/api/armor/comments')return await handleArmorComments(req,res,url);
+  if(url.pathname==='/api/manifest/reviews')return await handleManifestReview(req,res,url);
+  if(['GET','HEAD'].includes(req.method)){
+   const manifestAssets={
+    '/manifest':'index.html',
+    '/manifest/':'index.html',
+    '/manifest/data.json':'data.json',
+    '/manifest/review.js':'review.js',
+   };
+   if(Object.hasOwn(manifestAssets,url.pathname)){
+    const file=manifestAssets[url.pathname];
+    const type={"index.html":"text/html","data.json":"application/json","review.js":"text/javascript"}[file];
+    return await assetResponse(req,res,root+'public/manifest/'+file,type+'; charset=utf-8');
+   }
+   const manifestModel=url.pathname.match(/^\/manifest\/model\/([A-Z0-9_]+)\.glb$/);
+   if(manifestModel){
+    const {parts}=JSON.parse(await readFile(manifestPath,'utf8'));
+    const part=parts.find(entry=>entry.id===manifestModel[1]);
+    if(!part)return send(res,404,{error:'Модель не найдена'});
+    return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');
+   }
+  }
   const armorPart=url.pathname.match(/^\/armor\/model\/([0-9]{2})\.glb$/);
   if(['GET','HEAD'].includes(req.method)&&armorPart){const manifest=JSON.parse(await readFile(root+'public/armor/data.json','utf8'));const part=manifest.parts.find(p=>p.id===armorPart[1]);if(!part?.modelAsset||!(await catalogIndex()).objects.some(o=>o.path===part.modelFolder))return send(res,404,{error:'Модель не опубликована'});return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');}
   if(req.method==='GET'&&url.pathname==='/healthz')return send(res,200,{status:'ok'});

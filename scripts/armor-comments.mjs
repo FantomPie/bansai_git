@@ -1,7 +1,7 @@
 import {mkdir,readFile,appendFile} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 
-export function armorComments({dataRoot,manifestPath}) {
+export function armorComments({dataRoot,manifestPath,storage='armor-comments',decisions=false}) {
  const rates=new Map();let writes=Promise.resolve();
  const reply=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
  const fail=(status,message)=>Object.assign(new Error(message),{status});
@@ -22,7 +22,7 @@ export function armorComments({dataRoot,manifestPath}) {
    const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
    let input;
    if(req.method==='POST'){
-    if(req.headers.origin&&new URL(req.headers.origin).host!==req.headers.host)throw fail(403,'Отправляйте правки со страницы доспехов');
+    if(req.headers.origin&&new URL(req.headers.origin).host!==req.headers.host)throw fail(403,'Отправляйте правки со страницы сайта');
     if(!/^application\/json(?:;|$)/i.test(req.headers['content-type']||''))throw fail(415,'Нужен JSON');
     if(Number(req.headers['content-length'])>16384){req.resume();throw fail(413,'Правка слишком длинная');}
     let size=0;const chunks=[];
@@ -32,13 +32,14 @@ export function armorComments({dataRoot,manifestPath}) {
    }else input=Object.fromEntries(url.searchParams);
    const part=manifest.parts.find(p=>p.id===input.partId);
    if(!part)throw fail(400,'Деталь не найдена');
-   const folder=dataRoot+'/armor-comments',file=folder+'/'+part.id+'.jsonl';
+   const folder=dataRoot+'/'+storage,file=folder+'/'+part.id+'.jsonl';
    if(req.method==='GET'){
     const comments=[...(await readComments(file)).values()].filter(c=>!c.deleted&&c.version===input.version&&c.view===input.view).slice(-200);
     return reply(res,200,{comments});
    }
    if(input.version!==part.version||!part.views.some(v=>v.name===input.view))throw fail(409,'Изображение обновилось. Обновите страницу перед отправкой');
    const action=input.action||'create';if(!['create','edit','delete'].includes(action))throw fail(400,'Неизвестное действие');
+   if(decisions&&(action!=='create'||!['approved','changes','comment'].includes(input.decision)))throw fail(400,'Выберите решение по модели');
    if(action!=='delete'&&(typeof input.text!=='string'||!input.text.trim()||input.text.trim().length>4000))throw fail(400,'Напишите правку от 1 до 4000 символов');
    if(input.author!==undefined&&(typeof input.author!=='string'||input.author.trim().length>80))throw fail(400,'Имя — не более 80 символов');
    const now=Date.now(),key=req.socket.remoteAddress;
@@ -47,7 +48,7 @@ export function armorComments({dataRoot,manifestPath}) {
    let comment;
    const write=writes.then(async()=>{
     let record;
-    if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),createdAt:new Date().toISOString()};
+    if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),createdAt:new Date().toISOString(),...(decisions?{decision:input.decision}:{})};
     else{
      const previous=(await readComments(file)).get(input.id);
      if(!previous||previous.deleted||previous.version!==input.version||previous.view!==input.view)throw fail(404,'Правка уже удалена или относится к другому изображению');

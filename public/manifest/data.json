@@ -1,0 +1,365 @@
+{
+  "parts": [
+    {
+      "id": "SH030_FIRST_WARRIOR",
+      "shot": "SH030",
+      "title": "Первый воин с обсидиановым ножом",
+      "role": "SH030_FIRST_WARRIOR",
+      "variant": "Основная версия",
+      "version": "26bc1fbb95735f376faeb4760cb107f9b6091c688f539d0c36c870a097eeb3f6",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH030_FIRST_WARRIOR.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH030_FIRST_WARRIOR.glb",
+        "sha256": "26bc1fbb95735f376faeb4760cb107f9b6091c688f539d0c36c870a097eeb3f6",
+        "size": 11466376
+      }
+    },
+    {
+      "id": "SH060B_ROMAN_UMBO",
+      "shot": "SH060B",
+      "title": "Римлянин с мечом и щитом с умбоном",
+      "role": "SH060B_ROMAN_UMBO",
+      "variant": "Основная версия",
+      "version": "bf3cecf39c8fbf3690f1d6a4603ae3c7493862226fc64a01bc2cbc0db733c1e8",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH060B_ROMAN_UMBO.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH060B_ROMAN_UMBO.glb",
+        "sha256": "bf3cecf39c8fbf3690f1d6a4603ae3c7493862226fc64a01bc2cbc0db733c1e8",
+        "size": 11675512
+      }
+    },
+    {
+      "id": "SH090_SAMURAI_MOUNTED",
+      "shot": "SH090",
+      "title": "Самурай верхом с копьём яри",
+      "role": "SH090_SAMURAI_MOUNTED",
+      "variant": "Основная версия",
+      "version": "651f605dcad47684a57cc5de699c3f89bbb27e387b2db13e8da53893b735d554",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH090_SAMURAI_MOUNTED.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_SAMURAI_MOUNTED.glb",
+        "sha256": "651f605dcad47684a57cc5de699c3f89bbb27e387b2db13e8da53893b735d554",
+        "size": 12033056
+      }
+    },
+    {
+      "id": "SH090_JAPANESE_RIDER",
+      "shot": "SH090",
+      "title": "Самурай с копьём яри",
+      "role": "SH090_JAPANESE_RIDER",
+      "variant": "Основная версия",
+      "version": "8f3c9b84077d65665768681c70d52da1e92265ffe45c4a6b68e51986d7a8e4b3",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH090_JAPANESE_RIDER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_JAPANESE_RIDER.glb",
+        "sha256": "8f3c9b84077d65665768681c70d52da1e92265ffe45c4a6b68e51986d7a8e4b3",
+        "size": 11874888
+      }
+    },
+    {
+      "id": "SH090_HORSE",
+      "shot": "SH090",
+      "title": "Конь с японским седлом и стременами абуми",
+      "role": "SH090_HORSE",
+      "variant": "Основная версия",
+      "version": "01659a4ee51399afc42bb97e4edec43ac5bf5ad4ca64e6238e828b822f9e6bbe",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH090_HORSE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_HORSE.glb",
+        "sha256": "01659a4ee51399afc42bb97e4edec43ac5bf5ad4ca64e6238e828b822f9e6bbe",
+        "size": 12048720
+      }
+    },
+    {
+      "id": "SH110_CROSSBOWMAN",
+      "shot": "SH110",
+      "title": "Средневековый арбалетчик",
+      "role": "SH110_CROSSBOWMAN",
+      "variant": "Основная версия",
+      "version": "068866fde0b8396943f0875e24e58c96ecb4c629f5fb0f7cc7c1d327a2253289",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH110_CROSSBOWMAN.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH110_CROSSBOWMAN.glb",
+        "sha256": "068866fde0b8396943f0875e24e58c96ecb4c629f5fb0f7cc7c1d327a2253289",
+        "size": 11509160
+      }
+    },
+    {
+      "id": "SH110_CROSSBOWMAN_ALT",
+      "shot": "SH110",
+      "title": "Средневековый арбалетчик",
+      "role": "SH110_CROSSBOWMAN",
+      "variant": "Альтернативная версия",
+      "version": "58ecce9611fef695a63d26c0e4bdc039d36b2ddd589ed388100cdd941b69da67",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH110_CROSSBOWMAN_ALT.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH110_CROSSBOWMAN_ALT.glb",
+        "sha256": "58ecce9611fef695a63d26c0e4bdc039d36b2ddd589ed388100cdd941b69da67",
+        "size": 11737020
+      }
+    },
+    {
+      "id": "SH130_GRENADIER",
+      "shot": "SH130",
+      "title": "Французский гренадёр",
+      "role": "SH130_GRENADIER",
+      "variant": "Основная версия",
+      "version": "3a4b807280c04127d7b6bf1e929f088d9b618b11c92362106131037fbc95141e",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH130_GRENADIER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH130_GRENADIER.glb",
+        "sha256": "3a4b807280c04127d7b6bf1e929f088d9b618b11c92362106131037fbc95141e",
+        "size": 11817884
+      }
+    },
+    {
+      "id": "SH150_BERSAGLIERE",
+      "shot": "SH150",
+      "title": "Итальянский берсальер с винтовкой",
+      "role": "SH150_BERSAGLIERE",
+      "variant": "Основная версия",
+      "version": "84a1314a12e291238370dc902feafde87087d142ccf8f3447f87fc8a5c1aa94e",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH150_BERSAGLIERE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH150_BERSAGLIERE.glb",
+        "sha256": "84a1314a12e291238370dc902feafde87087d142ccf8f3447f87fc8a5c1aa94e",
+        "size": 11663840
+      }
+    },
+    {
+      "id": "SH180A_BELT_FEEDER",
+      "shot": "SH180A",
+      "title": "Помощник пулемётчика с патронной лентой",
+      "role": "SH180A_BELT_FEEDER",
+      "variant": "Основная версия",
+      "version": "03df74b011c1edf78ce6d40d4aceed0f32267c507da8267b565980920e0a49bf",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH180A_BELT_FEEDER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180A_BELT_FEEDER.glb",
+        "sha256": "03df74b011c1edf78ce6d40d4aceed0f32267c507da8267b565980920e0a49bf",
+        "size": 11769544
+      }
+    },
+    {
+      "id": "SH180A_BELT_FEEDER_ALT",
+      "shot": "SH180A",
+      "title": "Помощник пулемётчика с патронной лентой",
+      "role": "SH180A_BELT_FEEDER",
+      "variant": "Альтернативная версия",
+      "version": "feac7be0df61c4a29e0b3eb34d6361f2a351d513b4eff4013aff22508ee71f27",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH180A_BELT_FEEDER_ALT.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180A_BELT_FEEDER_ALT.glb",
+        "sha256": "feac7be0df61c4a29e0b3eb34d6361f2a351d513b4eff4013aff22508ee71f27",
+        "size": 11827860
+      }
+    },
+    {
+      "id": "SH180C_CREW",
+      "shot": "SH180C",
+      "title": "Наблюдатель пулемётного расчёта",
+      "role": "SH180C_CREW",
+      "variant": "Основная версия",
+      "version": "519042ec06bd0f8fdad83a6d043499ee477ec753afe574e1c877a38c2a952b4c",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH180C_CREW.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180C_CREW.glb",
+        "sha256": "519042ec06bd0f8fdad83a6d043499ee477ec753afe574e1c877a38c2a952b4c",
+        "size": 11882272
+      }
+    },
+    {
+      "id": "SH210A_PPSH",
+      "shot": "SH210A",
+      "title": "Советский солдат с ППШ",
+      "role": "SH210A_PPSH",
+      "variant": "Основная версия",
+      "version": "e4d01544d1f12c363195902878ba63bf5b73a963a810c02379874343c20ac818",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH210A_PPSH.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210A_PPSH.glb",
+        "sha256": "e4d01544d1f12c363195902878ba63bf5b73a963a810c02379874343c20ac818",
+        "size": 12161428
+      }
+    },
+    {
+      "id": "SH210B_AK",
+      "shot": "SH210B",
+      "title": "Вьетнамский солдат с АК",
+      "role": "SH210B_AK",
+      "variant": "Основная версия",
+      "version": "15d6b6357420fc0b6a49f8e6727cbc1ed6ea69228d9db200ca2da536fbc24602",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH210B_AK.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210B_AK.glb",
+        "sha256": "15d6b6357420fc0b6a49f8e6727cbc1ed6ea69228d9db200ca2da536fbc24602",
+        "size": 11840428
+      }
+    },
+    {
+      "id": "SH210C_TAVOR",
+      "shot": "SH210C",
+      "title": "Израильский солдат с Tavor-21",
+      "role": "SH210C_TAVOR",
+      "variant": "Основная версия",
+      "version": "96705adc7c7d83753f23d00488163bb01c002d0aef741561d13335156e7f2532",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH210C_TAVOR.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210C_TAVOR.glb",
+        "sha256": "96705adc7c7d83753f23d00488163bb01c002d0aef741561d13335156e7f2532",
+        "size": 11584124
+      }
+    },
+    {
+      "id": "SH220A_FUTURE_SOLDIER",
+      "shot": "SH220A",
+      "title": "Боец будущего в шлеме с широким визором",
+      "role": "SH220A_FUTURE_SOLDIER",
+      "variant": "Основная версия",
+      "version": "3257471ed36bcd2bc3137bd4e5f18df403e3a432b3f58e25a4f8a500383073b6",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH220A_FUTURE_SOLDIER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220A_FUTURE_SOLDIER.glb",
+        "sha256": "3257471ed36bcd2bc3137bd4e5f18df403e3a432b3f58e25a4f8a500383073b6",
+        "size": 11770752
+      }
+    },
+    {
+      "id": "SH220B_FUTURE_SOLDIER",
+      "shot": "SH220B",
+      "title": "Боец будущего в клиновидном шлеме",
+      "role": "SH220B_FUTURE_SOLDIER",
+      "variant": "Основная версия",
+      "version": "1519ce94d9c421dac7b826884e8768cec85d6d887329fd6c3ff33f3f466eaa55",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH220B_FUTURE_SOLDIER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220B_FUTURE_SOLDIER.glb",
+        "sha256": "1519ce94d9c421dac7b826884e8768cec85d6d887329fd6c3ff33f3f466eaa55",
+        "size": 12041492
+      }
+    },
+    {
+      "id": "SH220C_PISTOL_SHOOTER",
+      "shot": "SH220C",
+      "title": "Стрелок с пистолетом",
+      "role": "SH220C_PISTOL_SHOOTER",
+      "variant": "Основная версия",
+      "version": "e1870ba27a85a28fb7d43fa43e16c0655827560bde9c9328bee6fcad89415798",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH220C_PISTOL_SHOOTER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220C_PISTOL_SHOOTER.glb",
+        "sha256": "e1870ba27a85a28fb7d43fa43e16c0655827560bde9c9328bee6fcad89415798",
+        "size": 12225416
+      }
+    },
+    {
+      "id": "SH250_FIRST_WARRIOR_RELEASE",
+      "shot": "SH250",
+      "title": "Первый воин после отпускания ножа",
+      "role": "SH250_FIRST_WARRIOR_RELEASE",
+      "variant": "Основная версия",
+      "version": "53e351d487c9fe114eb76467755cfa415dbe40ee5ae2459cf58489dbc5a43986",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250_FIRST_WARRIOR_RELEASE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH250_FIRST_WARRIOR_RELEASE.glb",
+        "sha256": "53e351d487c9fe114eb76467755cfa415dbe40ee5ae2459cf58489dbc5a43986",
+        "size": 11620032
+      }
+    }
+  ]
+}

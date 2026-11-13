@@ -1,6 +1,6 @@
 import {test,before,after} from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp,mkdir,writeFile,rm} from 'node:fs/promises';
+import {mkdtemp,mkdir,readFile,writeFile,rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {createServer} from 'node:net';
@@ -39,6 +39,29 @@ test('armor gallery routes and media manifest are available',async()=>{
  assert.ok(comparison.references.every(r=>r.preview.startsWith('https://github.com/FantomPie/bansai_git/releases/download/')&&r.original.endsWith('.jpg')&&r.orbit));
  assert.equal((await fetch(base+'/armor/comparison.js')).status,200);
  assert.equal((await fetch(base+'/armor/comparison.css')).status,200);
+});
+test('manifest exposes 17 roles and saves a review for its exact version',async()=>{
+ const home=await (await fetch(base+'/')).text();
+ assert.match(home,/href="\/manifest\/"/);
+ assert.equal((await fetch(base+'/manifest/')).status,200);
+ assert.equal((await fetch(base+'/manifest/review.js')).status,200);
+ const {parts}=await (await fetch(base+'/manifest/data.json')).json();
+ assert.equal(parts.length,19);
+ assert.equal(new Set(parts.map(part=>part.role)).size,17);
+ const [part]=parts;
+ assert.ok(parts.every(entry=>entry.views[0].url==='/manifest/model/'+entry.id+'.glb'&&entry.version===entry.modelAsset.sha256));
+ assert.equal((await fetch(base+'/manifest/model/UNKNOWN.glb')).status,404);
+ const endpoint=base+'/api/manifest/reviews';
+ const query={partId:part.id,version:part.version,view:'3D'};
+ const send=(input,origin=base)=>fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Origin:origin},body:JSON.stringify(input)});
+ const review={...query,author:'Тест',decision:'changes',text:'Проверить силуэт'};
+ assert.equal((await send(review,'http://elsewhere.invalid')).status,403);
+ assert.equal((await send({...review,version:'old'})).status,409);
+ assert.equal((await send(review)).status,201);
+ const {comments}=await (await fetch(endpoint+'?'+new URLSearchParams(query))).json();
+ assert.equal(comments[0].decision,'changes');
+ assert.equal(comments[0].text,review.text);
+ assert.match(await readFile(join(dir,'manifest-reviews',part.id+'.jsonl'),'utf8'),/changes/);
 });
 test('retired catalog object is hidden and its direct model URLs stop being public',async()=>{
  const original=await (await fetch(base+'/api/catalog')).json();
