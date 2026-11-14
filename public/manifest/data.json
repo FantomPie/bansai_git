@@ -44,17 +44,17 @@
       "title": "Самурай верхом с копьём яри",
       "role": "SH090_SAMURAI_MOUNTED",
       "variant": "Основная версия",
-      "version": "651f605dcad47684a57cc5de699c3f89bbb27e387b2db13e8da53893b735d554",
+      "version": "e4549f5be70a0cde5730b6512cf5f336a8678b650afe487ffc3e130e75e29ed5",
       "views": [
         {
           "name": "3D",
-          "url": "/manifest/model/SH090_SAMURAI_MOUNTED.glb"
+          "url": "/manifest/model/SH090_SAMURAI_MOUNTED.glb?v=5"
         }
       ],
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_SAMURAI_MOUNTED.glb",
-        "sha256": "651f605dcad47684a57cc5de699c3f89bbb27e387b2db13e8da53893b735d554",
-        "size": 12033056
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-sh090-yari-20261114/SH090_SAMURAI_MOUNTED_YARI_v05.glb",
+        "sha256": "e4549f5be70a0cde5730b6512cf5f336a8678b650afe487ffc3e130e75e29ed5",
+        "size": 11401928
       }
     },
     {
