@@ -39,6 +39,44 @@
       }
     },
     {
+      "id": "SH070A_FIRST_WARRIOR",
+      "shot": "SH070A",
+      "title": "Первый воин с разбитым плечом",
+      "role": "SH070A_FIRST_WARRIOR",
+      "variant": "Поза для аниматика",
+      "version": "fcdb76104ded7bf6cbcff37bb2c9fd1608d2ab075db30b9bb9dfd73a97324cf9",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH070A_FIRST_WARRIOR.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH070A_FIRST_WARRIOR.glb",
+        "sha256": "fcdb76104ded7bf6cbcff37bb2c9fd1608d2ab075db30b9bb9dfd73a97324cf9",
+        "size": 11983312
+      }
+    },
+    {
+      "id": "SH070B_ROMAN",
+      "shot": "SH070B",
+      "title": "Римлянин в ударе по плечу",
+      "role": "SH070B_ROMAN",
+      "variant": "Поза для аниматика",
+      "version": "00944bd96f2253223575f9ee1d23adeaaaab23aad6605c280d959f3d6c637a46",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH070B_ROMAN.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH070B_ROMAN.glb",
+        "sha256": "00944bd96f2253223575f9ee1d23adeaaaab23aad6605c280d959f3d6c637a46",
+        "size": 11611468
+      }
+    },
+    {
       "id": "SH090_SAMURAI_MOUNTED",
       "shot": "SH090",
       "title": "Самурай верхом с копьём яри",
@@ -134,6 +172,44 @@
       }
     },
     {
+      "id": "SH110C1_RIDER_IMPACT",
+      "shot": "SH110C",
+      "title": "Самурай верхом · попадание болта",
+      "role": "SH110C1_RIDER_IMPACT",
+      "variant": "Поза для аниматика",
+      "version": "40a98e62fd9afe9441b50fe788b2557c8c7970ec7d1349d945f60a31e4feca68",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH110C1_RIDER_IMPACT.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH110C1_RIDER_IMPACT.glb",
+        "sha256": "40a98e62fd9afe9441b50fe788b2557c8c7970ec7d1349d945f60a31e4feca68",
+        "size": 56722820
+      }
+    },
+    {
+      "id": "SH110C2_HORSE_LOSES_BALANCE",
+      "shot": "SH110C2",
+      "title": "Самурай верхом · потеря равновесия",
+      "role": "SH110C2_HORSE_LOSES_BALANCE",
+      "variant": "Поза для аниматика",
+      "version": "fe1eedb6c354c6d59effb3171108aaf911734f2ddf493e8c11da169f88b703ab",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH110C2_HORSE_LOSES_BALANCE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH110C2_HORSE_LOSES_BALANCE.glb",
+        "sha256": "fe1eedb6c354c6d59effb3171108aaf911734f2ddf493e8c11da169f88b703ab",
+        "size": 54208580
+      }
+    },
+    {
       "id": "SH130_GRENADIER",
       "shot": "SH130",
       "title": "Французский гренадёр",
@@ -150,6 +226,25 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH130_GRENADIER.glb",
         "sha256": "3a4b807280c04127d7b6bf1e929f088d9b618b11c92362106131037fbc95141e",
         "size": 11817884
+      }
+    },
+    {
+      "id": "SH130_HIGH_BACKSWING",
+      "shot": "SH130",
+      "title": "Гренадёр · высокий замах с гранатой",
+      "role": "SH130_HIGH_BACKSWING",
+      "variant": "Поза для аниматика",
+      "version": "d0621b2271b3a7750547ed3e4793794da70692bc7fa187e1a714fac2c678f047",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH130_HIGH_BACKSWING.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH130_HIGH_BACKSWING.glb",
+        "sha256": "d0621b2271b3a7750547ed3e4793794da70692bc7fa187e1a714fac2c678f047",
+        "size": 55048936
       }
     },
     {
@@ -210,6 +305,25 @@
       }
     },
     {
+      "id": "SH180B_GUNNER",
+      "shot": "SH180B",
+      "title": "Пулемётчик с музейным пулемётом №397",
+      "role": "SH180B_GUNNER",
+      "variant": "Поза для аниматика",
+      "version": "d670eba7cfc53e166a8d32ab948f33710350ba77e33e054a09ec0779bd593ce6",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH180B_GUNNER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH180B_GUNNER.glb",
+        "sha256": "d670eba7cfc53e166a8d32ab948f33710350ba77e33e054a09ec0779bd593ce6",
+        "size": 12837952
+      }
+    },
+    {
       "id": "SH180C_CREW",
       "shot": "SH180C",
       "title": "Наблюдатель пулемётного расчёта",
@@ -226,6 +340,63 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180C_CREW.glb",
         "sha256": "519042ec06bd0f8fdad83a6d043499ee477ec753afe574e1c877a38c2a952b4c",
         "size": 11882272
+      }
+    },
+    {
+      "id": "SH190A_FEEDER_RECOIL",
+      "shot": "SH190A",
+      "title": "Подающий ленту · реакция на попадание",
+      "role": "SH190A_FEEDER_RECOIL",
+      "variant": "Поза для аниматика",
+      "version": "59631590c50d84dcfcfe36f98d45fedd9751425afba52781489aeb095de9e836",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH190A_FEEDER_RECOIL.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190A_FEEDER_RECOIL.glb",
+        "sha256": "59631590c50d84dcfcfe36f98d45fedd9751425afba52781489aeb095de9e836",
+        "size": 55033460
+      }
+    },
+    {
+      "id": "SH190B_GUNNER_RECOIL",
+      "shot": "SH190B",
+      "title": "Пулемётчик · реакция на попадание",
+      "role": "SH190B_GUNNER_RECOIL",
+      "variant": "Поза для аниматика",
+      "version": "43dc3f0f503401cfe4e7447feaf59e7dbb5086384607d4282bdd7196720295b1",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH190B_GUNNER_RECOIL.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190B_GUNNER_RECOIL.glb",
+        "sha256": "43dc3f0f503401cfe4e7447feaf59e7dbb5086384607d4282bdd7196720295b1",
+        "size": 56403776
+      }
+    },
+    {
+      "id": "SH190C_OBSERVER_RECOIL",
+      "shot": "SH190C",
+      "title": "Наблюдатель · реакция на попадание",
+      "role": "SH190C_OBSERVER_RECOIL",
+      "variant": "Поза для аниматика",
+      "version": "93b8b4e6f128e4a242203afe2305dccb375bc20c617394b5688c145442d86966",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH190C_OBSERVER_RECOIL.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190C_OBSERVER_RECOIL.glb",
+        "sha256": "93b8b4e6f128e4a242203afe2305dccb375bc20c617394b5688c145442d86966",
+        "size": 56781460
       }
     },
     {
@@ -343,6 +514,44 @@
       }
     },
     {
+      "id": "SH230A_SWORD_ATTACK",
+      "shot": "SH230A",
+      "title": "Атакующий с мечом",
+      "role": "SH230A_SWORD_ATTACK",
+      "variant": "Поза для аниматика",
+      "version": "14a61ed1d01ba1158ce1ced2f20ec26c049eb8d2275cb5857a3728b4d32c0acb",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH230A_SWORD_ATTACK.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH230A_SWORD_ATTACK.glb",
+        "sha256": "14a61ed1d01ba1158ce1ced2f20ec26c049eb8d2275cb5857a3728b4d32c0acb",
+        "size": 8043064
+      }
+    },
+    {
+      "id": "SH230B_SOVIET_RIFLE",
+      "shot": "SH230B",
+      "title": "Советский пехотинец с винтовкой · отшатывается",
+      "role": "SH230B_SOVIET_RIFLE",
+      "variant": "Поза для аниматика",
+      "version": "e4a8b502ef945b20cdfc47c1c305f137f6de312a3372cee7db110e2e7aae3173",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH230B_SOVIET_RIFLE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH230B_SOVIET_RIFLE.glb",
+        "sha256": "e4a8b502ef945b20cdfc47c1c305f137f6de312a3372cee7db110e2e7aae3173",
+        "size": 8143888
+      }
+    },
+    {
       "id": "SH250_FIRST_WARRIOR_RELEASE",
       "shot": "SH250",
       "title": "Первый воин после отпускания ножа",
@@ -359,6 +568,348 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH250_FIRST_WARRIOR_RELEASE.glb",
         "sha256": "53e351d487c9fe114eb76467755cfa415dbe40ee5ae2459cf58489dbc5a43986",
         "size": 11620032
+      }
+    },
+    {
+      "id": "SH250A_RAISED_KNIFE",
+      "shot": "SH250A",
+      "title": "Первый воин · нож перед отпусканием",
+      "role": "SH250A_RAISED_KNIFE",
+      "variant": "Поза для аниматика",
+      "version": "fd8115119494c88482e83d9105ce208f5d57d18f4a361c23ed8e527a05f1511d",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250A_RAISED_KNIFE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250A_RAISED_KNIFE.glb",
+        "sha256": "fd8115119494c88482e83d9105ce208f5d57d18f4a361c23ed8e527a05f1511d",
+        "size": 56159096
+      }
+    },
+    {
+      "id": "SH250D_WWII_1",
+      "shot": "SH250D",
+      "title": "Солдат ВОВ · Передний план слева",
+      "role": "SH250D_WWII_1",
+      "variant": "Поза для аниматика",
+      "version": "20ce8f0d3329fef10e2fab8db16db3140a78910e6f7157dd720feadd4f87f303",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250D_WWII_1.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_1.glb",
+        "sha256": "20ce8f0d3329fef10e2fab8db16db3140a78910e6f7157dd720feadd4f87f303",
+        "size": 8023372
+      }
+    },
+    {
+      "id": "SH250D_WWII_2",
+      "shot": "SH250D",
+      "title": "Солдат ВОВ · Второй слева",
+      "role": "SH250D_WWII_2",
+      "variant": "Поза для аниматика",
+      "version": "1136028b8bd79f214cf1be343de65840849a17cdcfab277e5297307adca13e24",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250D_WWII_2.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_2.glb",
+        "sha256": "1136028b8bd79f214cf1be343de65840849a17cdcfab277e5297307adca13e24",
+        "size": 7974676
+      }
+    },
+    {
+      "id": "SH250D_WWII_3",
+      "shot": "SH250D",
+      "title": "Солдат ВОВ · Третий слева",
+      "role": "SH250D_WWII_3",
+      "variant": "Поза для аниматика",
+      "version": "61a23bcb261608d85eff8d64e98442b2169e2f91dc3be805c0454ca2e5c6e21f",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250D_WWII_3.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_3.glb",
+        "sha256": "61a23bcb261608d85eff8d64e98442b2169e2f91dc3be805c0454ca2e5c6e21f",
+        "size": 7782968
+      }
+    },
+    {
+      "id": "SH250D_WWII_4",
+      "shot": "SH250D",
+      "title": "Солдат ВОВ · Справа",
+      "role": "SH250D_WWII_4",
+      "variant": "Поза для аниматика",
+      "version": "3786a7cbe25afc6c99265900274c4da9cefd6c0822bd1d53864bd6b698cb43e1",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250D_WWII_4.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_4.glb",
+        "sha256": "3786a7cbe25afc6c99265900274c4da9cefd6c0822bd1d53864bd6b698cb43e1",
+        "size": 7976628
+      }
+    },
+    {
+      "id": "SH250E_ROMAN",
+      "shot": "SH250E",
+      "title": "Античный воин · после отпускания оружия",
+      "role": "SH250E_ROMAN",
+      "variant": "Поза для аниматика",
+      "version": "654fa14d4a02614dc84101df96a812a9d2b9b023b394be24621b20e679aa5024",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250E_ROMAN.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_ROMAN.glb",
+        "sha256": "654fa14d4a02614dc84101df96a812a9d2b9b023b394be24621b20e679aa5024",
+        "size": 8125412
+      }
+    },
+    {
+      "id": "SH250E_MOUNTED_SAMURAI",
+      "shot": "SH250E",
+      "title": "Самурай верхом · после отпускания оружия",
+      "role": "SH250E_MOUNTED_SAMURAI",
+      "variant": "Поза для аниматика",
+      "version": "e8c7fd7ebb07f2b884d3cddac113ca3389b099593e99732e90355e0e535e7322",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250E_MOUNTED_SAMURAI.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_MOUNTED_SAMURAI.glb",
+        "sha256": "e8c7fd7ebb07f2b884d3cddac113ca3389b099593e99732e90355e0e535e7322",
+        "size": 7942380
+      }
+    },
+    {
+      "id": "SH250E_CROSSBOWMAN",
+      "shot": "SH250E",
+      "title": "Арбалетчик · после отпускания оружия",
+      "role": "SH250E_CROSSBOWMAN",
+      "variant": "Поза для аниматика",
+      "version": "9b3ad92bba3fe94c6c33151910ccc7aea7d0ba0141914832a399e08ebe65b556",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250E_CROSSBOWMAN.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_CROSSBOWMAN.glb",
+        "sha256": "9b3ad92bba3fe94c6c33151910ccc7aea7d0ba0141914832a399e08ebe65b556",
+        "size": 7867156
+      }
+    },
+    {
+      "id": "SH250F_GRENADIER",
+      "shot": "SH250F",
+      "title": "Гренадёр · после отпускания оружия",
+      "role": "SH250F_GRENADIER",
+      "variant": "Поза для аниматика",
+      "version": "7e82e062c0499154eb386fe87595e5626486b5335ce1f7bbb1474d442b0bc2ef",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250F_GRENADIER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_GRENADIER.glb",
+        "sha256": "7e82e062c0499154eb386fe87595e5626486b5335ce1f7bbb1474d442b0bc2ef",
+        "size": 8087660
+      }
+    },
+    {
+      "id": "SH250F_BERSAGLIERE",
+      "shot": "SH250F",
+      "title": "Берсальер · после отпускания оружия",
+      "role": "SH250F_BERSAGLIERE",
+      "variant": "Поза для аниматика",
+      "version": "20d12315355ed6d3a0ab2d91713ad84df967f6c2998d641832bb9deab64ab59f",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250F_BERSAGLIERE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_BERSAGLIERE.glb",
+        "sha256": "20d12315355ed6d3a0ab2d91713ad84df967f6c2998d641832bb9deab64ab59f",
+        "size": 8266580
+      }
+    },
+    {
+      "id": "SH250F_GUNNER",
+      "shot": "SH250F",
+      "title": "Пулемётчик · после отпускания оружия",
+      "role": "SH250F_GUNNER",
+      "variant": "Поза для аниматика",
+      "version": "4d810bc2835a7a0939fc08ad75e7a693adf3f4ccd55ae8564269c4f664057a1f",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250F_GUNNER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_GUNNER.glb",
+        "sha256": "4d810bc2835a7a0939fc08ad75e7a693adf3f4ccd55ae8564269c4f664057a1f",
+        "size": 8206852
+      }
+    },
+    {
+      "id": "SH250G_VIETNAM",
+      "shot": "SH250G",
+      "title": "Вьетнамский солдат · после отпускания оружия",
+      "role": "SH250G_VIETNAM",
+      "variant": "Поза для аниматика",
+      "version": "5e8aee262764bb201f735e28967d4e1e78f90bb8dfb43afb832415fab4ff7545",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250G_VIETNAM.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250G_VIETNAM.glb",
+        "sha256": "5e8aee262764bb201f735e28967d4e1e78f90bb8dfb43afb832415fab4ff7545",
+        "size": 8063692
+      }
+    },
+    {
+      "id": "SH250G_ISRAEL",
+      "shot": "SH250G",
+      "title": "Израильский солдат · после отпускания оружия",
+      "role": "SH250G_ISRAEL",
+      "variant": "Поза для аниматика",
+      "version": "eb7e357fc02139b9d9d1c6be3505d6c6a0f033f780614ce182c386871b977294",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250G_ISRAEL.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250G_ISRAEL.glb",
+        "sha256": "eb7e357fc02139b9d9d1c6be3505d6c6a0f033f780614ce182c386871b977294",
+        "size": 8009832
+      }
+    },
+    {
+      "id": "SH250H_FUTURE_VISOR",
+      "shot": "SH250H",
+      "title": "Боец будущего с широким визором · после отпускания оружия",
+      "role": "SH250H_FUTURE_VISOR",
+      "variant": "Поза для аниматика",
+      "version": "59e87d50f9bd7c126c83c2fe9f4373ae59a0d8ad6b3107d4dea05022ed573898",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250H_FUTURE_VISOR.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_FUTURE_VISOR.glb",
+        "sha256": "59e87d50f9bd7c126c83c2fe9f4373ae59a0d8ad6b3107d4dea05022ed573898",
+        "size": 7798664
+      }
+    },
+    {
+      "id": "SH250H_FUTURE_WEDGE",
+      "shot": "SH250H",
+      "title": "Боец будущего в клиновидном шлеме · после отпускания оружия",
+      "role": "SH250H_FUTURE_WEDGE",
+      "variant": "Поза для аниматика",
+      "version": "01e917aed11ff8de39877ad0300a910dc2503ca87b96d24fd1979f199f1ee98b",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250H_FUTURE_WEDGE.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_FUTURE_WEDGE.glb",
+        "sha256": "01e917aed11ff8de39877ad0300a910dc2503ca87b96d24fd1979f199f1ee98b",
+        "size": 8013116
+      }
+    },
+    {
+      "id": "SH250H_PISTOL_SHOOTER",
+      "shot": "SH250H",
+      "title": "Стрелок с пистолетом · после отпускания оружия",
+      "role": "SH250H_PISTOL_SHOOTER",
+      "variant": "Поза для аниматика",
+      "version": "ceef74c0909b9946f3de91ecf5c40d1ebae3cefb4cad80ac90583cdc262da0c3",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250H_PISTOL_SHOOTER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_PISTOL_SHOOTER.glb",
+        "sha256": "ceef74c0909b9946f3de91ecf5c40d1ebae3cefb4cad80ac90583cdc262da0c3",
+        "size": 7931964
+      }
+    },
+    {
+      "id": "SH250I_ATTACKER",
+      "shot": "SH250I",
+      "title": "Атакующий из 230 · после отпускания оружия",
+      "role": "SH250I_ATTACKER",
+      "variant": "Поза для аниматика",
+      "version": "9a515552bea8faa8d2c0503fab6523491af3b15fa467a22154e0d759a350ae82",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250I_ATTACKER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250I_ATTACKER.glb",
+        "sha256": "9a515552bea8faa8d2c0503fab6523491af3b15fa467a22154e0d759a350ae82",
+        "size": 7688252
+      }
+    },
+    {
+      "id": "SH250I_DEFENDER",
+      "shot": "SH250I",
+      "title": "Советский пехотинец из 230 · после отпускания оружия",
+      "role": "SH250I_DEFENDER",
+      "variant": "Поза для аниматика",
+      "version": "cbaa3094b52e2cc5697202b103462293301ea989ded63fbd47771bf4092906b6",
+      "views": [
+        {
+          "name": "3D",
+          "url": "/manifest/model/SH250I_DEFENDER.glb"
+        }
+      ],
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250I_DEFENDER.glb",
+        "sha256": "cbaa3094b52e2cc5697202b103462293301ea989ded63fbd47771bf4092906b6",
+        "size": 7884632
       }
     }
   ]

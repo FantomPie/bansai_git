@@ -40,16 +40,16 @@ test('armor gallery routes and media manifest are available',async()=>{
  assert.equal((await fetch(base+'/armor/comparison.js')).status,200);
  assert.equal((await fetch(base+'/armor/comparison.css')).status,200);
 });
-test('manifest exposes 17 roles and saves a review for its exact version',async()=>{
+test('manifest exposes unique models and saves a review for its exact version',async()=>{
  const home=await (await fetch(base+'/')).text();
  assert.match(home,/href="\/manifest\/"/);
  assert.equal((await fetch(base+'/manifest/')).status,200);
  assert.equal((await fetch(base+'/manifest/review.js')).status,200);
  const {parts}=await (await fetch(base+'/manifest/data.json')).json();
- assert.equal(parts.length,19);
- assert.equal(new Set(parts.map(part=>part.role)).size,17);
+ assert.equal(new Set(parts.map(part=>part.id)).size,parts.length);
+ assert.ok(parts.some(part=>part.id==='SH180B_GUNNER'&&part.modelAsset));
  const [part]=parts;
- assert.ok(parts.every(entry=>entry.views[0].url==='/manifest/model/'+entry.id+'.glb'&&(!entry.modelAsset||entry.version===entry.modelAsset.sha256)));
+ assert.ok(parts.every(entry=>entry.views[0].url.split('?')[0]==='/manifest/model/'+entry.id+'.glb'&&(!entry.modelAsset||entry.version===entry.modelAsset.sha256)));
  const pending=parts.find(entry=>!entry.modelAsset);
  if(pending)assert.equal((await fetch(base+pending.views[0].url)).status,404);
  assert.equal((await fetch(base+'/manifest/model/UNKNOWN.glb')).status,404);
