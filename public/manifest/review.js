@@ -2,9 +2,21 @@ const byId = id => document.getElementById(id);
 const form = byId('review');
 const viewer = byId('viewer');
 const variants = byId('variants');
+const previousModel = byId('previous-model');
+const nextModel = byId('next-model');
 const labels = {approved:'Согласовано', changes:'Нужны правки', comment:'Комментарий'};
 let selected;
 let parts;
+let roles;
+
+function stepModel(direction) {
+  const current = roles.findIndex(part => part.role === selected.role);
+  const target = roles[current + direction];
+  if (target) selectPart(target);
+}
+
+previousModel.addEventListener('click', () => stepModel(-1));
+nextModel.addEventListener('click', () => stepModel(1));
 
 async function request(url, options) {
   const response = await fetch(url, options);
@@ -33,6 +45,11 @@ async function showReviews(part) {
 
 function selectPart(part) {
   selected = part;
+  const current = roles.findIndex(entry => entry.role === part.role);
+  previousModel.disabled = current <= 0;
+  nextModel.disabled = current < 0 || current >= roles.length - 1;
+  byId('model-position').textContent = (current + 1) + ' / ' + roles.length;
+  byId('model-steps').hidden = current < 0;
   byId('title').textContent = part.shot + ' · ' + part.title;
   const options = parts.filter(entry => entry.role === part.role);
   variants.replaceChildren(...options.map(entry => new Option(entry.variant, entry.id)));
@@ -112,7 +129,7 @@ form.addEventListener('submit', async event => {
 
 try {
   ({parts} = await request('/manifest/data.json'));
-  const roles = parts.filter(entry => entry.id === entry.role);
+  roles = parts.filter(entry => entry.id === entry.role);
   byId('count').textContent = roles.filter(part => part.modelAsset).length + ' моделей · ' + parts.filter(part => part.id !== part.role && part.modelAsset).length + ' альтернативные версии';
   byId('roles').replaceChildren(...roles.map(part => {
     const button = document.createElement('button');
