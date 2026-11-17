@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D-доспехи — BANSAI</title>
+  <script type="module" src="/armor-3d/BRANDENBURG_ARMOR/review.js"></script>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #131619; color: #eaf0f4; }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { margin: 0; }
+    a { color: #d9f98c; }
+    header, main { max-width: 1480px; margin: auto; padding: 20px; }
+    header { display: flex; align-items: center; gap: 12px 24px; flex-wrap: wrap; border-bottom: 1px solid #34404a; }
+    header a:first-child { font-weight: 750; letter-spacing: .16em; }
+    h1 { margin: 0 0 10px; overflow-wrap: anywhere; }
+    h2 { margin: 0; font-size: 1.2rem; }
+    p { margin: 8px 0; }
+    .bar { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; }
+    .layout { display: grid; grid-template-columns: minmax(230px, 340px) minmax(0, 1fr); gap: 24px; margin-top: 20px; align-items: start; }
+    .note { color: #b8c7d1; }
+    .scheme { display: block; width: fit-content; max-width: 100%; }
+    .scheme img { display: block; max-width: 100%; height: auto; border-radius: 8px; }
+    nav { display: grid; gap: 6px; max-height: 65vh; overflow: auto; padding: 1px; }
+    .collection, nav a, button { border: 1px solid #45525d; border-radius: 8px; background: #21282e; color: inherit; padding: 8px 11px; }
+    .collection { display: inline-block; margin-top: 8px; text-decoration: none; }
+    nav a { text-decoration: none; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+    nav a[aria-current="true"], .collection:hover, nav a:hover { border-color: #d9f98c; color: #d9f98c; }
+    .has-model { color: #d9f98c; font-size: .8rem; }
+    button { cursor: pointer; font: inherit; }
+    button:disabled { opacity: .45; cursor: default; }
+    model-viewer { display: block; width: 100%; height: clamp(320px, 58vh, 690px); background: #20262c; border: 1px solid #34404a; border-radius: 12px; margin: 12px 0; }
+    @media (max-width: 740px) {
+      header, main { padding: 14px; }
+      .layout { grid-template-columns: 1fr; gap: 16px; }
+      nav { max-height: 170px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/">BANSAI</a>
+    <a href="/armor-3d/">3D-доспехи</a>
+    <a href="/armor/">Доспехи · концепты и статусы</a>
+  </header>
+  <main>
+    <div id="collections">
+      <h1>3D-доспехи</h1>
+      <a class="collection" href="/armor-3d/BRANDENBURG_ARMOR/">BRANDENBURG_ARMOR</a>
+    </div>
+    <div id="armor" hidden>
+      <h1>BRANDENBURG_ARMOR</h1>
+      <p id="count" class="note"></p>
+      <details>
+        <summary>Утверждённая взрыв-схема</summary>
+        <a class="scheme" href="/armor-3d/BRANDENBURG_ARMOR/scheme.jpg"><img src="/armor-3d/BRANDENBURG_ARMOR/scheme.jpg" alt="Утверждённая схема разделения Бранденбургского доспеха" width="407" height="523"></a>
+      </details>
+      <p id="load-error" role="alert" hidden></p>
+      <div class="layout" id="catalog" hidden>
+        <nav id="parts" aria-label="Пункты взрыв-схемы"></nav>
+        <section aria-labelledby="part-title">
+          <h2 id="part-title"></h2>
+          <div class="bar">
+            <button type="button" id="previous">← Предыдущая</button>
+            <button type="button" id="next">Следующая →</button>
+            <a id="download" download hidden>Скачать GLB</a>
+          </div>
+          <model-viewer id="viewer" camera-controls touch-action="pan-y" interaction-prompt="none" exposure="0.65" camera-orbit="-28deg 80deg auto" field-of-view="30deg" hidden></model-viewer>
+          <p id="status" class="note" role="status"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -16,6 +16,23 @@ const token=process.env.UPLOAD_TOKEN;
 const importer={status:{enabled:false}};
 const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armor/data.json'});
 const manifestPath=root+'public/manifest/data.json';
+const armor3dRoot=root+'public/armor-3d/';
+const armor3dCollection='/armor-3d/BRANDENBURG_ARMOR';
+const armor3dAssets={
+ '/armor-3d':'index.html',
+ '/armor-3d/':'index.html',
+ [armor3dCollection]:'index.html',
+ [armor3dCollection+'/']:'index.html',
+ [armor3dCollection+'/data.json']:'data.json',
+ [armor3dCollection+'/review.js']:'review.js',
+ [armor3dCollection+'/scheme.jpg']:'scheme.jpg',
+};
+const armor3dTypes={
+ 'index.html':'text/html; charset=utf-8',
+ 'data.json':'application/json; charset=utf-8',
+ 'review.js':'text/javascript; charset=utf-8',
+ 'scheme.jpg':'image/jpeg',
+};
 const handleManifestReview=armorComments({dataRoot,manifestPath,storage:'manifest-reviews',decisions:true});
 const armorCachedModel=armorModelCache({dataRoot});
 const wheellock703Id='e2411543-a8ec-4eb6-afb3-a4b565c9d70f';
@@ -52,6 +69,17 @@ const handler=async(req,res)=>{
   if(url.pathname==='/api/armor/comments')return await handleArmorComments(req,res,url);
   if(url.pathname==='/api/manifest/reviews')return await handleManifestReview(req,res,url);
   if(['GET','HEAD'].includes(req.method)){
+   const armor3dFile=armor3dAssets[url.pathname];
+   if(Object.hasOwn(armor3dAssets,url.pathname)){
+    return await assetResponse(req,res,armor3dRoot+armor3dFile,armor3dTypes[armor3dFile]);
+   }
+   const armor3dModel=url.pathname.match(/^\/armor-3d\/BRANDENBURG_ARMOR\/model\/([A-Z0-9_]+)\.glb$/);
+   if(armor3dModel){
+    const {parts}=JSON.parse(await readFile(armor3dRoot+'data.json','utf8'));
+    const part=parts.find(entry=>entry.modelFile===armor3dModel[1]+'.glb');
+    if(!part?.modelAsset)return send(res,404,{error:'Модель не опубликована'});
+    return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');
+   }
    const manifestAssets={
     '/manifest':'index.html',
     '/manifest/':'index.html',
