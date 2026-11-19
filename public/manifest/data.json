@@ -17,6 +17,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH030_FIRST_WARRIOR.glb",
         "sha256": "26bc1fbb95735f376faeb4760cb107f9b6091c688f539d0c36c870a097eeb3f6",
         "size": 11466376
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH030_Warrior.fbx",
+        "filename": "SH030_Warrior.fbx",
+        "sha256": "8f6db124003a344d7e8908a756d7ae6f5d02db900f47abd4477bbc0e1577f9c7",
+        "size": 10964076,
+        "sourceSha256": "26bc1fbb95735f376faeb4760cb107f9b6091c688f539d0c36c870a097eeb3f6"
       }
     },
     {
@@ -36,6 +43,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-sh060b-corrected-20261114/SH060B_ROMAN_UMBO.glb",
         "sha256": "f1053b055a78c0877c4e9f5c2af8f08225a62950bd6c924fe3165b2898b10fbb",
         "size": 11532772
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH060B_Roman.fbx",
+        "filename": "SH060B_Roman.fbx",
+        "sha256": "51d9fbe2e15a1e7dfc6ab8932279fdbe061795c4a47d3b8ce7220de2905b5cfe",
+        "size": 10969420,
+        "sourceSha256": "f1053b055a78c0877c4e9f5c2af8f08225a62950bd6c924fe3165b2898b10fbb"
       }
     },
     {
@@ -55,6 +69,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH070A_FIRST_WARRIOR.glb",
         "sha256": "fcdb76104ded7bf6cbcff37bb2c9fd1608d2ab075db30b9bb9dfd73a97324cf9",
         "size": 11983312
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH070A_Warrior.fbx",
+        "filename": "SH070A_Warrior.fbx",
+        "sha256": "3856e96451fb4d5cefb84a745d3c56b48d4fbaa2713fc50c797ac598dde5b7bf",
+        "size": 11369420,
+        "sourceSha256": "fcdb76104ded7bf6cbcff37bb2c9fd1608d2ab075db30b9bb9dfd73a97324cf9"
       }
     },
     {
@@ -74,6 +95,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH070B_ROMAN.glb",
         "sha256": "00944bd96f2253223575f9ee1d23adeaaaab23aad6605c280d959f3d6c637a46",
         "size": 11611468
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH070B_Roman.fbx",
+        "filename": "SH070B_Roman.fbx",
+        "sha256": "eb998fea64827997fed01886178536dfd9e77f44de510da3988d7cbf34a2eb53",
+        "size": 10879324,
+        "sourceSha256": "00944bd96f2253223575f9ee1d23adeaaaab23aad6605c280d959f3d6c637a46"
       }
     },
     {
@@ -93,6 +121,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-sh090-yari-20261114/SH090_SAMURAI_MOUNTED_YARI_v05.glb",
         "sha256": "e4549f5be70a0cde5730b6512cf5f336a8678b650afe487ffc3e130e75e29ed5",
         "size": 11401928
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH090_Mounted.fbx",
+        "filename": "SH090_Mounted.fbx",
+        "sha256": "7f38e439ec0e1ef4abb6d29a1fa7a2531175ac8ea5bb5708af115f1a2e17ee1a",
+        "size": 10732364,
+        "sourceSha256": "e4549f5be70a0cde5730b6512cf5f336a8678b650afe487ffc3e130e75e29ed5"
       }
     },
     {
@@ -112,6 +147,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_JAPANESE_RIDER.glb",
         "sha256": "8f3c9b84077d65665768681c70d52da1e92265ffe45c4a6b68e51986d7a8e4b3",
         "size": 11874888
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH090_Samurai.fbx",
+        "filename": "SH090_Samurai.fbx",
+        "sha256": "c602c83f41153f42c160d9502f741c93cf0a5ea38033ed40a6c49347cc3e9334",
+        "size": 11225228,
+        "sourceSha256": "8f3c9b84077d65665768681c70d52da1e92265ffe45c4a6b68e51986d7a8e4b3"
       }
     },
     {
@@ -131,6 +173,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH090_HORSE.glb",
         "sha256": "01659a4ee51399afc42bb97e4edec43ac5bf5ad4ca64e6238e828b822f9e6bbe",
         "size": 12048720
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH090_Horse.fbx",
+        "filename": "SH090_Horse.fbx",
+        "sha256": "778ee229bb8925330ea0474a109c475a5efb84e85dc0fdb7c145ab543983c4b3",
+        "size": 11419916,
+        "sourceSha256": "01659a4ee51399afc42bb97e4edec43ac5bf5ad4ca64e6238e828b822f9e6bbe"
       }
     },
     {
@@ -150,6 +199,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH110_CROSSBOWMAN.glb",
         "sha256": "068866fde0b8396943f0875e24e58c96ecb4c629f5fb0f7cc7c1d327a2253289",
         "size": 11509160
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH110_Crossbowman.fbx",
+        "filename": "SH110_Crossbowman.fbx",
+        "sha256": "fbdc8f3b4b76aecca5902dbfb89adaf00451ad50ed6d8794794255ab253a754d",
+        "size": 10876508,
+        "sourceSha256": "068866fde0b8396943f0875e24e58c96ecb4c629f5fb0f7cc7c1d327a2253289"
       }
     },
     {
@@ -169,6 +225,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH110_CROSSBOWMAN_ALT.glb",
         "sha256": "58ecce9611fef695a63d26c0e4bdc039d36b2ddd589ed388100cdd941b69da67",
         "size": 11737020
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH110_Crossbowman_Alt.fbx",
+        "filename": "SH110_Crossbowman_Alt.fbx",
+        "sha256": "05830b6c80262acbce819a68e4b351541937577813787f38541aaa8c47b22c3a",
+        "size": 11077276,
+        "sourceSha256": "58ecce9611fef695a63d26c0e4bdc039d36b2ddd589ed388100cdd941b69da67"
       }
     },
     {
@@ -188,6 +251,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH110C1_RIDER_IMPACT.glb",
         "sha256": "40a98e62fd9afe9441b50fe788b2557c8c7970ec7d1349d945f60a31e4feca68",
         "size": 56722820
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH110C1_Impact.fbx",
+        "filename": "SH110C1_Impact.fbx",
+        "sha256": "6d961c1b1e621749a8c60d7e70728a60890452554feba2de64b656c55ef5690e",
+        "size": 75186092,
+        "sourceSha256": "40a98e62fd9afe9441b50fe788b2557c8c7970ec7d1349d945f60a31e4feca68"
       }
     },
     {
@@ -207,6 +277,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH110C2_HORSE_LOSES_BALANCE.glb",
         "sha256": "fe1eedb6c354c6d59effb3171108aaf911734f2ddf493e8c11da169f88b703ab",
         "size": 54208580
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH110C2_Unbalanced.fbx",
+        "filename": "SH110C2_Unbalanced.fbx",
+        "sha256": "36ed982ae6555624e8cf5c416542d0b6775bf5d6247dfdfbf58b30940f64b0cc",
+        "size": 71402140,
+        "sourceSha256": "fe1eedb6c354c6d59effb3171108aaf911734f2ddf493e8c11da169f88b703ab"
       }
     },
     {
@@ -226,6 +303,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH130_GRENADIER.glb",
         "sha256": "3a4b807280c04127d7b6bf1e929f088d9b618b11c92362106131037fbc95141e",
         "size": 11817884
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH130_Grenadier.fbx",
+        "filename": "SH130_Grenadier.fbx",
+        "sha256": "ccad65956b574ab7bcd38579521b557b8d907462eac44e97fbc7b0f11fbf21fa",
+        "size": 11190732,
+        "sourceSha256": "3a4b807280c04127d7b6bf1e929f088d9b618b11c92362106131037fbc95141e"
       }
     },
     {
@@ -245,6 +329,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH130_HIGH_BACKSWING.glb",
         "sha256": "d0621b2271b3a7750547ed3e4793794da70692bc7fa187e1a714fac2c678f047",
         "size": 55048936
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH130_Backswing.fbx",
+        "filename": "SH130_Backswing.fbx",
+        "sha256": "5d70f934e3039a4928b4887ecb83f64753a5aa278d7fe239d156ac5ecb399c9d",
+        "size": 72418220,
+        "sourceSha256": "d0621b2271b3a7750547ed3e4793794da70692bc7fa187e1a714fac2c678f047"
       }
     },
     {
@@ -264,6 +355,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH150_BERSAGLIERE.glb",
         "sha256": "84a1314a12e291238370dc902feafde87087d142ccf8f3447f87fc8a5c1aa94e",
         "size": 11663840
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH150_Bersagliere.fbx",
+        "filename": "SH150_Bersagliere.fbx",
+        "sha256": "27b064d001ab13bee6631ef99c203e9d6fa19305404c098700a93ec7d7fd97d7",
+        "size": 11054764,
+        "sourceSha256": "84a1314a12e291238370dc902feafde87087d142ccf8f3447f87fc8a5c1aa94e"
       }
     },
     {
@@ -283,6 +381,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180A_BELT_FEEDER.glb",
         "sha256": "03df74b011c1edf78ce6d40d4aceed0f32267c507da8267b565980920e0a49bf",
         "size": 11769544
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH180A_Feeder.fbx",
+        "filename": "SH180A_Feeder.fbx",
+        "sha256": "db9551c640c06d0da797945a8c269e106696dd1ad180a4d327bc1db453583d5f",
+        "size": 11216012,
+        "sourceSha256": "03df74b011c1edf78ce6d40d4aceed0f32267c507da8267b565980920e0a49bf"
       }
     },
     {
@@ -302,6 +407,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180A_BELT_FEEDER_ALT.glb",
         "sha256": "feac7be0df61c4a29e0b3eb34d6361f2a351d513b4eff4013aff22508ee71f27",
         "size": 11827860
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH180A_Feeder_Alt.fbx",
+        "filename": "SH180A_Feeder_Alt.fbx",
+        "sha256": "ac40bcc7a2aea8d61cb108a2a26753584e9b049719ffae34459d0af59291aebc",
+        "size": 11251868,
+        "sourceSha256": "feac7be0df61c4a29e0b3eb34d6361f2a351d513b4eff4013aff22508ee71f27"
       }
     },
     {
@@ -321,6 +433,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH180B_GUNNER.glb",
         "sha256": "d670eba7cfc53e166a8d32ab948f33710350ba77e33e054a09ec0779bd593ce6",
         "size": 12837952
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH180B_Gunner.fbx",
+        "filename": "SH180B_Gunner.fbx",
+        "sha256": "2d261ef2796183382f7b2a741cde4883b62d356e64c503f58b74c82fc2e4b5ff",
+        "size": 15313196,
+        "sourceSha256": "d670eba7cfc53e166a8d32ab948f33710350ba77e33e054a09ec0779bd593ce6"
       }
     },
     {
@@ -340,6 +459,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH180C_CREW.glb",
         "sha256": "519042ec06bd0f8fdad83a6d043499ee477ec753afe574e1c877a38c2a952b4c",
         "size": 11882272
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH180C_Crew.fbx",
+        "filename": "SH180C_Crew.fbx",
+        "sha256": "7b4f0f3380f19866ee7099012d16f71ea9b06fce14bb1e7402dae1ba0bf50f29",
+        "size": 11240076,
+        "sourceSha256": "519042ec06bd0f8fdad83a6d043499ee477ec753afe574e1c877a38c2a952b4c"
       }
     },
     {
@@ -359,6 +485,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190A_FEEDER_RECOIL.glb",
         "sha256": "59631590c50d84dcfcfe36f98d45fedd9751425afba52781489aeb095de9e836",
         "size": 55033460
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH190A_FeederHit.fbx",
+        "filename": "SH190A_FeederHit.fbx",
+        "sha256": "5615ad0e85328aa5aa21eb8a5ab682bc422bde641c2bbe1d8bd01ed9dfa9f364",
+        "size": 73004668,
+        "sourceSha256": "59631590c50d84dcfcfe36f98d45fedd9751425afba52781489aeb095de9e836"
       }
     },
     {
@@ -378,6 +511,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190B_GUNNER_RECOIL.glb",
         "sha256": "43dc3f0f503401cfe4e7447feaf59e7dbb5086384607d4282bdd7196720295b1",
         "size": 56403776
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH190B_GunnerHit.fbx",
+        "filename": "SH190B_GunnerHit.fbx",
+        "sha256": "a32c69b526e1c7b0b676db21fb0dcc6e7f79fdbb06a6621aeeeb4f4cf8c9230a",
+        "size": 74048668,
+        "sourceSha256": "43dc3f0f503401cfe4e7447feaf59e7dbb5086384607d4282bdd7196720295b1"
       }
     },
     {
@@ -397,6 +537,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH190C_OBSERVER_RECOIL.glb",
         "sha256": "93b8b4e6f128e4a242203afe2305dccb375bc20c617394b5688c145442d86966",
         "size": 56781460
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH190C_ObserverHit.fbx",
+        "filename": "SH190C_ObserverHit.fbx",
+        "sha256": "80a4037dc63443e6c3ab2deb0171948b3d0db1f92cb078af2168a09850bad563",
+        "size": 75690300,
+        "sourceSha256": "93b8b4e6f128e4a242203afe2305dccb375bc20c617394b5688c145442d86966"
       }
     },
     {
@@ -416,6 +563,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210A_PPSH.glb",
         "sha256": "e4d01544d1f12c363195902878ba63bf5b73a963a810c02379874343c20ac818",
         "size": 12161428
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH210A_Ppsh.fbx",
+        "filename": "SH210A_Ppsh.fbx",
+        "sha256": "285a6cb45b99e816ecc20e3ab3c0c43d7cf99b1558fb1a244e90990dbe09daa6",
+        "size": 11582812,
+        "sourceSha256": "e4d01544d1f12c363195902878ba63bf5b73a963a810c02379874343c20ac818"
       }
     },
     {
@@ -435,6 +589,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210B_AK.glb",
         "sha256": "15d6b6357420fc0b6a49f8e6727cbc1ed6ea69228d9db200ca2da536fbc24602",
         "size": 11840428
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH210B_Ak.fbx",
+        "filename": "SH210B_Ak.fbx",
+        "sha256": "fbb354ae807e6a0c03809949580b8f2b9de0e2f476c343e97436a01b2c3be48e",
+        "size": 11190588,
+        "sourceSha256": "15d6b6357420fc0b6a49f8e6727cbc1ed6ea69228d9db200ca2da536fbc24602"
       }
     },
     {
@@ -454,6 +615,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH210C_TAVOR.glb",
         "sha256": "96705adc7c7d83753f23d00488163bb01c002d0aef741561d13335156e7f2532",
         "size": 11584124
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH210C_Tavor.fbx",
+        "filename": "SH210C_Tavor.fbx",
+        "sha256": "e522ed1940d134fe5aecd930993079b873008a54e0a2ad83a74f65ecf1ecb876",
+        "size": 10996684,
+        "sourceSha256": "96705adc7c7d83753f23d00488163bb01c002d0aef741561d13335156e7f2532"
       }
     },
     {
@@ -473,6 +641,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220A_FUTURE_SOLDIER.glb",
         "sha256": "3257471ed36bcd2bc3137bd4e5f18df403e3a432b3f58e25a4f8a500383073b6",
         "size": 11770752
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH220A_Future.fbx",
+        "filename": "SH220A_Future.fbx",
+        "sha256": "8a86092d01ec09ea007c5e6ea1ef6f3e5400a428c6e169b50d499e97be88fc04",
+        "size": 11127356,
+        "sourceSha256": "3257471ed36bcd2bc3137bd4e5f18df403e3a432b3f58e25a4f8a500383073b6"
       }
     },
     {
@@ -492,6 +667,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220B_FUTURE_SOLDIER.glb",
         "sha256": "1519ce94d9c421dac7b826884e8768cec85d6d887329fd6c3ff33f3f466eaa55",
         "size": 12041492
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH220B_Future.fbx",
+        "filename": "SH220B_Future.fbx",
+        "sha256": "9e2e9839f2fd29ad416ef76fbf6cd254df85852c500fc554eae59e17220e05bb",
+        "size": 11312620,
+        "sourceSha256": "1519ce94d9c421dac7b826884e8768cec85d6d887329fd6c3ff33f3f466eaa55"
       }
     },
     {
@@ -511,6 +693,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH220C_PISTOL_SHOOTER.glb",
         "sha256": "e1870ba27a85a28fb7d43fa43e16c0655827560bde9c9328bee6fcad89415798",
         "size": 12225416
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH220C_Pistol.fbx",
+        "filename": "SH220C_Pistol.fbx",
+        "sha256": "b0081d24f4ef1572c2dee2b5c26b21d6095fcde0c1407ceca78b1b69ad30fdcc",
+        "size": 11502636,
+        "sourceSha256": "e1870ba27a85a28fb7d43fa43e16c0655827560bde9c9328bee6fcad89415798"
       }
     },
     {
@@ -530,6 +719,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH230A_SWORD_ATTACK.glb",
         "sha256": "14a61ed1d01ba1158ce1ced2f20ec26c049eb8d2275cb5857a3728b4d32c0acb",
         "size": 8043064
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH230A_Swordsman.fbx",
+        "filename": "SH230A_Swordsman.fbx",
+        "sha256": "2461aeb7a02607f655088ce913db5b777ca41e79d07aeac0cacbd640e25da92f",
+        "size": 10521852,
+        "sourceSha256": "14a61ed1d01ba1158ce1ced2f20ec26c049eb8d2275cb5857a3728b4d32c0acb"
       }
     },
     {
@@ -549,6 +745,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH230B_SOVIET_RIFLE.glb",
         "sha256": "e4a8b502ef945b20cdfc47c1c305f137f6de312a3372cee7db110e2e7aae3173",
         "size": 8143888
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH230B_Rifleman.fbx",
+        "filename": "SH230B_Rifleman.fbx",
+        "sha256": "1b38e70bdb126d59b552e5e7bca69ec1a60b7ab8326a83d2a808330ba6db1641",
+        "size": 10743116,
+        "sourceSha256": "e4a8b502ef945b20cdfc47c1c305f137f6de312a3372cee7db110e2e7aae3173"
       }
     },
     {
@@ -568,6 +771,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-3d-review-20261114/SH250_FIRST_WARRIOR_RELEASE.glb",
         "sha256": "53e351d487c9fe114eb76467755cfa415dbe40ee5ae2459cf58489dbc5a43986",
         "size": 11620032
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250_WarriorRelease.fbx",
+        "filename": "SH250_WarriorRelease.fbx",
+        "sha256": "dfc50289edb98af9d45016069852445026b6778c62c8ebb4ab5d6939a2c05981",
+        "size": 11056076,
+        "sourceSha256": "53e351d487c9fe114eb76467755cfa415dbe40ee5ae2459cf58489dbc5a43986"
       }
     },
     {
@@ -587,6 +797,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250A_RAISED_KNIFE.glb",
         "sha256": "fd8115119494c88482e83d9105ce208f5d57d18f4a361c23ed8e527a05f1511d",
         "size": 56159096
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250A_KnifeUp.fbx",
+        "filename": "SH250A_KnifeUp.fbx",
+        "sha256": "45276d31c0f4188046ca55f80f2f70f3c76535064526d38636c10fc62f4e40d2",
+        "size": 75569740,
+        "sourceSha256": "fd8115119494c88482e83d9105ce208f5d57d18f4a361c23ed8e527a05f1511d"
       }
     },
     {
@@ -606,6 +823,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_1.glb",
         "sha256": "20ce8f0d3329fef10e2fab8db16db3140a78910e6f7157dd720feadd4f87f303",
         "size": 8023372
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250D_Wwii1.fbx",
+        "filename": "SH250D_Wwii1.fbx",
+        "sha256": "c094b031f4027d3cdcad2514dcdd7d427dee27bc8fb6fe47054370784c891675",
+        "size": 10558140,
+        "sourceSha256": "20ce8f0d3329fef10e2fab8db16db3140a78910e6f7157dd720feadd4f87f303"
       }
     },
     {
@@ -625,6 +849,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_2.glb",
         "sha256": "1136028b8bd79f214cf1be343de65840849a17cdcfab277e5297307adca13e24",
         "size": 7974676
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250D_Wwii2.fbx",
+        "filename": "SH250D_Wwii2.fbx",
+        "sha256": "669082eff0e7a824e0963d5e0801233ef8606761ad4222ac64a4baf3217301d5",
+        "size": 10485036,
+        "sourceSha256": "1136028b8bd79f214cf1be343de65840849a17cdcfab277e5297307adca13e24"
       }
     },
     {
@@ -644,6 +875,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_3.glb",
         "sha256": "61a23bcb261608d85eff8d64e98442b2169e2f91dc3be805c0454ca2e5c6e21f",
         "size": 7782968
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250D_Wwii3.fbx",
+        "filename": "SH250D_Wwii3.fbx",
+        "sha256": "1226627f7a831acfa16e37a9353b0a4a3134941803cf5042447a07148791b7f0",
+        "size": 10236732,
+        "sourceSha256": "61a23bcb261608d85eff8d64e98442b2169e2f91dc3be805c0454ca2e5c6e21f"
       }
     },
     {
@@ -663,6 +901,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250D_WWII_4.glb",
         "sha256": "3786a7cbe25afc6c99265900274c4da9cefd6c0822bd1d53864bd6b698cb43e1",
         "size": 7976628
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250D_Wwii4.fbx",
+        "filename": "SH250D_Wwii4.fbx",
+        "sha256": "5d83b985a9ed3c134ba21fc43665454b55d5a0f7def315aa0ec9b944533c7550",
+        "size": 10521948,
+        "sourceSha256": "3786a7cbe25afc6c99265900274c4da9cefd6c0822bd1d53864bd6b698cb43e1"
       }
     },
     {
@@ -682,6 +927,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_ROMAN.glb",
         "sha256": "654fa14d4a02614dc84101df96a812a9d2b9b023b394be24621b20e679aa5024",
         "size": 8125412
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250E_Roman.fbx",
+        "filename": "SH250E_Roman.fbx",
+        "sha256": "7da6b50c16e7e85ab40a2fb27ee0f38164aae896c4f7c26643800a0ef6454da3",
+        "size": 10594396,
+        "sourceSha256": "654fa14d4a02614dc84101df96a812a9d2b9b023b394be24621b20e679aa5024"
       }
     },
     {
@@ -701,6 +953,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_MOUNTED_SAMURAI.glb",
         "sha256": "e8c7fd7ebb07f2b884d3cddac113ca3389b099593e99732e90355e0e535e7322",
         "size": 7942380
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250E_Mounted.fbx",
+        "filename": "SH250E_Mounted.fbx",
+        "sha256": "496ea740de6d84cbe506cb20cf4457e992d40f4c3ac5cf5997b1c72412576c8b",
+        "size": 10433436,
+        "sourceSha256": "e8c7fd7ebb07f2b884d3cddac113ca3389b099593e99732e90355e0e535e7322"
       }
     },
     {
@@ -720,6 +979,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250E_CROSSBOWMAN.glb",
         "sha256": "9b3ad92bba3fe94c6c33151910ccc7aea7d0ba0141914832a399e08ebe65b556",
         "size": 7867156
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250E_Crossbowman.fbx",
+        "filename": "SH250E_Crossbowman.fbx",
+        "sha256": "08433b5a8732884a72f326932a141589feac35956802fe4d1474738926fb409a",
+        "size": 10371180,
+        "sourceSha256": "9b3ad92bba3fe94c6c33151910ccc7aea7d0ba0141914832a399e08ebe65b556"
       }
     },
     {
@@ -739,6 +1005,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_GRENADIER.glb",
         "sha256": "7e82e062c0499154eb386fe87595e5626486b5335ce1f7bbb1474d442b0bc2ef",
         "size": 8087660
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250F_Grenadier.fbx",
+        "filename": "SH250F_Grenadier.fbx",
+        "sha256": "2bc5a60a3aea3db0a6d32878abe739daac7a43d85d4ee515ffa99d7dd38095f8",
+        "size": 10622492,
+        "sourceSha256": "7e82e062c0499154eb386fe87595e5626486b5335ce1f7bbb1474d442b0bc2ef"
       }
     },
     {
@@ -758,6 +1031,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_BERSAGLIERE.glb",
         "sha256": "20d12315355ed6d3a0ab2d91713ad84df967f6c2998d641832bb9deab64ab59f",
         "size": 8266580
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250F_Bersagliere.fbx",
+        "filename": "SH250F_Bersagliere.fbx",
+        "sha256": "12e440a63caed39f8556665ed0f18ce44298b1a8bb60ec61adbe39fe7045c698",
+        "size": 10978556,
+        "sourceSha256": "20d12315355ed6d3a0ab2d91713ad84df967f6c2998d641832bb9deab64ab59f"
       }
     },
     {
@@ -777,6 +1057,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250F_GUNNER.glb",
         "sha256": "4d810bc2835a7a0939fc08ad75e7a693adf3f4ccd55ae8564269c4f664057a1f",
         "size": 8206852
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250F_Gunner.fbx",
+        "filename": "SH250F_Gunner.fbx",
+        "sha256": "6b17bf5673b522dc6d296dcbbe1a364a9fcc1c6afc9ecc91e4dae6fd5ba4e3e0",
+        "size": 10911276,
+        "sourceSha256": "4d810bc2835a7a0939fc08ad75e7a693adf3f4ccd55ae8564269c4f664057a1f"
       }
     },
     {
@@ -796,6 +1083,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250G_VIETNAM.glb",
         "sha256": "5e8aee262764bb201f735e28967d4e1e78f90bb8dfb43afb832415fab4ff7545",
         "size": 8063692
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250G_Vietnam.fbx",
+        "filename": "SH250G_Vietnam.fbx",
+        "sha256": "19f4e52cfc1f4f0b43ac24db88c14bf0fc1225e8693d6cc4ea7b9c3d51023a6f",
+        "size": 10660988,
+        "sourceSha256": "5e8aee262764bb201f735e28967d4e1e78f90bb8dfb43afb832415fab4ff7545"
       }
     },
     {
@@ -815,6 +1109,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250G_ISRAEL.glb",
         "sha256": "eb7e357fc02139b9d9d1c6be3505d6c6a0f033f780614ce182c386871b977294",
         "size": 8009832
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250G_Israel.fbx",
+        "filename": "SH250G_Israel.fbx",
+        "sha256": "abf1242fc49a50379a75cd96356f459473eb1d0b466e69f3a15a37b8fa012624",
+        "size": 10616540,
+        "sourceSha256": "eb7e357fc02139b9d9d1c6be3505d6c6a0f033f780614ce182c386871b977294"
       }
     },
     {
@@ -834,6 +1135,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_FUTURE_VISOR.glb",
         "sha256": "59e87d50f9bd7c126c83c2fe9f4373ae59a0d8ad6b3107d4dea05022ed573898",
         "size": 7798664
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250H_FutureVisor.fbx",
+        "filename": "SH250H_FutureVisor.fbx",
+        "sha256": "dc79f88375b843047f2e16a00b9137508d2f87a9dfc0877cd110667342e3d701",
+        "size": 10281308,
+        "sourceSha256": "59e87d50f9bd7c126c83c2fe9f4373ae59a0d8ad6b3107d4dea05022ed573898"
       }
     },
     {
@@ -853,6 +1161,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_FUTURE_WEDGE.glb",
         "sha256": "01e917aed11ff8de39877ad0300a910dc2503ca87b96d24fd1979f199f1ee98b",
         "size": 8013116
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250H_FutureWedge.fbx",
+        "filename": "SH250H_FutureWedge.fbx",
+        "sha256": "72d3a44e92f07f50f3ca0cddb33b37ffd823832526a6cdebfc56c76a0ce81ee1",
+        "size": 10465644,
+        "sourceSha256": "01e917aed11ff8de39877ad0300a910dc2503ca87b96d24fd1979f199f1ee98b"
       }
     },
     {
@@ -872,6 +1187,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250H_PISTOL_SHOOTER.glb",
         "sha256": "ceef74c0909b9946f3de91ecf5c40d1ebae3cefb4cad80ac90583cdc262da0c3",
         "size": 7931964
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250H_Pistol.fbx",
+        "filename": "SH250H_Pistol.fbx",
+        "sha256": "c52088d78148effca59edb91cc2bb1f0742406e9a548447a4c695c6cbeb81037",
+        "size": 10396204,
+        "sourceSha256": "ceef74c0909b9946f3de91ecf5c40d1ebae3cefb4cad80ac90583cdc262da0c3"
       }
     },
     {
@@ -891,6 +1213,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250I_ATTACKER.glb",
         "sha256": "9a515552bea8faa8d2c0503fab6523491af3b15fa467a22154e0d759a350ae82",
         "size": 7688252
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250I_Attacker.fbx",
+        "filename": "SH250I_Attacker.fbx",
+        "sha256": "e6ef0be5ba9b04b1388d75eef684166501a88dfb8b92e1c278c6eed81cc07bb9",
+        "size": 10103180,
+        "sourceSha256": "9a515552bea8faa8d2c0503fab6523491af3b15fa467a22154e0d759a350ae82"
       }
     },
     {
@@ -910,6 +1239,13 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-animatic-models-20261116/SH250I_DEFENDER.glb",
         "sha256": "cbaa3094b52e2cc5697202b103462293301ea989ded63fbd47771bf4092906b6",
         "size": 7884632
+      },
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/manifest-fbx-20261119/SH250I_Defender.fbx",
+        "filename": "SH250I_Defender.fbx",
+        "sha256": "e4f5967759447bb9872a7d1c1b8c69e3bb7de5263fcdcb727b99c6b98e3e4654",
+        "size": 10410124,
+        "sourceSha256": "cbaa3094b52e2cc5697202b103462293301ea989ded63fbd47771bf4092906b6"
       }
     }
   ]

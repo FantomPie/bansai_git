@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Видеоманифест · 3D-модели — BANSAI</title>
 <script type="module" src="/vendor/model-viewer.min.js"></script>
-<script type="module" src="/manifest/review.js?v=2"></script>
+<script type="module" src="/manifest/review.js?v=3"></script>
 <style>
   :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#131619;color:#eaf0f4}
   *{box-sizing:border-box} [hidden]{display:none!important} body{margin:0} a{color:#d9f98c} header,main{max-width:1480px;margin:auto;padding:20px}
@@ -31,7 +31,7 @@
     <section aria-labelledby="title">
       <h2 id="title">Загрузка моделей…</h2>
       <div class="bar model-toolbar">
-        <div class="bar"><label id="variants-label" hidden>Версия <select id="variants"></select></label><a id="download" download>Скачать GLB</a></div>
+        <div class="bar"><label id="variants-label" hidden>Версия <select id="variants"></select></label><a id="download" download>Скачать GLB</a><a id="download-fbx" hidden download>Скачать FBX</a></div>
         <div class="bar model-steps" role="group" aria-label="Переключение моделей" id="model-steps" hidden>
           <button id="previous-model" type="button">← Предыдущая</button>
           <output id="model-position" class="note" aria-live="polite"></output>

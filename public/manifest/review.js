@@ -66,6 +66,9 @@ function selectPart(part) {
   else viewer.removeAttribute('src');
   byId('download').href = url;
   byId('download').download = part.id + '.glb';
+  byId('download-fbx').hidden = !part.fbxAsset;
+  byId('download-fbx').href = part.fbxAsset?.url || '';
+  byId('download-fbx').download = part.fbxAsset?.filename || part.id + '.fbx';
   byId('history').replaceChildren();
   byId('status').textContent = 'Загрузка решений…';
   byId('model-error').textContent = '';

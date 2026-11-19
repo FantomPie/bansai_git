@@ -48,6 +48,15 @@ test('manifest exposes unique models and saves a review for its exact version',a
  const {parts}=await (await fetch(base+'/manifest/data.json')).json();
  assert.equal(new Set(parts.map(part=>part.id)).size,parts.length);
  assert.ok(parts.some(part=>part.id==='SH180B_GUNNER'&&part.modelAsset));
+  for (const entry of parts.filter(p=>p.modelAsset)) {
+   assert.ok(entry.fbxAsset, 'Missing FBX: '+entry.id);
+   assert.equal(entry.fbxAsset.sourceSha256,entry.modelAsset.sha256);
+   assert.match(entry.fbxAsset.url,/^https:\/\/github\.com\/FantomPie\/bansai_git\/releases\/download\/manifest-fbx-20261119\/SH[A-Za-z0-9_]+\.fbx$/);
+   assert.match(entry.fbxAsset.sha256,/^[a-f0-9]{64}$/);
+   assert.ok(entry.fbxAsset.size>1000);
+  }
+  const manifestHtml=await (await fetch(base+'/manifest/')).text();
+  assert.match(manifestHtml,/id="download-fbx"/);
  const [part]=parts;
  assert.ok(parts.every(entry=>entry.views[0].url.split('?')[0]==='/manifest/model/'+entry.id+'.glb'&&(!entry.modelAsset||entry.version===entry.modelAsset.sha256)));
  const pending=parts.find(entry=>!entry.modelAsset);
