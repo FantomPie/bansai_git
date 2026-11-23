@@ -253,16 +253,16 @@
     {
       "id": "18",
       "title": "Правый набедренник + наколенник",
-      "modelFile": "BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V01_COLOR.glb",
+      "modelFile": "BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V03_COLOR.glb",
       "modelAsset": {
-        "sha256": "c862b9eb3f77078949fb424485b054ea8933f4e38bb7ad65e73568397ae22d21",
-        "size": 43318276,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V01_COLOR.glb"
+        "sha256": "9dfb8568fb774803d741ddb8430d3460a75b360441a5f346c1aee48007ba8035",
+        "size": 43159472,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V03_COLOR.glb"
       },
-      "label": "Вариант 1",
+      "label": "Вариант 3",
       "variants": [],
-      "cameraOrbit": "90deg 83deg auto",
-      "note": "Черновой вариант. Бедренная пластина укорочена. На наружном крыле отсутствуют выраженное поперечное ребро и гравированная кайма оригинала."
+      "cameraOrbit": "0deg 87deg auto",
+      "note": "Версия 3. Сверены высота бедренной пластины, профиль наружного крыла, поперечное ребро и шарнир. Верхняя кромка под тассетой реконструирована."
     },
     {
       "id": "19",
