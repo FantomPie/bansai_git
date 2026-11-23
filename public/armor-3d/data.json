@@ -109,7 +109,16 @@
     {
       "id": "08",
       "title": "Наспинник",
-      "note": "Четыре исходных вида доступны под просмотром."
+      "note": "Отдельный наспинник с поясной пластиной. Изнанка и сочленение пояса реконструированы.",
+      "modelFile": "BRANDENBURG_ARMOR_08_BACKPLATE_WAIST_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "d68de117fbd417088f942b5e239e1fe85b5a4174153c90cbe4a944f00e8e0aa4",
+        "size": 32242748,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_08_BACKPLATE_WAIST_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "78deg 83deg auto"
     },
     {
       "id": "09",
@@ -211,12 +220,12 @@
     {
       "id": "13",
       "title": "Левая латная перчатка",
-      "note": "Рукавица входит в модель руки №11."
+      "note": "Рукавица также видна в составе руки №11."
     },
     {
       "id": "14",
       "title": "Правая латная перчатка",
-      "note": "Рукавица входит в модель руки №12."
+      "note": "Рукавица также видна в составе руки №12."
     },
     {
       "id": "15",
