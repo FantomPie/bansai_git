@@ -3,11 +3,11 @@
     {
       "id": "01",
       "title": "Доспех целиком",
-      "modelFile": "BRANDENBURG_ARMOR_01_SCAN_8K.glb",
+      "modelFile": "BRANDENBURG_ARMOR_01_SCAN_8K_COLOR.glb",
       "modelAsset": {
-        "sha256": "5ebd7ed416fd4350ae2e328077a2c5210fa3b9f4039aede85ce98bada67ec106",
+        "sha256": "7fb98a85eae163d6ee7ca895475d804c4fae7982c2d1dce06e5a3104101eec0d",
         "size": 26777852,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_01_SCAN_8K.glb"
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_01_SCAN_8K_COLOR.glb"
       },
       "label": "Скан целого доспеха",
       "variants": []
@@ -15,29 +15,29 @@
     {
       "id": "02",
       "title": "Армет в сборе",
-      "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02.glb",
+      "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02_COLOR.glb",
       "modelAsset": {
-        "sha256": "13f2c0d9160d3a39f205ed769cd27b20543fd9f3d099d3168921b46a26344870",
-        "size": 14094720,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02.glb"
+        "sha256": "a26273db07563ff2949cd7ed07f478217e3f6db2ad6678e3e8e0bd02da2bf0f7",
+        "size": 14094788,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02_COLOR.glb"
       },
       "label": "Вариант 2",
       "variants": [
         {
-          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01.glb",
+          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01_COLOR.glb",
           "modelAsset": {
-            "sha256": "d7a62c5c0432606fabdd3bb840e90831b9387fa77c02e3f8f33a1b726ad315f7",
-            "size": 18637540,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01.glb"
+            "sha256": "634008c8b46f68f63f5423bdf7775f08c7e7d1b2bfbaff07912b07cf47c1d098",
+            "size": 18637608,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01_COLOR.glb"
           },
           "label": "Вариант 1"
         },
         {
-          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03.glb",
+          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03_COLOR.glb",
           "modelAsset": {
-            "sha256": "5fba3798ce215c9b22a8c915e7bb84d51e943a089225d9800cfc9269a86e2946",
-            "size": 19706396,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03.glb"
+            "sha256": "5f67d240f6f012701c6e7322a195847fcb6633f6aca4927faa95636d40f5de79",
+            "size": 19706468,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03_COLOR.glb"
           },
           "label": "Вариант 3"
         }
@@ -46,11 +46,11 @@
     {
       "id": "03",
       "title": "Тулья армета",
-      "modelFile": "BRANDENBURG_ARMOR_03_HELMET_SKULL_V01.glb",
+      "modelFile": "BRANDENBURG_ARMOR_03_HELMET_SKULL_V01_COLOR.glb",
       "modelAsset": {
-        "sha256": "18921cb517e3fbc49d04e51fc267cbbb1ac62c5dc76300e8faeea41ad54986fd",
-        "size": 19205748,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_03_HELMET_SKULL_V01.glb"
+        "sha256": "3a1b7411c82b8451632a671972f8bac650816a20bd0832a8f1829d89e7df2918",
+        "size": 19205820,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_03_HELMET_SKULL_V01_COLOR.glb"
       },
       "label": "Вариант 1",
       "variants": [],
@@ -59,21 +59,23 @@
     {
       "id": "04",
       "title": "Забрало «птичий клюв»",
-      "modelFile": "BRANDENBURG_ARMOR_04_VISOR.glb",
+      "modelFile": "BRANDENBURG_ARMOR_04_VISOR_COLOR.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-visor-20261118/BRANDENBURG_ARMOR_04_VISOR.glb",
-        "sha256": "f1750aac702dc35f3a2db40a6e03adb90f49a3224d899b8d48172b20ec16e585",
-        "size": 18877100
-      }
+        "sha256": "74bad6f5faf7493d1c0ed23238597e237130fce00a1879a6045f60ce2c74175f",
+        "size": 18877172,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_04_VISOR_COLOR.glb"
+      },
+      "label": "Основной",
+      "variants": []
     },
     {
       "id": "05",
       "title": "Нижняя защита армета",
-      "modelFile": "BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01.glb",
+      "modelFile": "BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01_COLOR.glb",
       "modelAsset": {
-        "sha256": "2396e773ffcf5057135ccd0d2d96060a8d12e2d71b1e756957315a13e6bb86a0",
-        "size": 19065928,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01.glb"
+        "sha256": "835e9f222f5986ce62991060eaff6b8b0f793545c7871bf004669cb92ffab5e1",
+        "size": 19065996,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01_COLOR.glb"
       },
       "label": "Вариант 1",
       "variants": []
@@ -85,11 +87,11 @@
     {
       "id": "07",
       "title": "Нагрудник",
-      "modelFile": "BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01.glb",
+      "modelFile": "BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01_COLOR.glb",
       "modelAsset": {
-        "sha256": "99e083b639772381085091c1d1a867e8ce6b18aba6571ca6c9008922b8f80d06",
-        "size": 18159248,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01.glb"
+        "sha256": "99cc3af21af179a17bbddaaf2ffd0da30fca7e1bfceea3888969a63e1a90dd9a",
+        "size": 18159320,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01_COLOR.glb"
       },
       "label": "Вариант 1",
       "variants": [],
@@ -102,29 +104,29 @@
     {
       "id": "09",
       "title": "Левое оплечье / наплечник",
-      "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02.glb",
+      "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02_COLOR.glb",
       "modelAsset": {
-        "sha256": "2c0d2baeab86e5b508cb712734c232687b72e2d1867efea049d3a23c5bde0090",
-        "size": 19062804,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02.glb"
+        "sha256": "ef3a10432a2c41affcf4cf04c84132b6135bf33b233a6c8239e1087590ec6a27",
+        "size": 19062876,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02_COLOR.glb"
       },
       "label": "Вариант 2",
       "variants": [
         {
-          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01.glb",
+          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01_COLOR.glb",
           "modelAsset": {
-            "sha256": "602d8542024aedaf11de88c48a367d8580f246ab5b27faf6bad287be05129fd1",
-            "size": 19676480,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01.glb"
+            "sha256": "54e96f7d19c872a1b32c9eee2f920aac2ff5af5a7482fcb48e0124136027083b",
+            "size": 19676548,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01_COLOR.glb"
           },
           "label": "Вариант 1"
         },
         {
-          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03.glb",
+          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03_COLOR.glb",
           "modelAsset": {
-            "sha256": "81fb695fa6c051ee66bcd640c5fdab9ce113f8ab2a650ac6d85cdf413c926624",
-            "size": 19272436,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03.glb"
+            "sha256": "dce6f6662c293b6d4cb2a103060a37ac9398f1f0a9789b247cbb838747e2a18c",
+            "size": 19272504,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03_COLOR.glb"
           },
           "label": "Вариант 3"
         }
@@ -133,38 +135,38 @@
     {
       "id": "10",
       "title": "Правое оплечье / наплечник",
-      "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03.glb",
+      "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03_COLOR.glb",
       "modelAsset": {
-        "sha256": "a5f1649aa3d6d5b8acb9840b6be5277e722117c9915b5c565b1950dab19b55fd",
-        "size": 19813424,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03.glb"
+        "sha256": "8ed2aeaa5431403424f13a5e59831990f677eef9b9c5fd7629c3d36260bd8e58",
+        "size": 19813492,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03_COLOR.glb"
       },
       "label": "Вариант 3",
       "variants": [
         {
-          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01.glb",
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01_COLOR.glb",
           "modelAsset": {
-            "sha256": "d8e28a720371ee92928bb61953c3c76f08eb3e469f47cbecb6f4c240dc227e34",
-            "size": 20129912,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01.glb"
+            "sha256": "75984ea52857564cb96cff9ac7debdd8eab9fedee9e7e51081cfba5c2c226e37",
+            "size": 20129984,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01_COLOR.glb"
           },
           "label": "Вариант 1"
         },
         {
-          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02.glb",
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02_COLOR.glb",
           "modelAsset": {
-            "sha256": "2c07878718967ad91a11ae47fe674956a02dd7d63ba053a30eb35992bfbe5eec",
-            "size": 20293768,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02.glb"
+            "sha256": "e684749eba476900932377b44dba35e92d9d4df814c2b1244a00337726517eef",
+            "size": 20293836,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02_COLOR.glb"
           },
           "label": "Вариант 2"
         },
         {
-          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04.glb",
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04_COLOR.glb",
           "modelAsset": {
-            "sha256": "63c2237b36b7156a5b8b7118cf435d8aa796dc229144d00b7b3c2160cd8a0c04",
-            "size": 19531772,
-            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04.glb"
+            "sha256": "c4106d5ad8bd94012f213478ad1b00e0926e8d209df9c6dbd16bda276b5ddcde",
+            "size": 19531844,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04_COLOR.glb"
           },
           "label": "Вариант 4"
         }
@@ -172,53 +174,116 @@
     },
     {
       "id": "11",
-      "title": "Левая рука до перчатки"
+      "title": "Левая рука с латной рукавицей",
+      "modelFile": "BRANDENBURG_ARMOR_11_LEFT_ARM_WITH_GAUNTLET_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "6c75fabb62ec477feb8136e480020c033dabb19c0bc35acdbe74951d1cf43776",
+        "size": 42400620,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_11_LEFT_ARM_WITH_GAUNTLET_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "note": "Вариант для сверки. У верхней кромки отходит дуга, пальцы на внутренней стороне левой рукавицы сливаются."
     },
     {
       "id": "12",
-      "title": "Правая рука до перчатки"
+      "title": "Правая рука с латной рукавицей",
+      "modelFile": "BRANDENBURG_ARMOR_12_RIGHT_ARM_WITH_GAUNTLET_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "b28f857c45b890b33ba2ed29565c366f069c42f50ee73729dfd3179680456fe3",
+        "size": 43960964,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_12_RIGHT_ARM_WITH_GAUNTLET_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "note": "Вариант для сверки. На правой рукавице сглажены пальцы, внутренняя поверхность верхнего среза реконструирована."
     },
     {
       "id": "13",
-      "title": "Левая латная перчатка"
+      "title": "Левая латная перчатка",
+      "note": "Рукавица входит в модель руки №11."
     },
     {
       "id": "14",
-      "title": "Правая латная перчатка"
+      "title": "Правая латная перчатка",
+      "note": "Рукавица входит в модель руки №12."
     },
     {
       "id": "15",
-      "title": "Левая тассета"
+      "title": "Левая тассета",
+      "note": "На доработке: у пробной модели появилась задняя стенка, которой нет у открытого щитка."
     },
     {
       "id": "16",
       "title": "Правая тассета",
-      "modelFile": "BRANDENBURG_ARMOR_16_TASSET_R_V01.glb",
+      "modelFile": "BRANDENBURG_ARMOR_16_TASSET_R_V03_COLOR.glb",
       "modelAsset": {
-        "sha256": "2ac82a061de7441c6c2572c9c0933f0de2da63f64ede84608d9e549ee0a4c82f",
-        "size": 45759288,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_16_TASSET_R_V01.glb"
+        "sha256": "306667a334bc98e219ff790ea910217f58ace5e5187df75ff9c000a4c308fcb7",
+        "size": 46187520,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_16_TASSET_R_V03_COLOR.glb"
       },
-      "label": "Вариант 1",
+      "label": "Версия 3",
       "variants": [],
-      "note": "Пробная модель Tripo. На изнанке появились лишние ремни и поперечные линии пластин. Центральная гравировка слабее, чем на концепте.",
-      "cameraOrbit": "90deg 85deg auto"
+      "note": "Исправлены поперечный изгиб и изнанка. Гравировка расположена на выпуклой стороне.",
+      "cameraOrbit": "90deg 90deg auto"
     },
     {
       "id": "17",
-      "title": "Левый набедренник + наколенник"
+      "title": "Левый набедренник + наколенник",
+      "modelFile": "BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "01864f0eb410f60077a20ac8bb9ef0726f5f70e00402bac365d36603c4dc2fe1",
+        "size": 40981944,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "90deg 83deg auto",
+      "note": "Крыло наколенника и два задних ремня сверены по ракурсам. Точки крепления ремней реконструированы."
     },
     {
       "id": "18",
-      "title": "Правый набедренник + наколенник"
+      "title": "Правый набедренник + наколенник",
+      "modelFile": "BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "c862b9eb3f77078949fb424485b054ea8933f4e38bb7ad65e73568397ae22d21",
+        "size": 43318276,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "90deg 83deg auto",
+      "note": "Форма и расположение ремней сверены по ракурсам. Мелкая гравировка наружного крыла колена сглажена."
     },
     {
       "id": "19",
-      "title": "Левый понож + латный башмак"
+      "title": "Левый понож + латный башмак",
+      "modelFile": "BRANDENBURG_ARMOR_19A_LEFT_FRONT_WITH_FOOT_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "ec8c34a11ffd115a4f38422e716566784eaf9bff7d3c1d8fb6e22e575b9cbedf",
+        "size": 41248364,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_19A_LEFT_FRONT_WITH_FOOT_V01_COLOR.glb"
+      },
+      "label": "Передняя часть со стопой · вариант 1",
+      "variants": [
+        {
+          "modelFile": "BRANDENBURG_ARMOR_19B_LEFT_REAR_SHELL_V01_COLOR.glb",
+          "modelAsset": {
+            "sha256": "a387f5d41dcf8fbd236bb0e1b47e456754eede41af6a71418024911d724180e8",
+            "size": 40116052,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_19B_LEFT_REAR_SHELL_V01_COLOR.glb"
+          },
+          "label": "Задняя створка · вариант 1",
+          "cameraOrbit": "-90deg 85deg auto"
+        }
+      ],
+      "cameraOrbit": "90deg 85deg auto",
+      "note": "Выберите переднюю часть со стопой или заднюю створку. Открытый профиль проверен сечениями. Посадка створок в сборе пока не проверена."
     },
     {
       "id": "20",
-      "title": "Правый понож + латный башмак"
+      "title": "Правый понож + латный башмак",
+      "note": "На доработке: у первых моделей обеих створок замкнутый профиль голени."
     }
   ]
 }

@@ -48,6 +48,7 @@ async function showArmor() {
     selector.replaceChildren(...variants.map((item, i) =>
       new Option(item.label || (i ? 'Вариант ' + (i + 1) : 'Основной'), String(i))
     ));
+    byId('variant-title').textContent = ['19', '20'].includes(part.id) ? 'Часть поножа' : 'Вариант';
     byId('variant-label').hidden = variants.length < 2;
     selector.onchange = () => showModel(variants[selector.selectedIndex], part);
     viewer.hidden = download.hidden = !part.modelAsset;
@@ -64,9 +65,9 @@ async function showArmor() {
     const modelUrl = collection + '/model/' + model.modelFile;
     download.href = modelUrl;
     download.download = model.modelFile;
-    viewer.setAttribute('alt', part.title);
+    viewer.setAttribute('alt', [part.title, model.label].filter(Boolean).join(' · '));
     status.textContent = 'Загружается 3D-модель…';
-    viewer.setAttribute('camera-orbit', part.cameraOrbit || '-28deg 80deg auto');
+    viewer.setAttribute('camera-orbit', model.cameraOrbit || part.cameraOrbit || '-28deg 80deg auto');
     viewer.setAttribute('src', modelUrl);
     viewerLibrary ??= import('/vendor/model-viewer.min.js');
     viewerLibrary.catch(() => {
