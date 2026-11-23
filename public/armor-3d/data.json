@@ -247,22 +247,22 @@
       },
       "label": "Вариант 3",
       "variants": [],
-      "cameraOrbit": "180deg 90deg auto",
+      "cameraOrbit": "180deg 90deg 2.45m",
       "note": "Версия 3. По фото левой ноги исправлены наклон верхней каймы, обе боковые кромки бедра и профиль наружного крыла. Скрытый под тассетой участок восстановлен приблизительно."
     },
     {
       "id": "18",
       "title": "Правый набедренник + наколенник",
-      "modelFile": "BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V03_COLOR.glb",
+      "modelFile": "BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V04_COLOR.glb",
       "modelAsset": {
-        "sha256": "9dfb8568fb774803d741ddb8430d3460a75b360441a5f346c1aee48007ba8035",
-        "size": 43159472,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V03_COLOR.glb"
+        "sha256": "aaceff4e5940c3392ade2e13594105f86eecc20b472e51416f13da448f111616",
+        "size": 43159500,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_18_CUISSE_POLEYN_R_V04_COLOR.glb"
       },
-      "label": "Вариант 3",
+      "label": "Вариант 4",
       "variants": [],
-      "cameraOrbit": "0deg 87deg auto",
-      "note": "Версия 3. Сверены высота бедренной пластины, профиль наружного крыла, поперечное ребро и шарнир. Верхняя кромка под тассетой реконструирована."
+      "cameraOrbit": "0deg 90deg 2.45m",
+      "note": "Версия 4. Пропорции правого бедра и наколенника сверены с левой деталью по поперечным сечениям общего скана. Верхняя кромка под тассетой реконструирована."
     },
     {
       "id": "19",
