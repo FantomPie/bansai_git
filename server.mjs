@@ -26,12 +26,14 @@ const armor3dAssets={
  [armor3dCollection+'/data.json']:'data.json',
  [armor3dCollection+'/review.js']:'review.js',
  [armor3dCollection+'/scheme.jpg']:'scheme.jpg',
+ [armor3dCollection+'/backplate-views.jpg']:'backplate-views.jpg',
 };
 const armor3dTypes={
  'index.html':'text/html; charset=utf-8',
  'data.json':'application/json; charset=utf-8',
  'review.js':'text/javascript; charset=utf-8',
  'scheme.jpg':'image/jpeg',
+ 'backplate-views.jpg':'image/jpeg',
 };
 const handleManifestReview=armorComments({dataRoot,manifestPath,storage:'manifest-reviews',decisions:true});
 const armorCachedModel=armorModelCache({dataRoot});

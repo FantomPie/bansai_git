@@ -54,6 +54,8 @@ async function showArmor() {
     const index = parts.indexOf(part);
     links.forEach((link, i) => link.setAttribute('aria-current', String(i === index)));
     byId('part-title').textContent = part.id + ' · ' + part.title;
+    byId('backplate-views').hidden = part.id !== '08';
+    byId('backplate-views').open = part.id === '08' && !part.modelAsset;
     byId('model-note').textContent = part.note || '';
     previous.disabled = index === 0;
     next.disabled = index === parts.length - 1;
