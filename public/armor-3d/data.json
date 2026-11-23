@@ -220,12 +220,30 @@
     {
       "id": "13",
       "title": "Левая латная перчатка",
-      "note": "Рукавица также видна в составе руки №11."
+      "note": "Форма частично скрытых пальцев реконструирована по входным видам. В составе руки — №11.",
+      "modelFile": "BRANDENBURG_ARMOR_13_GAUNTLET_L_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "88ef9ec4ab361bc9b06cce5bdbcee9fdbb71e4664785eda9a7827a653683fbb3",
+        "size": 42305776,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_13_GAUNTLET_L_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "90deg 85deg auto"
     },
     {
       "id": "14",
       "title": "Правая латная перчатка",
-      "note": "Рукавица также видна в составе руки №12."
+      "note": "Ладонь и внутренний просвет реконструированы. В составе руки — №12.",
+      "modelFile": "BRANDENBURG_ARMOR_14_GAUNTLET_R_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "23d47e6539d5033eb6c1ae3e136cc99acc439ed06bcadb07442cf78f6faf33e5",
+        "size": 42142576,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_14_GAUNTLET_R_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "90deg 85deg auto"
     },
     {
       "id": "15",
