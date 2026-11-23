@@ -13,7 +13,20 @@ async function showArmor() {
 
   const response = await fetch(collection + '/data.json');
   if (!response.ok) throw new Error('Не удалось загрузить список деталей.');
-  const {parts} = await response.json();
+  const catalog = await response.json();
+  const parts = catalog.parts.flatMap(part => {
+    if (!['19', '20'].includes(part.id)) return [part];
+    const models = [part, ...(part.variants ?? [])];
+    const side = part.id === '19' ? 'Левый' : 'Правый';
+    const rows = [];
+    for (const [suffix, description] of [['A', 'передняя створка с башмаком'], ['B', 'задняя створка']]) {
+      const id = part.id + suffix;
+      const group = models.filter(model => model.modelFile?.startsWith('BRANDENBURG_ARMOR_' + id + '_'));
+      if (group.length) rows.push({...part, ...group[0], id, title: side + ' понож · ' + description,
+        note: '', variants: group.slice(1)});
+    }
+    return rows.length ? rows : [part];
+  });
   const ready = parts.filter(part => part.modelAsset);
   const links = parts.map(part => {
     const link = document.createElement('a');
@@ -34,7 +47,8 @@ async function showArmor() {
   let current;
   let viewerLibrary;
   function selectPart() {
-    const part = parts.find(entry => '#' + entry.id === location.hash) ?? ready[0] ?? parts[0];
+    const id = location.hash.slice(1).toUpperCase();
+    const part = parts.find(entry => entry.id === id) ?? parts.find(entry => entry.id === id + 'A') ?? ready[0] ?? parts[0];
     if (current === part) return;
     current = part;
     const index = parts.indexOf(part);
