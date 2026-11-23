@@ -76,7 +76,7 @@ const handler=async(req,res)=>{
    const armor3dModel=url.pathname.match(/^\/armor-3d\/BRANDENBURG_ARMOR\/model\/([A-Z0-9_]+)\.glb$/);
    if(armor3dModel){
     const {parts}=JSON.parse(await readFile(armor3dRoot+'data.json','utf8'));
-    const part=parts.find(entry=>entry.modelFile===armor3dModel[1]+'.glb');
+    const part=parts.flatMap(entry=>[entry,...(entry.variants ?? [])]).find(entry=>entry.modelFile===armor3dModel[1]+'.glb');
     if(!part?.modelAsset)return send(res,404,{error:'Модель не опубликована'});
     return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');
    }

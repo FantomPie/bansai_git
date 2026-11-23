@@ -2,15 +2,59 @@
   "parts": [
     {
       "id": "01",
-      "title": "Доспех целиком"
+      "title": "Доспех целиком",
+      "modelFile": "BRANDENBURG_ARMOR_01_SCAN_8K.glb",
+      "modelAsset": {
+        "sha256": "5ebd7ed416fd4350ae2e328077a2c5210fa3b9f4039aede85ce98bada67ec106",
+        "size": 26777852,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_01_SCAN_8K.glb"
+      },
+      "label": "Скан целого доспеха",
+      "variants": []
     },
     {
       "id": "02",
-      "title": "Армет в сборе"
+      "title": "Армет в сборе",
+      "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02.glb",
+      "modelAsset": {
+        "sha256": "13f2c0d9160d3a39f205ed769cd27b20543fd9f3d099d3168921b46a26344870",
+        "size": 14094720,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V02.glb"
+      },
+      "label": "Вариант 2",
+      "variants": [
+        {
+          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01.glb",
+          "modelAsset": {
+            "sha256": "d7a62c5c0432606fabdd3bb840e90831b9387fa77c02e3f8f33a1b726ad315f7",
+            "size": 18637540,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01.glb"
+          },
+          "label": "Вариант 1"
+        },
+        {
+          "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03.glb",
+          "modelAsset": {
+            "sha256": "5fba3798ce215c9b22a8c915e7bb84d51e943a089225d9800cfc9269a86e2946",
+            "size": 19706396,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03.glb"
+          },
+          "label": "Вариант 3"
+        }
+      ]
     },
     {
       "id": "03",
-      "title": "Тулья армета"
+      "title": "Тулья армета",
+      "modelFile": "BRANDENBURG_ARMOR_03_HELMET_SKULL_V01.glb",
+      "modelAsset": {
+        "sha256": "18921cb517e3fbc49d04e51fc267cbbb1ac62c5dc76300e8faeea41ad54986fd",
+        "size": 19205748,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_03_HELMET_SKULL_V01.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "cameraOrbit": "62deg 80deg auto"
     },
     {
       "id": "04",
@@ -24,7 +68,15 @@
     },
     {
       "id": "05",
-      "title": "Нижняя защита армета"
+      "title": "Нижняя защита армета",
+      "modelFile": "BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01.glb",
+      "modelAsset": {
+        "sha256": "2396e773ffcf5057135ccd0d2d96060a8d12e2d71b1e756957315a13e6bb86a0",
+        "size": 19065928,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01.glb"
+      },
+      "label": "Вариант 1",
+      "variants": []
     },
     {
       "id": "06",
@@ -32,7 +84,16 @@
     },
     {
       "id": "07",
-      "title": "Нагрудник"
+      "title": "Нагрудник",
+      "modelFile": "BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01.glb",
+      "modelAsset": {
+        "sha256": "99e083b639772381085091c1d1a867e8ce6b18aba6571ca6c9008922b8f80d06",
+        "size": 18159248,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_07_BREASTPLATE_WAIST_V01.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "note": "На обороте два выступа. Требуют сверки с оригиналом."
     },
     {
       "id": "08",
@@ -40,11 +101,74 @@
     },
     {
       "id": "09",
-      "title": "Левое оплечье / наплечник"
+      "title": "Левое оплечье / наплечник",
+      "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02.glb",
+      "modelAsset": {
+        "sha256": "2c0d2baeab86e5b508cb712734c232687b72e2d1867efea049d3a23c5bde0090",
+        "size": 19062804,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V02.glb"
+      },
+      "label": "Вариант 2",
+      "variants": [
+        {
+          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01.glb",
+          "modelAsset": {
+            "sha256": "602d8542024aedaf11de88c48a367d8580f246ab5b27faf6bad287be05129fd1",
+            "size": 19676480,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01.glb"
+          },
+          "label": "Вариант 1"
+        },
+        {
+          "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03.glb",
+          "modelAsset": {
+            "sha256": "81fb695fa6c051ee66bcd640c5fdab9ce113f8ab2a650ac6d85cdf413c926624",
+            "size": 19272436,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03.glb"
+          },
+          "label": "Вариант 3"
+        }
+      ]
     },
     {
       "id": "10",
-      "title": "Правое оплечье / наплечник"
+      "title": "Правое оплечье / наплечник",
+      "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03.glb",
+      "modelAsset": {
+        "sha256": "a5f1649aa3d6d5b8acb9840b6be5277e722117c9915b5c565b1950dab19b55fd",
+        "size": 19813424,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V03.glb"
+      },
+      "label": "Вариант 3",
+      "variants": [
+        {
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01.glb",
+          "modelAsset": {
+            "sha256": "d8e28a720371ee92928bb61953c3c76f08eb3e469f47cbecb6f4c240dc227e34",
+            "size": 20129912,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01.glb"
+          },
+          "label": "Вариант 1"
+        },
+        {
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02.glb",
+          "modelAsset": {
+            "sha256": "2c07878718967ad91a11ae47fe674956a02dd7d63ba053a30eb35992bfbe5eec",
+            "size": 20293768,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02.glb"
+          },
+          "label": "Вариант 2"
+        },
+        {
+          "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04.glb",
+          "modelAsset": {
+            "sha256": "63c2237b36b7156a5b8b7118cf435d8aa796dc229144d00b7b3c2160cd8a0c04",
+            "size": 19531772,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04.glb"
+          },
+          "label": "Вариант 4"
+        }
+      ]
     },
     {
       "id": "11",

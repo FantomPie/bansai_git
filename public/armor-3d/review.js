@@ -40,8 +40,16 @@ async function showArmor() {
     const index = parts.indexOf(part);
     links.forEach((link, i) => link.setAttribute('aria-current', String(i === index)));
     byId('part-title').textContent = part.id + ' · ' + part.title;
+    byId('model-note').textContent = part.note || '';
     previous.disabled = index === 0;
     next.disabled = index === parts.length - 1;
+    const variants = part.modelAsset ? [part, ...(part.variants ?? [])] : [];
+    const selector = byId('variant');
+    selector.replaceChildren(...variants.map((item, i) =>
+      new Option(item.label || (i ? 'Вариант ' + (i + 1) : 'Основной'), String(i))
+    ));
+    byId('variant-label').hidden = variants.length < 2;
+    selector.onchange = () => showModel(variants[selector.selectedIndex], part);
     viewer.hidden = download.hidden = !part.modelAsset;
     if (!part.modelAsset) {
       viewer.removeAttribute('src');
@@ -49,11 +57,16 @@ async function showArmor() {
       status.textContent = 'Модель ещё не опубликована.';
       return;
     }
-    const modelUrl = collection + '/model/' + part.modelFile;
+    showModel(part, part);
+  }
+
+  function showModel(model, part) {
+    const modelUrl = collection + '/model/' + model.modelFile;
     download.href = modelUrl;
-    download.download = part.modelFile;
+    download.download = model.modelFile;
     viewer.setAttribute('alt', part.title);
     status.textContent = 'Загружается 3D-модель…';
+    viewer.setAttribute('camera-orbit', part.cameraOrbit || '-28deg 80deg auto');
     viewer.setAttribute('src', modelUrl);
     viewerLibrary ??= import('/vendor/model-viewer.min.js');
     viewerLibrary.catch(() => {
