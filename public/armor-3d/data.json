@@ -192,7 +192,17 @@
     },
     {
       "id": "16",
-      "title": "Правая тассета"
+      "title": "Правая тассета",
+      "modelFile": "BRANDENBURG_ARMOR_16_TASSET_R_V01.glb",
+      "modelAsset": {
+        "sha256": "2ac82a061de7441c6c2572c9c0933f0de2da63f64ede84608d9e549ee0a4c82f",
+        "size": 45759288,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_16_TASSET_R_V01.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "note": "Пробная модель Tripo. На изнанке появились лишние ремни и поперечные линии пластин. Центральная гравировка слабее, чем на концепте.",
+      "cameraOrbit": "90deg 85deg auto"
     },
     {
       "id": "17",
