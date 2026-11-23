@@ -82,7 +82,16 @@
     },
     {
       "id": "06",
-      "title": "Горжет и воротник"
+      "title": "Горжет и воротник",
+      "modelFile": "BRANDENBURG_ARMOR_06_GORGET_V01_COLOR.glb",
+      "modelAsset": {
+        "sha256": "cfc49984bca7060ea82dd790b2f72d7f36c1814668995b1615edeba946c88d76",
+        "size": 42867864,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_06_GORGET_V01_COLOR.glb"
+      },
+      "label": "Вариант 1",
+      "variants": [],
+      "note": "Вариант по текущему концепту. На заднем виде сильнее видна внутренняя сторона передней пластины."
     },
     {
       "id": "07",
@@ -99,7 +108,8 @@
     },
     {
       "id": "08",
-      "title": "Наспинник"
+      "title": "Наспинник",
+      "note": "Четыре исходных вида доступны под просмотром."
     },
     {
       "id": "09",
