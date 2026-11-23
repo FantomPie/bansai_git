@@ -239,16 +239,16 @@
     {
       "id": "17",
       "title": "Левый набедренник + наколенник",
-      "modelFile": "BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V01_COLOR.glb",
+      "modelFile": "BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V03_COLOR.glb",
       "modelAsset": {
-        "sha256": "01864f0eb410f60077a20ac8bb9ef0726f5f70e00402bac365d36603c4dc2fe1",
-        "size": 40981944,
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V01_COLOR.glb"
+        "sha256": "d5b17cb115f1366967011378836a8628eed0369fb9b23c94fcf6640a993a2248",
+        "size": 72985268,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_17_CUISSE_POLEYN_L_V03_COLOR.glb"
       },
-      "label": "Вариант 1",
+      "label": "Вариант 3",
       "variants": [],
-      "cameraOrbit": "90deg 83deg auto",
-      "note": "Черновой вариант. Проверяется длина бедренной пластины и устройство бокового крыла по фото левой ноги."
+      "cameraOrbit": "180deg 90deg auto",
+      "note": "Версия 3. По фото левой ноги исправлены наклон верхней каймы, обе боковые кромки бедра и профиль наружного крыла. Скрытый под тассетой участок восстановлен приблизительно."
     },
     {
       "id": "18",
