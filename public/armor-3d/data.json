@@ -211,7 +211,16 @@
     {
       "id": "15",
       "title": "Левая тассета",
-      "note": "На доработке: у пробной модели появилась задняя стенка, которой нет у открытого щитка."
+      "note": "Открытый щиток. Лицевая поверхность, орнамент и ремни сохранены. Толщина изнанки и скрытый верхний край реконструированы.",
+      "modelFile": "BRANDENBURG_ARMOR_15_TASSET_L_V02_COLOR.glb",
+      "modelAsset": {
+        "sha256": "df9aa72a21ebcdcf46657dea873e8100b9341b92fec7bdba4b6da28090d1b5dd",
+        "size": 27131176,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_15_TASSET_L_V02_COLOR.glb"
+      },
+      "label": "Вариант 2",
+      "variants": [],
+      "cameraOrbit": "135deg 86deg auto"
     },
     {
       "id": "16",
@@ -283,7 +292,27 @@
     {
       "id": "20",
       "title": "Правый понож + латный башмак",
-      "note": "На доработке: у первых моделей обеих створок замкнутый профиль голени."
+      "note": "Две отдельные открытые створки, исправленная версия. Изгиб и открытый профиль проверены поперечными сечениями. Посадка в сборе требует проверки.",
+      "modelFile": "BRANDENBURG_ARMOR_20A_RIGHT_FRONT_WITH_FOOT_V02_COLOR.glb",
+      "modelAsset": {
+        "sha256": "781973694d9eac495dbe294dd51a61a54e3af4be15ba33e4eb84bd4e976f404a",
+        "size": 35603992,
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_20A_RIGHT_FRONT_WITH_FOOT_V02_COLOR.glb"
+      },
+      "label": "Передняя часть со стопой · вариант 2",
+      "variants": [
+        {
+          "modelFile": "BRANDENBURG_ARMOR_20B_RIGHT_REAR_SHELL_V02_COLOR.glb",
+          "modelAsset": {
+            "sha256": "23af95d472af1b1f9ae098231c71f059c45c4b0eeae4230559763e655e4a23ab",
+            "size": 26366872,
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_20B_RIGHT_REAR_SHELL_V02_COLOR.glb"
+          },
+          "label": "Задняя створка · вариант 2",
+          "cameraOrbit": "270deg 85deg auto"
+        }
+      ],
+      "cameraOrbit": "90deg 85deg auto"
     }
   ]
 }
