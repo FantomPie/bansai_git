@@ -37,13 +37,20 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
    const folder=dataRoot+'/'+storage,file=folder+'/'+part.id+'.jsonl';
    if(req.method==='GET'){
     const comments=[...(await readComments(file)).values()].filter(c=>!c.deleted&&c.version===input.version&&c.view===input.view).slice(-200);
+    if(modelCatalog){
+     const records=(await readFile(file,'utf8').catch(e=>{if(e.code==='ENOENT')return '';throw e;})).split('\n').filter(Boolean).flatMap(line=>{try{return [JSON.parse(line)];}catch{return [];}});
+     const setting=records.findLast(r=>r.event==='detail'&&r.version===input.version&&r.view===input.view);
+     const legacy=comments.findLast(c=>c.detail&&c.detail!=='unspecified');
+     return reply(res,200,{comments,detail:setting?.detail||legacy?.detail||'unspecified'});
+    }
     return reply(res,200,{comments});
    }
    if(input.version!==part.version||!part.views.some(v=>v.name===input.view))throw fail(409,'Изображение обновилось. Обновите страницу перед отправкой');
    if(modelCatalog&&input.detail!==undefined&&!['unspecified','closeup','stylized'].includes(input.detail))throw fail(400,'Выберите уровень детализации');
-   const action=input.action||'create';if(!['create','edit','delete'].includes(action))throw fail(400,'Неизвестное действие');
+   const action=input.action||'create';if(!['create','edit','delete',...(modelCatalog?['detail']:[])].includes(action))throw fail(400,'Неизвестное действие');
    if(decisions&&(action!=='create'||!['approved','changes','comment'].includes(input.decision)))throw fail(400,'Выберите решение по модели');
-   if(action!=='delete'&&(typeof input.text!=='string'||!input.text.trim()||input.text.trim().length>4000))throw fail(400,'Напишите правку от 1 до 4000 символов');
+   if(action==='detail'&&!['unspecified','closeup','stylized'].includes(input.detail))throw fail(400,'Выберите уровень детализации');
+   if(!['delete','detail'].includes(action)&&(typeof input.text!=='string'||!input.text.trim()||input.text.trim().length>4000))throw fail(400,'Напишите правку от 1 до 4000 символов');
    if(input.author!==undefined&&(typeof input.author!=='string'||input.author.trim().length>80))throw fail(400,'Имя — не более 80 символов');
    const now=Date.now(),key=req.socket.remoteAddress;
    for(const [ip,r] of rates)if(now-r.start>60000)rates.delete(ip);
@@ -51,7 +58,8 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
    let comment;
    const write=writes.then(async()=>{
     let record;
-    if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),...(modelCatalog?{detail:input.detail||'unspecified'}:{}),createdAt:new Date().toISOString(),...(decisions?{decision:input.decision}:{})};
+    if(action==='detail')record=comment={event:'detail',id:randomUUID(),partId:part.id,version:part.version,view:input.view,detail:input.detail,updatedAt:new Date().toISOString()};
+    else if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),...(modelCatalog?{detail:input.detail||'unspecified'}:{}),createdAt:new Date().toISOString(),...(decisions?{decision:input.decision}:{})};
     else{
      const previous=(await readComments(file)).get(input.id);
      if(!previous||previous.deleted||previous.version!==input.version||previous.view!==input.view)throw fail(404,'Правка уже удалена или относится к другому изображению');

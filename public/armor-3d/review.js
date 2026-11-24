@@ -114,13 +114,76 @@ if (location.pathname.replace(/\/$/, '') === collection) {
 }
 
 function armorModelComments(){
- const el=id=>document.getElementById(id),labels={unspecified:'Пока не определено',closeup:'Крупный план — нужна детализация',stylized:'Стилизованный вид — можно упростить'},drafts=new Map();
- let context=null,editing=null,serial=0,saving=false;
+ const el=id=>document.getElementById(id), drafts=new Map();
+ let context=null, editing=null, serial=0, saving=false, savingDetail=false, detail='unspecified';
  const message=t=>el('detail-message').textContent=t;
+ function paintDetail(value,text){
+  detail=value;
+  el('detail-needed').setAttribute('aria-pressed',String(value==='closeup'));
+  el('detail-simple').setAttribute('aria-pressed',String(value==='stylized'));
+  el('detail-summary').textContent=text||({closeup:'Нужна детализация',stylized:'Детализация не нужна',unspecified:'Пока не выбрано'}[value]);
+ }
  function reset(){editing=null;el('detail-cancel').hidden=true;el('detail-save').textContent='Сохранить комментарий';el('detail-text').value='';}
- async function api(body){const r=await fetch('/api/armor3d/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw Error(d.error||'Не удалось сохранить');return d;}
- async function load(){if(!context)return;const c=context,n=++serial;el('detail-list').textContent='Загружаю комментарии…';try{const r=await fetch('/api/armor3d/comments?'+new URLSearchParams(c),{cache:'no-store'}),d=await r.json();if(!r.ok)throw Error(d.error||'Не удалось загрузить');if(context!==c||n!==serial)return;const list=el('detail-list');list.replaceChildren();const last=d.comments.findLast(x=>x.detail&&x.detail!=='unspecified');el('detail-summary').textContent=last?'Отметка команды: '+labels[last.detail]:'Детализация пока не определена';if(!editing&&!el('detail-text').value)el('detail-level').value=last?.detail||'unspecified';if(!d.comments.length)list.textContent='Комментариев пока нет.';for(const entry of d.comments){const card=document.createElement('article'),meta=document.createElement('small'),text=document.createElement('p'),actions=document.createElement('div');meta.textContent=entry.author+' · '+new Date(entry.createdAt).toLocaleString('ru-RU')+' · '+(labels[entry.detail]||labels.unspecified);text.textContent=entry.text;actions.className='bar';const edit=document.createElement('button');edit.type='button';edit.textContent='Редактировать';edit.onclick=()=>{editing=entry;el('detail-text').value=entry.text;el('detail-level').value=entry.detail||'unspecified';el('detail-cancel').hidden=false;el('detail-save').textContent='Сохранить изменения';el('detail-text').focus();};const remove=document.createElement('button');remove.type='button';remove.textContent='Удалить';remove.onclick=async()=>{if(!confirm('Удалить этот комментарий?'))return;remove.disabled=true;try{await api({...c,action:'delete',id:entry.id,revision:entry.revision});if(context===c){if(editing?.id===entry.id)reset();message('Комментарий удалён');await load();}}catch(e){if(context===c)message(e.message);}finally{remove.disabled=false;}};actions.append(edit,remove);card.append(meta,text,actions);list.append(card);}}catch(e){if(context===c){el('detail-list').textContent=e.message;}}}
- el('detail-form').onsubmit=async e=>{e.preventDefault();if(!context||saving)return;const c=context,detail=el('detail-level').value,text=el('detail-text').value.trim();if(!text&&detail==='unspecified'){message('Напишите комментарий или выберите детализацию');return;}saving=true;el('detail-save').disabled=true;try{await api({...c,action:editing?'edit':'create',...(editing?{id:editing.id,revision:editing.revision}:{}),text:text||labels[detail],author:el('detail-author').value,detail});drafts.delete(c.version);if(context===c){reset();message('Сохранено');await load();}}catch(e){if(context===c)message(e.message);}finally{saving=false;el('detail-save').disabled=false;}};
+ async function api(body){
+  const r=await fetch('/api/armor3d/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const d=await r.json();if(!r.ok)throw Error(d.error||'Не удалось сохранить');return d;
+ }
+ async function setDetail(value){
+  if(!context||savingDetail||detail===value)return;
+  const c=context,previous=detail;savingDetail=true;serial++;
+  el('detail-needed').disabled=el('detail-simple').disabled=true;
+  paintDetail(value,'Сохраняю…');
+  try{await api({...c,action:'detail',detail:value});if(context===c){await load();paintDetail(value,'Сохранено · '+(value==='closeup'?'Нужна детализация':'Детализация не нужна'));}}
+  catch(e){if(context===c)paintDetail(previous,'Не сохранено: '+e.message);}
+  finally{savingDetail=false;el('detail-needed').disabled=el('detail-simple').disabled=false;if(context!==c)load();}
+ }
+ el('detail-needed').onclick=()=>setDetail('closeup');
+ el('detail-simple').onclick=()=>setDetail('stylized');
+ async function load(){
+  if(!context)return;
+  const c=context,n=++serial;
+  el('detail-list').textContent='Загружаю комментарии…';
+  try{
+   const r=await fetch('/api/armor3d/comments?'+new URLSearchParams(c),{cache:'no-store'}),d=await r.json();
+   if(!r.ok)throw Error(d.error||'Не удалось загрузить');
+   if(context!==c||n!==serial)return;
+   if(!savingDetail)paintDetail(d.detail||'unspecified');
+   const list=el('detail-list');list.replaceChildren();
+   if(!d.comments.length)list.textContent='Комментариев пока нет.';
+   for(const entry of d.comments){
+    const card=document.createElement('article'),meta=document.createElement('small'),text=document.createElement('p'),actions=document.createElement('div');
+    meta.textContent=entry.author+' · '+new Date(entry.createdAt).toLocaleString('ru-RU');
+    text.textContent=entry.text;actions.className='bar';
+    const edit=document.createElement('button');edit.type='button';edit.textContent='Редактировать';
+    edit.onclick=()=>{editing=entry;el('detail-text').value=entry.text;el('detail-cancel').hidden=false;el('detail-save').textContent='Сохранить изменения';el('detail-text').focus();};
+    const remove=document.createElement('button');remove.type='button';remove.textContent='Удалить';
+    remove.onclick=async()=>{
+     if(!confirm('Удалить этот комментарий?'))return;
+     remove.disabled=true;
+     try{await api({...c,action:'delete',id:entry.id,revision:entry.revision});if(context===c){if(editing?.id===entry.id)reset();message('Комментарий удалён');await load();}}
+     catch(e){if(context===c)message(e.message);}finally{remove.disabled=false;}
+    };
+    actions.append(edit,remove);card.append(meta,text,actions);list.append(card);
+   }
+  }catch(e){if(context===c){el('detail-list').textContent=e.message;}}
+ }
+ el('detail-form').onsubmit=async e=>{
+  e.preventDefault();if(!context||saving)return;
+  const c=context,text=el('detail-text').value.trim();
+  if(!text){message('Напишите комментарий');return;}
+  saving=true;el('detail-save').disabled=true;
+  try{
+   await api({...c,action:editing?'edit':'create',...(editing?{id:editing.id,revision:editing.revision}:{}),text,author:el('detail-author').value});
+   drafts.delete(c.version);
+   if(context===c){reset();message('Комментарий сохранён');await load();}
+  }catch(e){if(context===c)message(e.message);}
+  finally{saving=false;el('detail-save').disabled=false;}
+ };
  el('detail-refresh').onclick=load;el('detail-cancel').onclick=()=>{reset();load();};
- return {select(model,part){if(context)drafts.set(context.version,{text:el('detail-text').value,detail:el('detail-level').value});reset();context={partId:model.modelFile.replace(/\.glb$/,''),version:model.modelAsset.sha256,view:'3D'};const draft=drafts.get(context.version);el('detail-text').value=draft?.text||'';el('detail-level').value=draft?.detail||'unspecified';el('detail-comments').hidden=false;el('detail-summary').textContent='';message('');load();}};
+ return {select(model,part){
+  if(context)drafts.set(context.version,el('detail-text').value);
+  reset();context={partId:model.modelFile.replace(/\.glb$/,''),version:model.modelAsset.sha256,view:'3D'};
+  el('detail-text').value=drafts.get(context.version)||'';
+  el('detail-comments').hidden=false;paintDetail('unspecified','Загружаю отметку…');message('');load();
+ }};
 }

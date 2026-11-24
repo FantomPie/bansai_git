@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>3D-доспехи — BANSAI</title>
-  <script type="module" src="/armor-3d/BRANDENBURG_ARMOR/review.js?v=fbx-comments-20261124"></script>
+  <script type="module" src="/armor-3d/BRANDENBURG_ARMOR/review.js?v=detail-buttons-20261124"></script>
   <style>
     :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #131619; color: #eaf0f4; }
     * { box-sizing: border-box; }
@@ -36,7 +36,7 @@
       .layout { grid-template-columns: 1fr; gap: 16px; }
       nav { max-height: 170px; }
     }
-  form#detail-form{display:grid;gap:10px}#detail-form label{display:grid;gap:5px;min-width:0}#detail-form select{width:100%;min-width:0;max-width:100%}#detail-form input,#detail-form textarea{font:inherit;color:inherit;background:#20262c;border:1px solid #45525d;border-radius:8px;padding:10px;width:100%}#detail-comments article{border:1px solid #45525d;padding:12px;border-radius:8px;margin:10px 0}#detail-comments article p{white-space:pre-wrap;overflow-wrap:anywhere}#detail-comments h3{margin-top:18px}</style>
+  form#detail-form{display:grid;gap:10px}#detail-form label{display:grid;gap:5px;min-width:0}#detail-form select{width:100%;min-width:0;max-width:100%}#detail-form input,#detail-form textarea{font:inherit;color:inherit;background:#20262c;border:1px solid #45525d;border-radius:8px;padding:10px;width:100%}#detail-comments article{border:1px solid #45525d;padding:12px;border-radius:8px;margin:10px 0}#detail-comments article p{white-space:pre-wrap;overflow-wrap:anywhere}#detail-comments h3{margin-top:18px}#detail-needed[aria-pressed=true],#detail-simple[aria-pressed=true]{background:#d9f98c;color:#18200c;border-color:#d9f98c;font-weight:650}</style>
 </head>
 <body>
   <header>
@@ -68,7 +68,7 @@
             <a id="download" download hidden>Скачать GLB</a><a id="download-fbx" download hidden>Скачать FBX</a>
           </div>
           <model-viewer id="viewer" camera-controls touch-action="pan-y" interaction-prompt="none" exposure="0.65" camera-orbit="-28deg 80deg auto" field-of-view="30deg" hidden></model-viewer>
-          <section id="detail-comments" hidden aria-label="Комментарии к модели"><h3>Комментарии и детализация</h3><p id="detail-summary" role="status"></p><form id="detail-form"><label>Имя <input id="detail-author" maxlength="80" autocomplete="name"></label><label>Как показываем деталь <select id="detail-level"><option value="unspecified">Пока не определено</option><option value="closeup">Крупный план — нужна детализация</option><option value="stylized">Стилизованный вид — можно упростить</option></select></label><label>Комментарий <textarea id="detail-text" maxlength="4000" rows="3" placeholder="Что сохранить, уточнить или упростить"></textarea></label><div class="bar"><button id="detail-save" type="submit">Сохранить комментарий</button><button id="detail-cancel" type="button" hidden>Отменить редактирование</button><button id="detail-refresh" type="button">Обновить комментарии</button></div><p id="detail-message" role="status"></p></form><p class="note">Комментарии и отметки видны всей команде и относятся к выбранной версии модели.</p><div id="detail-list"></div></section><p id="model-note" class="note"></p>
+          <section id="detail-comments" hidden aria-label="Комментарии к модели"><h3>Детализация</h3><div class="bar" role="group" aria-label="Нужна ли детализация"><button id="detail-needed" type="button" aria-pressed="false">Нужна детализация</button><button id="detail-simple" type="button" aria-pressed="false">Не нужна</button></div><p id="detail-summary" role="status">Загружаю отметку…</p><h3>Комментарии</h3><form id="detail-form"><label>Имя (необязательно) <input id="detail-author" maxlength="80" autocomplete="name"></label><label>Комментарий <textarea id="detail-text" maxlength="4000" rows="3" placeholder="Что сохранить, уточнить или упростить"></textarea></label><div class="bar"><button id="detail-save" type="submit">Сохранить комментарий</button><button id="detail-cancel" type="button" hidden>Отменить редактирование</button><button id="detail-refresh" type="button">Обновить комментарии</button></div><p id="detail-message" role="status"></p></form><p class="note">Комментарии видны всей команде. Отметка детализации сохраняется сразу по нажатию кнопки.</p><div id="detail-list"></div></section><p id="model-note" class="note"></p>
           <p id="status" class="note" role="status"></p>
           <details id="backplate-views" hidden>
             <summary>Наспинник · четыре исходных вида</summary>
