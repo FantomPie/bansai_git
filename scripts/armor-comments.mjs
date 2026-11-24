@@ -1,7 +1,7 @@
 import {mkdir,readFile,appendFile} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 
-export function armorComments({dataRoot,manifestPath,storage='armor-comments',decisions=false}) {
+export function armorComments({dataRoot,manifestPath,storage='armor-comments',decisions=false,modelCatalog=false}) {
  const rates=new Map();let writes=Promise.resolve();
  const reply=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
  const fail=(status,message)=>Object.assign(new Error(message),{status});
@@ -12,7 +12,7 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
    let entry;try{entry=JSON.parse(line);}catch{continue;}
    if(!entry.event)records.set(entry.id,{...entry,revision:entry.revision||entry.createdAt});
    else{const previous=records.get(entry.id);if(!previous||previous.deleted)continue;
-    records.set(entry.id,{...previous,...(entry.event==='edit'?{text:entry.text}:{deleted:true}),updatedAt:entry.updatedAt,revision:entry.revision});}
+    records.set(entry.id,{...previous,...(entry.event==='edit'?{text:entry.text,...(entry.detail?{detail:entry.detail}:{})}:{deleted:true}),updatedAt:entry.updatedAt,revision:entry.revision});}
   }
   return records;
  };
@@ -20,6 +20,7 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
   try{
    if(!['GET','POST'].includes(req.method))throw fail(405,'Метод не поддерживается');
    const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
+   if(modelCatalog)manifest.parts=manifest.parts.flatMap(p=>[p,...(p.variants||[])]).filter(p=>p.modelAsset).map(p=>({id:p.modelFile.replace(/\.glb$/,''),version:p.modelAsset.sha256,views:[{name:'3D',url:p.modelAsset.url}]}));
    let input;
    if(req.method==='POST'){
     if(req.headers.origin&&new URL(req.headers.origin).host!==req.headers.host)throw fail(403,'Отправляйте правки со страницы сайта');
@@ -39,6 +40,7 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
     return reply(res,200,{comments});
    }
    if(input.version!==part.version||!part.views.some(v=>v.name===input.view))throw fail(409,'Изображение обновилось. Обновите страницу перед отправкой');
+   if(modelCatalog&&input.detail!==undefined&&!['unspecified','closeup','stylized'].includes(input.detail))throw fail(400,'Выберите уровень детализации');
    const action=input.action||'create';if(!['create','edit','delete'].includes(action))throw fail(400,'Неизвестное действие');
    if(decisions&&(action!=='create'||!['approved','changes','comment'].includes(input.decision)))throw fail(400,'Выберите решение по модели');
    if(action!=='delete'&&(typeof input.text!=='string'||!input.text.trim()||input.text.trim().length>4000))throw fail(400,'Напишите правку от 1 до 4000 символов');
@@ -49,13 +51,13 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
    let comment;
    const write=writes.then(async()=>{
     let record;
-    if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),createdAt:new Date().toISOString(),...(decisions?{decision:input.decision}:{})};
+    if(action==='create')record=comment={id:randomUUID(),revision:randomUUID(),partId:part.id,version:part.version,view:input.view,image:part.views.find(v=>v.name===input.view).url,author:input.author?.trim()||'Без имени',text:input.text.trim(),...(modelCatalog?{detail:input.detail||'unspecified'}:{}),createdAt:new Date().toISOString(),...(decisions?{decision:input.decision}:{})};
     else{
      const previous=(await readComments(file)).get(input.id);
      if(!previous||previous.deleted||previous.version!==input.version||previous.view!==input.view)throw fail(404,'Правка уже удалена или относится к другому изображению');
      if(input.revision!==previous.revision)throw fail(409,'Правка уже изменена. Обновите список перед сохранением');
-     record={event:action,id:previous.id,revision:randomUUID(),updatedAt:new Date().toISOString(),...(action==='edit'?{text:input.text.trim()}:{})};
-     comment={...previous,...(action==='edit'?{text:record.text}:{deleted:true}),revision:record.revision,updatedAt:record.updatedAt};
+     record={event:action,id:previous.id,revision:randomUUID(),updatedAt:new Date().toISOString(),...(action==='edit'?{text:input.text.trim(),...(modelCatalog?{detail:input.detail||'unspecified'}:{})}:{})};
+     comment={...previous,...(action==='edit'?{text:record.text,...(modelCatalog?{detail:record.detail}:{})}:{deleted:true}),revision:record.revision,updatedAt:record.updatedAt};
     }
     await mkdir(folder,{recursive:true});await appendFile(file,JSON.stringify(record)+'\n','utf8');
    });writes=write.catch(()=>{});await write;

@@ -4,6 +4,7 @@ WORKDIR /app
 COPY --chown=node:node package.json server.mjs ./
 COPY --chown=node:node public ./public
 COPY --chown=node:node scripts ./scripts
+COPY --chown=node:node catalog ./catalog
 RUN mkdir -p /data/models /data/evidence && chown -R node:node /data
 USER node
 EXPOSE 3000 3001

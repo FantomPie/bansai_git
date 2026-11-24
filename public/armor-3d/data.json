@@ -10,7 +10,14 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_01_SCAN_8K_COLOR.glb"
       },
       "label": "Скан целого доспеха",
-      "variants": []
+      "variants": [],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_01_SCAN_8K.fbx",
+        "filename": "BA_01_SCAN_8K.fbx",
+        "size": 29434652,
+        "sha256": "512201f06f7c205f6c0c6b545679eb70705e47fadbad895ffbcf131eca72eff5",
+        "sourceSha256": "7fb98a85eae163d6ee7ca895475d804c4fae7982c2d1dce06e5a3104101eec0d"
+      }
     },
     {
       "id": "02",
@@ -30,7 +37,14 @@
             "size": 18637608,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V01_COLOR.glb"
           },
-          "label": "Вариант 1"
+          "label": "Вариант 1",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_02_ARMET_ASSEMBLED_V01.fbx",
+            "filename": "BA_02_ARMET_ASSEMBLED_V01.fbx",
+            "size": 18322444,
+            "sha256": "1c24dff735895782c2288b5d7bc06905ee675c06357a64d1bf7d120c67e4209e",
+            "sourceSha256": "634008c8b46f68f63f5423bdf7775f08c7e7d1b2bfbaff07912b07cf47c1d098"
+          }
         },
         {
           "modelFile": "BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03_COLOR.glb",
@@ -39,9 +53,23 @@
             "size": 19706468,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_02_ARMET_ASSEMBLED_V03_COLOR.glb"
           },
-          "label": "Вариант 3"
+          "label": "Вариант 3",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_02_ARMET_ASSEMBLED_V03.fbx",
+            "filename": "BA_02_ARMET_ASSEMBLED_V03.fbx",
+            "size": 19352524,
+            "sha256": "c95de6c94e810e0a268411afbc3c18f291aa2249935387d180fe32c7136222b8",
+            "sourceSha256": "5f67d240f6f012701c6e7322a195847fcb6633f6aca4927faa95636d40f5de79"
+          }
         }
-      ]
+      ],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_02_ARMET_ASSEMBLED_V02.fbx",
+        "filename": "BA_02_ARMET_ASSEMBLED_V02.fbx",
+        "size": 13836236,
+        "sha256": "5659192490a14b0d84a70b3cdfa4f0b699790a3443862b7bfb877bb495354a4e",
+        "sourceSha256": "a26273db07563ff2949cd7ed07f478217e3f6db2ad6678e3e8e0bd02da2bf0f7"
+      }
     },
     {
       "id": "03",
@@ -54,7 +82,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "cameraOrbit": "62deg 80deg auto"
+      "cameraOrbit": "62deg 80deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_03_HELMET_SKULL_V01.fbx",
+        "filename": "BA_03_HELMET_SKULL_V01.fbx",
+        "size": 18536412,
+        "sha256": "e81b0c5f9f7830828e5513ebfd23f9750da35db658312afc2748ccbe3a0ddc4b",
+        "sourceSha256": "3a1b7411c82b8451632a671972f8bac650816a20bd0832a8f1829d89e7df2918"
+      }
     },
     {
       "id": "04",
@@ -66,7 +101,14 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_04_VISOR_COLOR.glb"
       },
       "label": "Основной",
-      "variants": []
+      "variants": [],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_04_VISOR.fbx",
+        "filename": "BA_04_VISOR.fbx",
+        "size": 18455324,
+        "sha256": "b01b95747b9bbf38ebbcb3ee2fae04c28cf4d8cc4495d6296ddd56fa16ef57d9",
+        "sourceSha256": "74bad6f5faf7493d1c0ed23238597e237130fce00a1879a6045f60ce2c74175f"
+      }
     },
     {
       "id": "05",
@@ -78,7 +120,14 @@
         "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_05_LOWER_FACE_GUARD_V01_COLOR.glb"
       },
       "label": "Вариант 1",
-      "variants": []
+      "variants": [],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_05_LOWER_FACE_GUARD_V01.fbx",
+        "filename": "BA_05_LOWER_FACE_GUARD_V01.fbx",
+        "size": 18581372,
+        "sha256": "4c8715fa6b09b2c04a0aee59818a09090032bb4d8b2a183434825c135ad71f65",
+        "sourceSha256": "835e9f222f5986ce62991060eaff6b8b0f793545c7871bf004669cb92ffab5e1"
+      }
     },
     {
       "id": "06",
@@ -91,7 +140,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "note": "Вариант по текущему концепту. На заднем виде сильнее видна внутренняя сторона передней пластины."
+      "note": "Вариант по текущему концепту. На заднем виде сильнее видна внутренняя сторона передней пластины.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_06_GORGET_V01.fbx",
+        "filename": "BA_06_GORGET_V01.fbx",
+        "size": 54588332,
+        "sha256": "ee839f119b5575b62c7526c10f5a8497b6a49b07dd61466a5b03715837505e3f",
+        "sourceSha256": "cfc49984bca7060ea82dd790b2f72d7f36c1814668995b1615edeba946c88d76"
+      }
     },
     {
       "id": "07",
@@ -104,7 +160,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "note": "На обороте два выступа. Требуют сверки с оригиналом."
+      "note": "На обороте два выступа. Требуют сверки с оригиналом.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_07_BREASTPLATE_WAIST_V01.fbx",
+        "filename": "BA_07_BREASTPLATE_WAIST_V01.fbx",
+        "size": 17553308,
+        "sha256": "6cb74da6e450b868062398f92431427f97ceaf935d4ed3678234e90acbac8f9b",
+        "sourceSha256": "99cc3af21af179a17bbddaaf2ffd0da30fca7e1bfceea3888969a63e1a90dd9a"
+      }
     },
     {
       "id": "08",
@@ -118,7 +181,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "cameraOrbit": "78deg 83deg auto"
+      "cameraOrbit": "78deg 83deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_08_BACKPLATE_WAIST_V01.fbx",
+        "filename": "BA_08_BACKPLATE_WAIST_V01.fbx",
+        "size": 38796700,
+        "sha256": "9c886258835ea07d23225ee754bdc6e65bbc4c1d8d805ad708a2dce2b112c79c",
+        "sourceSha256": "d68de117fbd417088f942b5e239e1fe85b5a4174153c90cbe4a944f00e8e0aa4"
+      }
     },
     {
       "id": "09",
@@ -138,7 +208,14 @@
             "size": 19676548,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V01_COLOR.glb"
           },
-          "label": "Вариант 1"
+          "label": "Вариант 1",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_09_PAULDRON_LEFT_V01.fbx",
+            "filename": "BA_09_PAULDRON_LEFT_V01.fbx",
+            "size": 19092444,
+            "sha256": "7fb735c6bf3725eaf72991ba01b264477af4d630218214942f866f9f1d3a5b56",
+            "sourceSha256": "54e96f7d19c872a1b32c9eee2f920aac2ff5af5a7482fcb48e0124136027083b"
+          }
         },
         {
           "modelFile": "BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03_COLOR.glb",
@@ -147,9 +224,23 @@
             "size": 19272504,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_09_PAULDRON_LEFT_V03_COLOR.glb"
           },
-          "label": "Вариант 3"
+          "label": "Вариант 3",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_09_PAULDRON_LEFT_V03.fbx",
+            "filename": "BA_09_PAULDRON_LEFT_V03.fbx",
+            "size": 18709020,
+            "sha256": "9d059370cbfb6c1e74d35fb61b3be5b778c0cd00d978abdd267dc8cd17e28900",
+            "sourceSha256": "dce6f6662c293b6d4cb2a103060a37ac9398f1f0a9789b247cbb838747e2a18c"
+          }
         }
-      ]
+      ],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_09_PAULDRON_LEFT_V02.fbx",
+        "filename": "BA_09_PAULDRON_LEFT_V02.fbx",
+        "size": 18496540,
+        "sha256": "c7973f4f389f9d73bab1051d9b1cf33be59f5b1df31b58b7b4e93ea6749ef4c3",
+        "sourceSha256": "ef3a10432a2c41affcf4cf04c84132b6135bf33b233a6c8239e1087590ec6a27"
+      }
     },
     {
       "id": "10",
@@ -169,7 +260,14 @@
             "size": 20129984,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V01_COLOR.glb"
           },
-          "label": "Вариант 1"
+          "label": "Вариант 1",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_10_PAULDRON_RIGHT_V01.fbx",
+            "filename": "BA_10_PAULDRON_RIGHT_V01.fbx",
+            "size": 19576588,
+            "sha256": "85c90893226e1d1cfb232c84f86e52bd264a298c81251c9606969ea585b19730",
+            "sourceSha256": "75984ea52857564cb96cff9ac7debdd8eab9fedee9e7e51081cfba5c2c226e37"
+          }
         },
         {
           "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02_COLOR.glb",
@@ -178,7 +276,14 @@
             "size": 20293836,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V02_COLOR.glb"
           },
-          "label": "Вариант 2"
+          "label": "Вариант 2",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_10_PAULDRON_RIGHT_V02.fbx",
+            "filename": "BA_10_PAULDRON_RIGHT_V02.fbx",
+            "size": 19699100,
+            "sha256": "1b5d8cb6488a00be6c3f48c171af123aae648ead083d9781321e25af0d967fa4",
+            "sourceSha256": "e684749eba476900932377b44dba35e92d9d4df814c2b1244a00337726517eef"
+          }
         },
         {
           "modelFile": "BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04_COLOR.glb",
@@ -187,9 +292,23 @@
             "size": 19531844,
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_10_PAULDRON_RIGHT_V04_COLOR.glb"
           },
-          "label": "Вариант 4"
+          "label": "Вариант 4",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_10_PAULDRON_RIGHT_V04.fbx",
+            "filename": "BA_10_PAULDRON_RIGHT_V04.fbx",
+            "size": 18936092,
+            "sha256": "77afa903234478f7f4c3c2bf542a2305597f0ab3f1ee008a9a650991091c0ca2",
+            "sourceSha256": "c4106d5ad8bd94012f213478ad1b00e0926e8d209df9c6dbd16bda276b5ddcde"
+          }
         }
-      ]
+      ],
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_10_PAULDRON_RIGHT_V03.fbx",
+        "filename": "BA_10_PAULDRON_RIGHT_V03.fbx",
+        "size": 19224924,
+        "sha256": "aa0c391446967f13aafe2f4f36f2ba6f509dc6231bd7b53ecf3c595be29720c8",
+        "sourceSha256": "8ed2aeaa5431403424f13a5e59831990f677eef9b9c5fd7629c3d36260bd8e58"
+      }
     },
     {
       "id": "11",
@@ -202,7 +321,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "note": "Вариант для сверки. У верхней кромки отходит дуга, пальцы на внутренней стороне левой рукавицы сливаются."
+      "note": "Вариант для сверки. У верхней кромки отходит дуга, пальцы на внутренней стороне левой рукавицы сливаются.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_11_LEFT_ARM_WITH_GAUNTLET_V01.fbx",
+        "filename": "BA_11_LEFT_ARM_WITH_GAUNTLET_V01.fbx",
+        "size": 54616828,
+        "sha256": "ec9c61ddd61dd5847ae69343e7e554caa8708b2f3aa88a68d72bf049683a9f07",
+        "sourceSha256": "6c75fabb62ec477feb8136e480020c033dabb19c0bc35acdbe74951d1cf43776"
+      }
     },
     {
       "id": "12",
@@ -215,7 +341,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "note": "Вариант для сверки. На правой рукавице сглажены пальцы, внутренняя поверхность верхнего среза реконструирована."
+      "note": "Вариант для сверки. На правой рукавице сглажены пальцы, внутренняя поверхность верхнего среза реконструирована.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_12_RIGHT_ARM_WITH_GAUNTLET_V01.fbx",
+        "filename": "BA_12_RIGHT_ARM_WITH_GAUNTLET_V01.fbx",
+        "size": 55698828,
+        "sha256": "99ca6c7bead7c665fe7a4e0fba34a2fded4fd7022b5cddc26324b66f413b52ee",
+        "sourceSha256": "b28f857c45b890b33ba2ed29565c366f069c42f50ee73729dfd3179680456fe3"
+      }
     },
     {
       "id": "13",
@@ -229,7 +362,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "cameraOrbit": "90deg 85deg auto"
+      "cameraOrbit": "90deg 85deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_13_GAUNTLET_L_V01.fbx",
+        "filename": "BA_13_GAUNTLET_L_V01.fbx",
+        "size": 55270524,
+        "sha256": "bfd8579d721958048f128e65a92ff17c7d4fc2d48a0133a819d9bb0e7c4306a4",
+        "sourceSha256": "88ef9ec4ab361bc9b06cce5bdbcee9fdbb71e4664785eda9a7827a653683fbb3"
+      }
     },
     {
       "id": "14",
@@ -243,7 +383,14 @@
       },
       "label": "Вариант 1",
       "variants": [],
-      "cameraOrbit": "90deg 85deg auto"
+      "cameraOrbit": "90deg 85deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_14_GAUNTLET_R_V01.fbx",
+        "filename": "BA_14_GAUNTLET_R_V01.fbx",
+        "size": 54146988,
+        "sha256": "651412164b29278e7495155a17d7810bf53f0afa7daac2ffb30d3d47bd074d74",
+        "sourceSha256": "23d47e6539d5033eb6c1ae3e136cc99acc439ed06bcadb07442cf78f6faf33e5"
+      }
     },
     {
       "id": "15",
@@ -257,7 +404,14 @@
       },
       "label": "Вариант 2",
       "variants": [],
-      "cameraOrbit": "135deg 86deg auto"
+      "cameraOrbit": "135deg 86deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_15_TASSET_L_V02.fbx",
+        "filename": "BA_15_TASSET_L_V02.fbx",
+        "size": 33169228,
+        "sha256": "46dcc0e7eab7c121280096d3a424edac857c7002977a71dfb8f69c5d3824cb24",
+        "sourceSha256": "df9aa72a21ebcdcf46657dea873e8100b9341b92fec7bdba4b6da28090d1b5dd"
+      }
     },
     {
       "id": "16",
@@ -271,7 +425,14 @@
       "label": "Версия 3",
       "variants": [],
       "note": "Исправлены поперечный изгиб и изнанка. Гравировка расположена на выпуклой стороне.",
-      "cameraOrbit": "90deg 90deg auto"
+      "cameraOrbit": "90deg 90deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_16_TASSET_R_V03.fbx",
+        "filename": "BA_16_TASSET_R_V03.fbx",
+        "size": 57269436,
+        "sha256": "8254d0c716857394fdaada129cbdd212c1c4fc11871701735abf371c1fce1bbb",
+        "sourceSha256": "306667a334bc98e219ff790ea910217f58ace5e5187df75ff9c000a4c308fcb7"
+      }
     },
     {
       "id": "17",
@@ -285,7 +446,14 @@
       "label": "Вариант 3",
       "variants": [],
       "cameraOrbit": "180deg 90deg 2.45m",
-      "note": "Версия 3. По фото левой ноги исправлены наклон верхней каймы, обе боковые кромки бедра и профиль наружного крыла. Скрытый под тассетой участок восстановлен приблизительно."
+      "note": "Версия 3. По фото левой ноги исправлены наклон верхней каймы, обе боковые кромки бедра и профиль наружного крыла. Скрытый под тассетой участок восстановлен приблизительно.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_17_CUISSE_POLEYN_L_V03.fbx",
+        "filename": "BA_17_CUISSE_POLEYN_L_V03.fbx",
+        "size": 88656204,
+        "sha256": "bacc67693776272d7769fa9e63340a24f1a73006df357e7795d68445cf9af0c2",
+        "sourceSha256": "d5b17cb115f1366967011378836a8628eed0369fb9b23c94fcf6640a993a2248"
+      }
     },
     {
       "id": "18",
@@ -299,7 +467,14 @@
       "label": "Вариант 4",
       "variants": [],
       "cameraOrbit": "0deg 90deg 2.45m",
-      "note": "Версия 4. Пропорции правого бедра и наколенника сверены с левой деталью по поперечным сечениям общего скана. Верхняя кромка под тассетой реконструирована."
+      "note": "Версия 4. Пропорции правого бедра и наколенника сверены с левой деталью по поперечным сечениям общего скана. Верхняя кромка под тассетой реконструирована.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_18_CUISSE_POLEYN_R_V04.fbx",
+        "filename": "BA_18_CUISSE_POLEYN_R_V04.fbx",
+        "size": 55534108,
+        "sha256": "d12cb89245f5d29e5e4f6e52691e9b6a998c19d9deecbc181f8f3ad4f76895ca",
+        "sourceSha256": "aaceff4e5940c3392ade2e13594105f86eecc20b472e51416f13da448f111616"
+      }
     },
     {
       "id": "19",
@@ -320,11 +495,25 @@
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_19B_LEFT_REAR_SHELL_V01_COLOR.glb"
           },
           "label": "Задняя створка · вариант 1",
-          "cameraOrbit": "-90deg 85deg auto"
+          "cameraOrbit": "-90deg 85deg auto",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_19B_LEFT_REAR_SHELL_V01.fbx",
+            "filename": "BA_19B_LEFT_REAR_SHELL_V01.fbx",
+            "size": 47274044,
+            "sha256": "1715451945f097e1640bbefe03f34f65b414ffffcb07d4a9973c6abd0cdcd9d0",
+            "sourceSha256": "a387f5d41dcf8fbd236bb0e1b47e456754eede41af6a71418024911d724180e8"
+          }
         }
       ],
       "cameraOrbit": "90deg 85deg auto",
-      "note": "Выберите переднюю часть со стопой или заднюю створку. Открытый профиль проверен сечениями. Посадка створок в сборе пока не проверена."
+      "note": "Выберите переднюю часть со стопой или заднюю створку. Открытый профиль проверен сечениями. Посадка створок в сборе пока не проверена.",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_19A_LEFT_FRONT_WITH_FOOT_V01.fbx",
+        "filename": "BA_19A_LEFT_FRONT_WITH_FOOT_V01.fbx",
+        "size": 50415948,
+        "sha256": "96239a37e4e8a2505795013d978906cec31e5b923c71db69233e119ef74fae9e",
+        "sourceSha256": "ec8c34a11ffd115a4f38422e716566784eaf9bff7d3c1d8fb6e22e575b9cbedf"
+      }
     },
     {
       "id": "20",
@@ -346,10 +535,24 @@
             "url": "https://github.com/FantomPie/bansai_git/releases/download/brandenburg-armor-models-20261124/BRANDENBURG_ARMOR_20B_RIGHT_REAR_SHELL_V02_COLOR.glb"
           },
           "label": "Задняя створка · вариант 2",
-          "cameraOrbit": "270deg 85deg auto"
+          "cameraOrbit": "270deg 85deg auto",
+          "fbxAsset": {
+            "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_20B_RIGHT_REAR_SHELL_V02.fbx",
+            "filename": "BA_20B_RIGHT_REAR_SHELL_V02.fbx",
+            "size": 31245372,
+            "sha256": "c606472ebf1e59ce8080661db48f787089252b00e95e09f5fc0a37e3cd94cf0e",
+            "sourceSha256": "23af95d472af1b1f9ae098231c71f059c45c4b0eeae4230559763e655e4a23ab"
+          }
         }
       ],
-      "cameraOrbit": "90deg 85deg auto"
+      "cameraOrbit": "90deg 85deg auto",
+      "fbxAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/armor-fbx-20261124-textured/BA_20A_RIGHT_FRONT_WITH_FOOT_V02.fbx",
+        "filename": "BA_20A_RIGHT_FRONT_WITH_FOOT_V02.fbx",
+        "size": 45284060,
+        "sha256": "b2efdefe684520e93120d8e4e67e28d2e770d6259557d815e35c7d11858308f5",
+        "sourceSha256": "781973694d9eac495dbe294dd51a61a54e3af4be15ba33e4eb84bd4e976f404a"
+      }
     }
   ]
 }

@@ -16,7 +16,7 @@ function ensureModelViewer(){
 <main><div id="catalog"><div class="catalog-heading"><div><p>УРАЛЬСКАЯ ОРУЖЕЙНАЯ ПАЛАТА</p><h1><a class="catalog-home" href="/">Каталог объектов</a></h1><p id="auto-import-info" style="color:#d9f98c;font-size:12px">Автоимпорт GLB выключен</p><p id="catalog-count">Загружаю каталог…</p></div><input id="search" type="search" placeholder="Поиск по названию или папке" aria-label="Поиск моделей"></div><div class="catalog-layout"><nav id="folders" aria-label="Папки проекта"></nav><div><nav id="breadcrumbs" class="folder-breadcrumbs" aria-label="Путь в каталоге"></nav><div class="filterline"><span class="browse-switch" role="group" aria-label="Иерархия каталога"><button type="button" id="browse-folders">По папкам</button><button type="button" id="browse-tz">По ТЗ · залы</button></span> <label><input id="ready-only" type="checkbox"> Только с 3D-моделью</label></div><div id="cards"></div></div></div></div><dialog id="model-room" aria-labelledby="title">
  <div class="room-bar">
   <div class="room-title"><h1 id="title">Экспонат</h1><p id="hint"></p></div>
-  <div class="room-actions">
+  <div class="room-actions"><a id="download-glb" class="download-glb" hidden>↓ Скачать GLB</a><a id="download-fbx" class="download-glb" hidden>↓ Скачать FBX</a>
    <button type="button" class="secondary" id="open-model-details" aria-controls="model-details" aria-expanded="false">Об экспонате</button>
    <button type="button" class="secondary" id="expand-model-room" title="Развернуть окно" aria-label="Развернуть окно" aria-pressed="false">⛶</button>
    <button type="button" class="secondary" id="close-model-room" aria-label="Закрыть просмотр" autofocus>×</button>
@@ -47,7 +47,7 @@ function ensureModelViewer(){
    <section id="model-photos" hidden></section>
    <section id="physical-dimensions" hidden></section>
    <div id="model-versions" hidden></div>
-   <div class="model-actions"><a id="download-glb" class="download-glb" hidden>↓ Скачать GLB</a><button type="button" id="share" disabled>Копировать ссылку</button></div><p id="share-feedback" role="status" hidden></p>
+   <div class="model-actions"><button type="button" id="share" disabled>Копировать ссылку</button></div><p id="share-feedback" role="status" hidden></p>
   </aside>
   </div>
   <aside class="room-panel" id="model-light" aria-labelledby="model-light-title">
@@ -77,7 +77,7 @@ body.model-open{overflow:hidden}
 .room-title{min-width:0}
 .room-title h1{font-size:17px;font-weight:650;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .room-title #hint{font-size:11px;line-height:1.35;margin:3px 0 0;color:#a9afb7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.room-actions,.room-tools,.camera-tools,#surface-controls{display:flex;align-items:center;gap:5px}
+.room-actions{flex-wrap:wrap;justify-content:flex-end}.room-actions .download-glb{font-size:12px;padding:8px 11px;min-height:36px}.room-actions,.room-tools,.camera-tools,#surface-controls{display:flex;align-items:center;gap:5px}
 .room-actions button,.room-tools button,.room-panel-heading button{background:#262a30;padding:8px 11px;font-size:12px;min-height:36px;white-space:nowrap}
 .room-actions button:hover,.room-tools button:hover,.room-panel-heading button:hover{background:#3a4149}
 .room-actions button[aria-expanded=true],.room-actions button[aria-pressed=true],.room-tools button[aria-pressed=true]{background:#d9f98c;color:#18200c}
@@ -186,7 +186,7 @@ async function load(id){
  currentModelRevision=null;
  v.src=null;
  for(const control of ['view-textures','view-clay','share'])$(control).disabled=true;
- $('download-glb').hidden=true;
+ $('download-glb').hidden=true;$('download-fbx').hidden=true;
  $('share-feedback').hidden=true;
  $('title').textContent='Экспонат';
  $('hint').textContent='';
@@ -207,6 +207,7 @@ async function load(id){
  download.href='/models/'+id+'.glb';
  download.download=(model.name||'model').replace(/[<>:"/\\|?*\x00-\x1f]/g,'_')+'.glb';
  download.hidden=false;
+ const fbx=$('download-fbx');fbx.hidden=!model.fbxAsset;fbx.href=model.fbxAsset?.url||'';fbx.download=model.fbxAsset?.filename||'model.fbx';
  applyModelViewerDefaults(model);
  renderVersions();
  $('title').textContent=model.name;

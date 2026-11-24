@@ -74,7 +74,15 @@ test('manifest exposes unique models and saves a review for its exact version',a
  assert.equal(comments[0].text,review.text);
  assert.match(await readFile(join(dir,'manifest-reviews',part.id+'.jsonl'),'utf8'),/changes/);
 });
-test('retired catalog object is hidden and its direct model URLs stop being public',async()=>{
+test('armor 3D provides exact-variant FBX links and editable detail comments',async()=>{
+ const html=await(await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/')).text();assert.match(html,/id="download-fbx"/);assert.match(html,/id="detail-form"/);
+ const d=await(await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/data.json')).json();const models=d.parts.flatMap(p=>[p,...p.variants||[]]).filter(p=>p.modelAsset);
+ assert.equal(models.length,29);for(const m of models){assert.equal(m.fbxAsset.sourceSha256,m.modelAsset.sha256);assert.ok(m.fbxAsset.size>1000);assert.match(m.fbxAsset.sha256,/^[a-f0-9]{64}$/);}
+ const m=models[0],target={partId:m.modelFile.replace(/\.glb$/,''),version:m.modelAsset.sha256,view:'3D'},url=base+'/api/armor3d/comments';
+ const post=b=>fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...target,...b})});let res=await post({text:'Тест детализации',detail:'closeup'});assert.equal(res.status,201);const c=(await res.json()).comment;assert.equal(c.detail,'closeup');assert.equal((await post({action:'delete',id:c.id,revision:c.revision})).status,200);
+ const home=await(await fetch(base+'/')).text();assert.match(home,/<div class="room-actions">[\s\S]*?id="download-glb"/);assert.equal((home.match(/id="download-glb"/g)||[]).length,1);
+});
+ test('retired catalog object is hidden and its direct model URLs stop being public',async()=>{
  const original=await (await fetch(base+'/api/catalog')).json();
  await writeFile(join(dir,'catalog-index.json'),JSON.stringify({objects:[]}));
  try{const c=await (await fetch(base+'/api/catalog')).json();assert.ok(!c.models.some(m=>m.id===id));

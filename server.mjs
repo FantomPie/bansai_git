@@ -35,6 +35,7 @@ const armor3dTypes={
  'scheme.jpg':'image/jpeg',
  'backplate-views.jpg':'image/jpeg',
 };
+const handleArmor3dComments=armorComments({dataRoot,manifestPath:armor3dRoot+'data.json',storage:'armor3d-comments',modelCatalog:true});
 const handleManifestReview=armorComments({dataRoot,manifestPath,storage:'manifest-reviews',decisions:true});
 const armorCachedModel=armorModelCache({dataRoot});
 const wheellock703Id='e2411543-a8ec-4eb6-afb3-a4b565c9d70f';
@@ -44,12 +45,14 @@ const wheellock703V14={
  size:151285476
 };
 function currentModel(id,model){
- if(id!==wheellock703Id||model.folder!=='H2/WEAPONS/KOLES/WHEELLOCK_703')return model;
+ if(id!==wheellock703Id||model.folder!=='H2/WEAPONS/KOLES/WHEELLOCK_703')return withFbx(id,model);
  return {...model,size:wheellock703V14.size,sourceHash:wheellock703V14.sha256,
   variantLabel:'v14 · 8K',textureResolution:'8K',updatedAt:'2026-11-09T00:00:00.000Z'};
 }
 async function catalogIndex(){try{return JSON.parse(await readFile(dataRoot+'/catalog-index.json','utf8'));}catch{return {objects:[]};}}
-const publicDraft=({asset,...model})=>model;
+const fbxDownloads=JSON.parse(await readFile(root+'catalog/fbx-downloads.json','utf8'));
+const withFbx=(id,model)=>{const fbx=fbxDownloads[id];return fbx&&fbx.sourceSha256===model.sourceHash?{...model,fbxAsset:fbx}:model;};
+const publicDraft=({asset,...model})=>withFbx(model.id,model);
 const published=(model,index)=>!model.hidden&&(!model.folder||index.objects.some(o=>o.path===model.folder));
 const send=(res,status,data,type='application/json')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-cache'});res.end(typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));};
 // Stable assets: conditional caching, byte ranges and optional precompressed transfers.
@@ -68,6 +71,7 @@ const handler=async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost');
   const localAdmin=adminEnabled&&req.socket.localPort===adminPort;
+  if(url.pathname==='/api/armor3d/comments')return await handleArmor3dComments(req,res,url);
   if(url.pathname==='/api/armor/comments')return await handleArmorComments(req,res,url);
   if(url.pathname==='/api/manifest/reviews')return await handleManifestReview(req,res,url);
   if(['GET','HEAD'].includes(req.method)){

@@ -44,6 +44,7 @@ async function showArmor() {
   byId('count').textContent = parts.length + ' пунктов · 3D опубликовано: ' + ready.length;
   byId('catalog').hidden = false;
 
+  const comments=armorModelComments();
   let current;
   let viewerLibrary;
   function selectPart() {
@@ -80,6 +81,8 @@ async function showArmor() {
   function showModel(model, part) {
     const modelUrl = collection + '/model/' + model.modelFile;
     download.href = modelUrl;
+    const fbx=byId('download-fbx');fbx.hidden=!model.fbxAsset;fbx.href=model.fbxAsset?.url||'';fbx.download=model.fbxAsset?.filename||'';
+    comments.select(model,part);
     download.download = model.modelFile;
     viewer.setAttribute('alt', [part.title, model.label].filter(Boolean).join(' · '));
     status.textContent = 'Загружается 3D-модель…';
@@ -108,4 +111,16 @@ if (location.pathname.replace(/\/$/, '') === collection) {
     message.textContent = error.message;
     message.hidden = false;
   });
+}
+
+function armorModelComments(){
+ const el=id=>document.getElementById(id),labels={unspecified:'Пока не определено',closeup:'Крупный план — нужна детализация',stylized:'Стилизованный вид — можно упростить'},drafts=new Map();
+ let context=null,editing=null,serial=0,saving=false;
+ const message=t=>el('detail-message').textContent=t;
+ function reset(){editing=null;el('detail-cancel').hidden=true;el('detail-save').textContent='Сохранить комментарий';el('detail-text').value='';}
+ async function api(body){const r=await fetch('/api/armor3d/comments',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw Error(d.error||'Не удалось сохранить');return d;}
+ async function load(){if(!context)return;const c=context,n=++serial;el('detail-list').textContent='Загружаю комментарии…';try{const r=await fetch('/api/armor3d/comments?'+new URLSearchParams(c),{cache:'no-store'}),d=await r.json();if(!r.ok)throw Error(d.error||'Не удалось загрузить');if(context!==c||n!==serial)return;const list=el('detail-list');list.replaceChildren();const last=d.comments.findLast(x=>x.detail&&x.detail!=='unspecified');el('detail-summary').textContent=last?'Отметка команды: '+labels[last.detail]:'Детализация пока не определена';if(!editing&&!el('detail-text').value)el('detail-level').value=last?.detail||'unspecified';if(!d.comments.length)list.textContent='Комментариев пока нет.';for(const entry of d.comments){const card=document.createElement('article'),meta=document.createElement('small'),text=document.createElement('p'),actions=document.createElement('div');meta.textContent=entry.author+' · '+new Date(entry.createdAt).toLocaleString('ru-RU')+' · '+(labels[entry.detail]||labels.unspecified);text.textContent=entry.text;actions.className='bar';const edit=document.createElement('button');edit.type='button';edit.textContent='Редактировать';edit.onclick=()=>{editing=entry;el('detail-text').value=entry.text;el('detail-level').value=entry.detail||'unspecified';el('detail-cancel').hidden=false;el('detail-save').textContent='Сохранить изменения';el('detail-text').focus();};const remove=document.createElement('button');remove.type='button';remove.textContent='Удалить';remove.onclick=async()=>{if(!confirm('Удалить этот комментарий?'))return;remove.disabled=true;try{await api({...c,action:'delete',id:entry.id,revision:entry.revision});if(context===c){if(editing?.id===entry.id)reset();message('Комментарий удалён');await load();}}catch(e){if(context===c)message(e.message);}finally{remove.disabled=false;}};actions.append(edit,remove);card.append(meta,text,actions);list.append(card);}}catch(e){if(context===c){el('detail-list').textContent=e.message;}}}
+ el('detail-form').onsubmit=async e=>{e.preventDefault();if(!context||saving)return;const c=context,detail=el('detail-level').value,text=el('detail-text').value.trim();if(!text&&detail==='unspecified'){message('Напишите комментарий или выберите детализацию');return;}saving=true;el('detail-save').disabled=true;try{await api({...c,action:editing?'edit':'create',...(editing?{id:editing.id,revision:editing.revision}:{}),text:text||labels[detail],author:el('detail-author').value,detail});drafts.delete(c.version);if(context===c){reset();message('Сохранено');await load();}}catch(e){if(context===c)message(e.message);}finally{saving=false;el('detail-save').disabled=false;}};
+ el('detail-refresh').onclick=load;el('detail-cancel').onclick=()=>{reset();load();};
+ return {select(model,part){if(context)drafts.set(context.version,{text:el('detail-text').value,detail:el('detail-level').value});reset();context={partId:model.modelFile.replace(/\.glb$/,''),version:model.modelAsset.sha256,view:'3D'};const draft=drafts.get(context.version);el('detail-text').value=draft?.text||'';el('detail-level').value=draft?.detail||'unspecified';el('detail-comments').hidden=false;el('detail-summary').textContent='';message('');load();}};
 }
