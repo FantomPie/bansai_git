@@ -10,119 +10,184 @@
       "id": "01",
       "title": "Шлем — кабуто",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_01_HELMET_V01_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_01_HELMET_V01_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_01_HELMET_V01_COLOR_8K.glb",
-        "sha256": "2328434ccd00c9d233ff292d694fab6c6cdb876ddb1891aec94785cbbf940d03",
-        "size": 25332044
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_01_HELMET_V01_SITE_4K.glb",
+        "sha256": "39a605a96bd048e67b0c7f77a207e05692e36f052fa327283685a608607d4314",
+        "size": 18226284
       },
-      "label": "V01 · 8K",
+      "label": "V01 · 4K",
       "note": ""
     },
     {
       "id": "02",
       "title": "Маска и защита горла",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_02_MASK_THROAT_V01_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_02_MASK_THROAT_V01_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_02_MASK_THROAT_V01_COLOR_8K.glb",
-        "sha256": "f5f671c2ad627915295d44af19dd8082409074a222a6d17eebbf3430ac66e7eb",
-        "size": 25048092
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_02_MASK_THROAT_V01_SITE_4K.glb",
+        "sha256": "d41151ec6b2d1fa6fa63772e829a96135361ba428eac3c3865596e24a9d454bb",
+        "size": 17932020
       },
-      "label": "V01 · 8K",
+      "label": "V01 · 4K",
       "note": ""
     },
     {
       "id": "03",
       "title": "Кираса в сборе",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_03_CUIRASS_V03_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03_CUIRASS_V03_SITE_4K.glb",
+        "sha256": "46a52b4480d5c2fbb1fa07403d2632739650ae1140a46d115ab55f8b97429fa5",
+        "size": 18113276
+      },
+      "label": "V03 · 4K",
+      "note": ""
     },
     {
       "id": "03A",
       "title": "Кираса — передняя половина",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_COLOR_8K.glb",
-        "sha256": "5fa7c8fc994d6e51d37a0088a781d490388e5c9c90445dc4ba9718880efec62a",
-        "size": 24616808
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_SITE_4K.glb",
+        "sha256": "4b19451007c4f40e41eb654f9dcff5a737b9e06ff5860cf80dd5be0b219165eb",
+        "size": 17937304
       },
-      "label": "V02 · 8K",
+      "label": "V02 · 4K",
       "note": "Внутренняя поверхность требует локальной чистки."
     },
     {
       "id": "03B",
       "title": "Кираса — задняя половина",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_COLOR_8K.glb",
-        "sha256": "30db9f7312c55e4b3522ad94c661e73d45d6f2eaa5759295c86cea4de3df91cb",
-        "size": 24492344
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_SITE_4K.glb",
+        "sha256": "e471babe21d3b7c798d19b25988b5744b9b306cdd3135b7306a217512900b544",
+        "size": 18018016
       },
-      "label": "V03 · 8K",
-      "note": ""
+      "label": "V03 · 4K",
+      "note": "",
+      "cameraOrbit": "180deg 90deg auto"
     },
     {
       "id": "04",
       "title": "Левый наплечник",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_COLOR_8K.glb",
-        "sha256": "cea5bf4908778fd270b02aa4a087927ec08635b7d6c4120f18ed306886d70ac9",
-        "size": 27953444
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_SITE_4K.glb",
+        "sha256": "6e94af2660cdb0b8a499b7e97c7077d8ab9822db611f141621df61aca685b90f",
+        "size": 18894160
       },
-      "label": "V01 · 8K",
+      "label": "V01 · 4K",
       "note": ""
     },
     {
       "id": "05",
       "title": "Правый наплечник",
       "variants": [],
-      "modelFile": "SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_COLOR_8K.glb",
+      "modelFile": "SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_SITE_4K.glb",
       "modelAsset": {
-        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_COLOR_8K.glb",
-        "sha256": "edbff4e26b740d6c4f5f6be87ef1f114e4d81e0d794d8f5aedb0ec5ef3e868d5",
-        "size": 27936616
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_SITE_4K.glb",
+        "sha256": "53ac3616728f9a6baab1171e85b46fd2475c81a2e540537f8a7dede8e89d7d95",
+        "size": 18669156
       },
-      "label": "V01 · 8K",
+      "label": "V01 · 4K",
       "note": ""
     },
     {
       "id": "06",
       "title": "Левый рукав с кистью",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_06_SLEEVE_LEFT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_06_SLEEVE_LEFT_V01_SITE_4K.glb",
+        "sha256": "8022ec477bcd2fd410512f4437c954518439a5e55a144439ffe03130edbff4c0",
+        "size": 18132660
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "07",
       "title": "Правый рукав с кистью",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_07_SLEEVE_RIGHT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_07_SLEEVE_RIGHT_V01_SITE_4K.glb",
+        "sha256": "50764f39055524fb442fd1734d7d17ac8a03adf867a9bca0e05a5c0ba28a007d",
+        "size": 17994704
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "08",
       "title": "Пояс и подвесная защита",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_08_SKIRT_WAIST_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_08_SKIRT_WAIST_V01_SITE_4K.glb",
+        "sha256": "8b7c4e109177d579e03b71f818f5e04e2930be78ac80b263fc6bfc2905b04743",
+        "size": 18411028
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "09",
       "title": "Левая защита бедра",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_09_THIGH_LEFT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_09_THIGH_LEFT_V01_SITE_4K.glb",
+        "sha256": "586fb5a7ee782e623bb0768146c05651dc358d4cc73db5d727bc5cd58313f6c5",
+        "size": 18538572
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "10",
       "title": "Правая защита бедра",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_10_THIGH_RIGHT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_10_THIGH_RIGHT_V01_SITE_4K.glb",
+        "sha256": "8c299505d44b82e509427c471760c3d4dc349a95c01e4b3a3ff19151885cc13d",
+        "size": 18254940
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "11",
       "title": "Левая защита голени",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_11_SHIN_LEFT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_11_SHIN_LEFT_V01_SITE_4K.glb",
+        "sha256": "abe9a48829e6727c2f57cc477f91fbf1b94926c9dc3f2ffa5f98519a64f87834",
+        "size": 18108812
+      },
+      "label": "V01 · 4K",
+      "note": ""
     },
     {
       "id": "12",
       "title": "Правая защита голени",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_12_SHIN_RIGHT_V01_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_12_SHIN_RIGHT_V01_SITE_4K.glb",
+        "sha256": "c15c80b22879205a8091e8d585861fe11593856dc50843e2b22abbbf72ad66f5",
+        "size": 18400752
+      },
+      "label": "V01 · 4K",
+      "note": ""
     }
   ]
 }
