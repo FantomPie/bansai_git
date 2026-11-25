@@ -45,7 +45,7 @@ test('3D armor collections have independent manifests and reject cross-collectio
  assert.match(home,/href="\/armor-3d\/NUREMBERG_ARMOR\/"/);
  assert.match(home,/src="\/armor-3d\/review.js\?v=collections-20261125"/);
  const collections=await (await fetch(base+'/armor-3d/collections.json')).json();
- assert.deepEqual(collections.map(x=>x.id),['BRANDENBURG_ARMOR','NUREMBERG_ARMOR']);
+ assert.deepEqual(collections.map(x=>x.id),['BRANDENBURG_ARMOR','NUREMBERG_ARMOR','SAMURAI_ARMOR']);
  for(const entry of collections){
   for(const suffix of ['', '/'])assert.equal((await fetch(base+'/armor-3d/'+entry.id+suffix)).status,200);
  }
@@ -57,6 +57,13 @@ test('3D armor collections have independent manifests and reject cross-collectio
  assert.equal((await fetch(base+'/armor-3d/NUREMBERG_ARMOR/model/'+brandenburg.parts[0].modelFile)).status,404);
  assert.equal((await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/model/'+nuremberg.parts[0].modelFile)).status,404);
  assert.equal((await fetch(base+'/armor-3d/UNREGISTERED/model/'+nuremberg.parts[0].modelFile)).status,404);
+ const samurai=await (await fetch(base+'/armor-3d/SAMURAI_ARMOR/data.json')).json();
+ assert.equal(samurai.parts.length,15);
+ const samuraiReady=samurai.parts.filter(x=>x.modelAsset);
+ assert.ok(samuraiReady.length>=14);
+ assert.ok(samuraiReady.every(x=>x.modelFile.startsWith('SAMURAI_ARMOR_')&&x.modelFile.endsWith('_SITE_4K.glb')&&x.modelAsset.sha256.length===64));
+ assert.equal((await fetch(base+'/armor-3d/NUREMBERG_ARMOR/model/'+samuraiReady[0].modelFile)).status,404);
+ assert.equal((await fetch(base+'/armor-3d/SAMURAI_ARMOR/model/'+nuremberg.parts[0].modelFile)).status,404);
  assert.equal((await fetch(base+'/armor-3d/review.js')).status,200);
  assert.equal((await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/review.js')).status,200);
  const newModel=nuremberg.parts[0];
