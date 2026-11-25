@@ -18,9 +18,13 @@ const handleArmorComments=armorComments({dataRoot,manifestPath:root+'public/armo
 const manifestPath=root+'public/manifest/data.json';
 const armor3dRoot=root+'public/armor-3d/';
 const armor3dCollection='/armor-3d/BRANDENBURG_ARMOR';
+const armor3dCollections=JSON.parse(await readFile(armor3dRoot+'collections.json','utf8'));
+const armor3dDataFiles=new Map(armor3dCollections.map(entry=>[entry.id,entry.id==='BRANDENBURG_ARMOR'?'data.json':entry.id+'/data.json']));
 const armor3dAssets={
  '/armor-3d':'index.html',
  '/armor-3d/':'index.html',
+ '/armor-3d/review.js':'review.js',
+ '/armor-3d/collections.json':'collections.json',
  [armor3dCollection]:'index.html',
  [armor3dCollection+'/']:'index.html',
  [armor3dCollection+'/data.json']:'data.json',
@@ -28,14 +32,20 @@ const armor3dAssets={
  [armor3dCollection+'/scheme.jpg']:'scheme.jpg',
  [armor3dCollection+'/backplate-views.jpg']:'backplate-views.jpg',
 };
+for(const [id,dataFile] of armor3dDataFiles){
+ armor3dAssets['/armor-3d/'+id]='index.html';
+ armor3dAssets['/armor-3d/'+id+'/']='index.html';
+ armor3dAssets['/armor-3d/'+id+'/data.json']=dataFile;
+}
 const armor3dTypes={
  'index.html':'text/html; charset=utf-8',
  'data.json':'application/json; charset=utf-8',
+ 'collections.json':'application/json; charset=utf-8',
  'review.js':'text/javascript; charset=utf-8',
  'scheme.jpg':'image/jpeg',
  'backplate-views.jpg':'image/jpeg',
 };
-const handleArmor3dComments=armorComments({dataRoot,manifestPath:armor3dRoot+'data.json',storage:'armor3d-comments',modelCatalog:true});
+const handleArmor3dComments=armorComments({dataRoot,manifestPath:[...armor3dDataFiles.values()].map(file=>armor3dRoot+file),storage:'armor3d-comments',modelCatalog:true});
 const handleManifestReview=armorComments({dataRoot,manifestPath,storage:'manifest-reviews',decisions:true});
 const armorCachedModel=armorModelCache({dataRoot});
 const wheellock703Id='e2411543-a8ec-4eb6-afb3-a4b565c9d70f';
@@ -77,12 +87,14 @@ const handler=async(req,res)=>{
   if(['GET','HEAD'].includes(req.method)){
    const armor3dFile=armor3dAssets[url.pathname];
    if(Object.hasOwn(armor3dAssets,url.pathname)){
-    return await assetResponse(req,res,armor3dRoot+armor3dFile,armor3dTypes[armor3dFile]);
+    return await assetResponse(req,res,armor3dRoot+armor3dFile,armor3dTypes[armor3dFile]||(armor3dFile.endsWith('/data.json')?'application/json; charset=utf-8':undefined));
    }
-   const armor3dModel=url.pathname.match(/^\/armor-3d\/BRANDENBURG_ARMOR\/model\/([A-Z0-9_]+)\.glb$/);
+   const armor3dModel=url.pathname.match(/^\/armor-3d\/([A-Z0-9_]+)\/model\/([A-Z0-9_]+)\.glb$/);
    if(armor3dModel){
-    const {parts}=JSON.parse(await readFile(armor3dRoot+'data.json','utf8'));
-    const part=parts.flatMap(entry=>[entry,...(entry.variants ?? [])]).find(entry=>entry.modelFile===armor3dModel[1]+'.glb');
+    const dataFile=armor3dDataFiles.get(armor3dModel[1]);
+    if(!dataFile)return send(res,404,{error:'Доспех не найден'});
+    const {parts}=JSON.parse(await readFile(armor3dRoot+dataFile,'utf8'));
+    const part=parts.flatMap(entry=>[entry,...(entry.variants ?? [])]).find(entry=>entry.modelFile===armor3dModel[2]+'.glb');
     if(!part?.modelAsset)return send(res,404,{error:'Модель не опубликована'});
     return await assetResponse(req,res,await armorCachedModel(part.modelAsset),'model/gltf-binary');
    }

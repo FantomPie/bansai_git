@@ -40,6 +40,31 @@ test('armor gallery routes and media manifest are available',async()=>{
  assert.equal((await fetch(base+'/armor/comparison.js')).status,200);
  assert.equal((await fetch(base+'/armor/comparison.css')).status,200);
 });
+test('3D armor collections have independent manifests and reject cross-collection models',async()=>{
+ const home=await (await fetch(base+'/armor-3d/')).text();
+ assert.match(home,/href="\/armor-3d\/NUREMBERG_ARMOR\/"/);
+ assert.match(home,/src="\/armor-3d\/review.js\?v=collections-20261125"/);
+ const collections=await (await fetch(base+'/armor-3d/collections.json')).json();
+ assert.deepEqual(collections.map(x=>x.id),['BRANDENBURG_ARMOR','NUREMBERG_ARMOR']);
+ for(const entry of collections){
+  for(const suffix of ['', '/'])assert.equal((await fetch(base+'/armor-3d/'+entry.id+suffix)).status,200);
+ }
+ const nuremberg=await (await fetch(base+'/armor-3d/NUREMBERG_ARMOR/data.json')).json();
+ assert.deepEqual(nuremberg.parts.map(x=>x.id),['01','02','03','04','07','08']);
+ assert.ok(nuremberg.parts.every(x=>x.modelFile.startsWith('NUREMBERG_ARMOR_')&&x.modelAsset.sha256.length===64&&x.modelAsset.size>1000000));
+ const brandenburg=await (await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/data.json')).json();
+ assert.ok(brandenburg.parts.some(x=>x.id==='19'));
+ assert.equal((await fetch(base+'/armor-3d/NUREMBERG_ARMOR/model/'+brandenburg.parts[0].modelFile)).status,404);
+ assert.equal((await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/model/'+nuremberg.parts[0].modelFile)).status,404);
+ assert.equal((await fetch(base+'/armor-3d/UNREGISTERED/model/'+nuremberg.parts[0].modelFile)).status,404);
+ assert.equal((await fetch(base+'/armor-3d/review.js')).status,200);
+ assert.equal((await fetch(base+'/armor-3d/BRANDENBURG_ARMOR/review.js')).status,200);
+ const newModel=nuremberg.parts[0];
+ const query=new URLSearchParams({partId:newModel.modelFile.replace(/\.glb$/,''),version:newModel.modelAsset.sha256,view:'3D'});
+ const comments=await fetch(base+'/api/armor3d/comments?'+query);
+ assert.equal(comments.status,200);
+ assert.deepEqual((await comments.json()).comments,[]);
+});
 test('manifest exposes unique models and saves a review for its exact version',async()=>{
  const home=await (await fetch(base+'/')).text();
  assert.match(home,/href="\/manifest\/"/);

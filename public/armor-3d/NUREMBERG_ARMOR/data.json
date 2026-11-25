@@ -1,0 +1,84 @@
+{
+  "title": "Нюрнбергский доспех",
+  "parts": [
+    {
+      "id": "01",
+      "title": "Шлем — бургиньот",
+      "modelFile": "NUREMBERG_ARMOR_01_HELMET_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_01_HELMET_V01_COLOR_4K.glb",
+        "sha256": "2fb5310525d2fc5080ec0681cf27a92294efe5ad8fe85b637ae319634fe1b8f7",
+        "size": 17896996
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Рабочая модель для проверки взрыв-схемы.",
+      "variants": []
+    },
+    {
+      "id": "02",
+      "title": "Ворот с левым и правым наплечниками",
+      "modelFile": "NUREMBERG_ARMOR_02_ALMAIN_COLLAR_WITH_SPAUDLERS_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_02_ALMAIN_COLLAR_WITH_SPAUDLERS_V01_COLOR_4K.glb",
+        "sha256": "f52b5082bcfa87a0544940430925124b3cea5924475b4b13aef184fccb2ef104",
+        "size": 16733908
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Рабочая модель для проверки взрыв-схемы.",
+      "variants": []
+    },
+    {
+      "id": "03",
+      "title": "Нагрудник с нижними пластинами",
+      "modelFile": "NUREMBERG_ARMOR_03_BREASTPLATE_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_03_BREASTPLATE_V01_COLOR_4K.glb",
+        "sha256": "3704d6e7f9a5121b94f8324383f8316d3a1609610f2af3c7d2fad4580a550f71",
+        "size": 17486092
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Верхний край под воротом реконструирован; точный скрытый контур не подтверждён.",
+      "variants": []
+    },
+    {
+      "id": "04",
+      "title": "Наспинник",
+      "modelFile": "NUREMBERG_ARMOR_04_BACKPLATE_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_04_BACKPLATE_V01_COLOR_4K.glb",
+        "sha256": "60b221644bd5cb12049311f73936130d788b69a145302afbb13ad0198f04b111",
+        "size": 18144148
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Верхний край под воротом реконструирован; точный скрытый контур не подтверждён.",
+      "variants": [],
+      "cameraOrbit": "152deg 80deg auto"
+    },
+    {
+      "id": "07",
+      "title": "Левая защита бедра и колена",
+      "modelFile": "NUREMBERG_ARMOR_07_THIGH_LEFT_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_07_THIGH_LEFT_V01_COLOR_4K.glb",
+        "sha256": "0e4a175e9487990d8720eb818168aadcdf79e404eefe72e52f2806280d433a21",
+        "size": 17698724
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Сзади открытая конструкция с ремнём. Мелкие крепления требуют проверки на следующем проходе.",
+      "variants": []
+    },
+    {
+      "id": "08",
+      "title": "Правая защита бедра и колена",
+      "modelFile": "NUREMBERG_ARMOR_08_THIGH_RIGHT_V01_COLOR_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/nuremberg-armor-models-20261125/NUREMBERG_ARMOR_08_THIGH_RIGHT_V01_COLOR_4K.glb",
+        "sha256": "f6ca9c8f4e88e16d176b73d0122b43a8c27c4e1effeffe0d447790c36dbc9419",
+        "size": 18069064
+      },
+      "label": "V01 · 4K",
+      "note": "4K · цветовая текстура · Remove Lighting. Сзади открытая конструкция с ремнём. Мелкие крепления требуют проверки на следующем проходе.",
+      "variants": []
+    }
+  ]
+}

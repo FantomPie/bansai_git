@@ -1,4 +1,5 @@
-const collection = '/armor-3d/BRANDENBURG_ARMOR';
+const collectionId = /^\/armor-3d\/([A-Z0-9_]+)\/?$/.exec(location.pathname)?.[1];
+const collection = collectionId ? '/armor-3d/' + collectionId : null;
 
 async function showArmor() {
   const byId = id => document.getElementById(id);
@@ -9,13 +10,15 @@ async function showArmor() {
   const next = byId('next');
   byId('collections').hidden = true;
   byId('armor').hidden = false;
-  document.title = 'BRANDENBURG_ARMOR · 3D-доспехи — BANSAI';
+  document.title = collectionId + ' · 3D-доспехи — BANSAI';
+  byId('collection-title').textContent = collectionId;
+  byId('exploded-scheme').hidden = collectionId !== 'BRANDENBURG_ARMOR';
 
   const response = await fetch(collection + '/data.json');
   if (!response.ok) throw new Error('Не удалось загрузить список деталей.');
   const catalog = await response.json();
   const parts = catalog.parts.flatMap(part => {
-    if (!['19', '20'].includes(part.id)) return [part];
+    if (collectionId !== 'BRANDENBURG_ARMOR' || !['19', '20'].includes(part.id)) return [part];
     const models = [part, ...(part.variants ?? [])];
     const side = part.id === '19' ? 'Левый' : 'Правый';
     const rows = [];
@@ -55,8 +58,9 @@ async function showArmor() {
     const index = parts.indexOf(part);
     links.forEach((link, i) => link.setAttribute('aria-current', String(i === index)));
     byId('part-title').textContent = part.id + ' · ' + part.title;
-    byId('backplate-views').hidden = part.id !== '08';
-    byId('backplate-views').open = part.id === '08' && !part.modelAsset;
+    const showBackplateViews = collectionId === 'BRANDENBURG_ARMOR' && part.id === '08';
+    byId('backplate-views').hidden = !showBackplateViews;
+    byId('backplate-views').open = showBackplateViews && !part.modelAsset;
     byId('model-note').textContent = part.note || '';
     previous.disabled = index === 0;
     next.disabled = index === parts.length - 1;
@@ -105,7 +109,7 @@ async function showArmor() {
   selectPart();
 }
 
-if (location.pathname.replace(/\/$/, '') === collection) {
+if (collection) {
   showArmor().catch(error => {
     const message = document.getElementById('load-error');
     message.textContent = error.message;

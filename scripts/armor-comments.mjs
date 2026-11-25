@@ -19,7 +19,8 @@ export function armorComments({dataRoot,manifestPath,storage='armor-comments',de
  return async(req,res,url)=>{
   try{
    if(!['GET','POST'].includes(req.method))throw fail(405,'Метод не поддерживается');
-   const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
+   const manifests=await Promise.all((Array.isArray(manifestPath)?manifestPath:[manifestPath]).map(async path=>JSON.parse(await readFile(path,'utf8'))));
+   const manifest={parts:manifests.flatMap(entry=>entry.parts)};
    if(modelCatalog)manifest.parts=manifest.parts.flatMap(p=>[p,...(p.variants||[])]).filter(p=>p.modelAsset).map(p=>({id:p.modelFile.replace(/\.glb$/,''),version:p.modelAsset.sha256,views:[{name:'3D',url:p.modelAsset.url}]}));
    let input;
    if(req.method==='POST'){
