@@ -4,7 +4,15 @@
     {
       "id": "00",
       "title": "Доспех целиком",
-      "variants": []
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_00_ASSEMBLED_V03_TEXTURE_FIX_SITE_4K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_00_ASSEMBLED_V03_TEXTURE_FIX_SITE_4K.glb",
+        "sha256": "9feea198a8c9499cc59d6f7f2c336358db7dfa2d5db7758e0eae47c94c8f9cc7",
+        "size": 18407044
+      },
+      "label": "V03 · 4K",
+      "note": "Рабочая сборка для взрыв-схемы; мелкая шнуровка упрощена."
     },
     {
       "id": "01",
