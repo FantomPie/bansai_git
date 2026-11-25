@@ -1,4 +1,14 @@
 [
-  {"id":"BRANDENBURG_ARMOR","title":"Бранденбургский доспех"},
-  {"id":"NUREMBERG_ARMOR","title":"Нюрнбергский доспех"}
+  {
+    "id": "BRANDENBURG_ARMOR",
+    "title": "Бранденбургский доспех"
+  },
+  {
+    "id": "NUREMBERG_ARMOR",
+    "title": "Нюрнбергский доспех"
+  },
+  {
+    "id": "SAMURAI_ARMOR",
+    "title": "Самурайский доспех"
+  }
 ]

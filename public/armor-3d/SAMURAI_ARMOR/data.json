@@ -1,0 +1,128 @@
+{
+  "title": "Самурайский доспех",
+  "parts": [
+    {
+      "id": "00",
+      "title": "Доспех целиком",
+      "variants": []
+    },
+    {
+      "id": "01",
+      "title": "Шлем — кабуто",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_01_HELMET_V01_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_01_HELMET_V01_COLOR_8K.glb",
+        "sha256": "2328434ccd00c9d233ff292d694fab6c6cdb876ddb1891aec94785cbbf940d03",
+        "size": 25332044
+      },
+      "label": "V01 · 8K",
+      "note": ""
+    },
+    {
+      "id": "02",
+      "title": "Маска и защита горла",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_02_MASK_THROAT_V01_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_02_MASK_THROAT_V01_COLOR_8K.glb",
+        "sha256": "f5f671c2ad627915295d44af19dd8082409074a222a6d17eebbf3430ac66e7eb",
+        "size": 25048092
+      },
+      "label": "V01 · 8K",
+      "note": ""
+    },
+    {
+      "id": "03",
+      "title": "Кираса в сборе",
+      "variants": []
+    },
+    {
+      "id": "03A",
+      "title": "Кираса — передняя половина",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03A_CUIRASS_FRONT_V02_COLOR_8K.glb",
+        "sha256": "5fa7c8fc994d6e51d37a0088a781d490388e5c9c90445dc4ba9718880efec62a",
+        "size": 24616808
+      },
+      "label": "V02 · 8K",
+      "note": "Внутренняя поверхность требует локальной чистки."
+    },
+    {
+      "id": "03B",
+      "title": "Кираса — задняя половина",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_03B_CUIRASS_BACK_V03_COLOR_8K.glb",
+        "sha256": "30db9f7312c55e4b3522ad94c661e73d45d6f2eaa5759295c86cea4de3df91cb",
+        "size": 24492344
+      },
+      "label": "V03 · 8K",
+      "note": ""
+    },
+    {
+      "id": "04",
+      "title": "Левый наплечник",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_04_SHOULDER_LEFT_V01_COLOR_8K.glb",
+        "sha256": "cea5bf4908778fd270b02aa4a087927ec08635b7d6c4120f18ed306886d70ac9",
+        "size": 27953444
+      },
+      "label": "V01 · 8K",
+      "note": ""
+    },
+    {
+      "id": "05",
+      "title": "Правый наплечник",
+      "variants": [],
+      "modelFile": "SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_COLOR_8K.glb",
+      "modelAsset": {
+        "url": "https://github.com/FantomPie/bansai_git/releases/download/samurai-armor-models-20261125/SAMURAI_ARMOR_05_SHOULDER_RIGHT_V01_COLOR_8K.glb",
+        "sha256": "edbff4e26b740d6c4f5f6be87ef1f114e4d81e0d794d8f5aedb0ec5ef3e868d5",
+        "size": 27936616
+      },
+      "label": "V01 · 8K",
+      "note": ""
+    },
+    {
+      "id": "06",
+      "title": "Левый рукав с кистью",
+      "variants": []
+    },
+    {
+      "id": "07",
+      "title": "Правый рукав с кистью",
+      "variants": []
+    },
+    {
+      "id": "08",
+      "title": "Пояс и подвесная защита",
+      "variants": []
+    },
+    {
+      "id": "09",
+      "title": "Левая защита бедра",
+      "variants": []
+    },
+    {
+      "id": "10",
+      "title": "Правая защита бедра",
+      "variants": []
+    },
+    {
+      "id": "11",
+      "title": "Левая защита голени",
+      "variants": []
+    },
+    {
+      "id": "12",
+      "title": "Правая защита голени",
+      "variants": []
+    }
+  ]
+}
